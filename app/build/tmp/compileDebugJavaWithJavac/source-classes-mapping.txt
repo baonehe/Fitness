@@ -1,0 +1,4 @@
+com/google/uddd_project/BuildConfig.java
+ com.google.uddd_project.BuildConfig
+com/google/uddd_project/MainActivity.java
+ com.google.uddd_project.MainActivity
