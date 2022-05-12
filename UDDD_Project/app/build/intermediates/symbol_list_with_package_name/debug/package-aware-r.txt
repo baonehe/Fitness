@@ -2479,6 +2479,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bottom_nav_icon
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2489,9 +2490,11 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_blue
 drawable button_green
+drawable calculator
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
 drawable custome_progressbar
+drawable customedt
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2501,16 +2504,22 @@ drawable doge_pose
 drawable dotted
 drawable drt_land_swim_a
 drawable drt_land_swim_b
+drawable dumbbell
 drawable edittextbackground
 drawable excercises
+drawable footsteps
 drawable forward_spine_stretch_a
 drawable forward_spine_stretch_b
+drawable gradientblue_button
 drawable hands_on_the_head_bow_down_a
 drawable hands_on_the_head_bow_down_b
 drawable hanging_exercise_a
 drawable hanging_exercise_b
+drawable home
 drawable hopping_with_one_leg_a
 drawable hopping_with_one_leg_b
+drawable ic_baseline_arrow_back_24
+drawable ic_baseline_feedback_24
 drawable ic_baseline_key_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_lock_open_24
@@ -2519,9 +2528,11 @@ drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
 drawable ic_clock_black_24dp
 drawable ic_facebook
+drawable ic_home_24
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout_24
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2618,6 +2629,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_overlay
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable notification
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2641,6 +2653,7 @@ drawable rope_jumping_b
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
 drawable shadow_walk
+drawable side_nav_bar
 drawable spot_jumping_a
 drawable spot_jumping_b
 drawable standing_vertical_stretc_b
@@ -2666,6 +2679,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Home
 id META
 id NO_DEBUG
 id SHIFT
@@ -2756,6 +2770,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2767,6 +2782,7 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id cache_measures
+id caculator
 id callMeasure
 id cancel_button
 id cardView3
@@ -2845,6 +2861,7 @@ id dragUp
 id dropdown_editable
 id dropdown_menu
 id dropdown_noneditable
+id dumbbell
 id easeIn
 id easeInOut
 id easeOut
@@ -2909,6 +2926,9 @@ id ignoreRequest
 id imag_1
 id imag_2
 id image
+id imageButton
+id imageButton2
+id imageView
 id immediateStop
 id included
 id info
@@ -2991,6 +3011,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav_home
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3043,6 +3064,7 @@ id rectangles
 id rel_WalkStep
 id relative
 id relative1
+id reminder
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3136,6 +3158,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textViewRegister
 id text_input_end_icon
 id text_input_error_icon
@@ -3163,6 +3186,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_gmail
+id tv_nameava
+id tv_nameavatar
 id txt_excer
 id unchecked
 id uniform
@@ -3177,6 +3203,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id walkstep
 id water
 id waterLevelView
 id west
@@ -3280,6 +3307,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account_information
+layout activity_feedback
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
@@ -3348,6 +3377,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout nav_header_navigationmenu
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -3374,6 +3404,8 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu activity_main_drawer
+menu bottom_nav
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
