@@ -44,6 +44,9 @@
     <key name="android.template.-1209614913">
       <recent name="com.google.uddd_project" />
     </key>
+    <key name="android.template.940851209">
+      <recent name="com.google.uddd_project" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -127,5 +130,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

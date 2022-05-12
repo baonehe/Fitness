@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPassActivity"
             android:exported="false" />
         <activity
