@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
         <activity
+            android:name=".MedicationReminderActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReminderActivity"
             android:exported="false" />
         <activity

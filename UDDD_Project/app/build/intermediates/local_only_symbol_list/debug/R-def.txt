@@ -42,6 +42,7 @@ color transparent_white
 color weightcolor
 color weightcolor1
 color white
+drawable add_button
 drawable background_food
 drawable bottom_nav_icon
 drawable button_blue
@@ -141,6 +142,7 @@ drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
 drawable logo
+drawable medication_remender_banner
 drawable menu
 drawable menu_banner_new
 drawable notification
@@ -156,6 +158,8 @@ drawable rope_jumping_b
 drawable running
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
+drawable set_medication_banner
+drawable set_water_banner
 drawable shadow_walk
 drawable side_nav_bar
 drawable spot_jumping_a
@@ -178,12 +182,16 @@ font roboto_medium
 id Home
 id background
 id bottom_navigation
+id butoon_plus
+id buttomNavigation
 id buttonFacebook
 id buttonForgot
 id buttonGmail
 id buttonLogin
 id buttonRegister
 id buttonSendcode
+id button_plus_medication
+id button_plus_water
 id calculator
 id cardView3
 id cardViewWalkStep
@@ -219,10 +227,13 @@ id progress
 id progress1
 id rel1
 id rel_WalkStep
+id relaa1
 id relative
 id relative1
 id relative2
 id reminder
+id set_medicion
+id set_water
 id textViewRegister
 id textViewReminder
 id textViewSet
@@ -241,6 +252,7 @@ layout activity_feedback
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
+layout activity_medication_reminder
 layout activity_register
 layout activity_reminder
 layout activity_verifycode

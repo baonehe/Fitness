@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UDDD_Project" >
         <activity
+            android:name="com.google.uddd_project.MedicationReminderActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.uddd_project.ReminderActivity"
             android:exported="false" />
         <activity

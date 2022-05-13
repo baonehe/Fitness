@@ -2504,6 +2504,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_button
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_food
@@ -2666,6 +2667,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable medication_remender_banner
 drawable menu
 drawable menu_banner_new
 drawable mtrl_dialog_background
@@ -2704,6 +2706,8 @@ drawable rope_jumping_b
 drawable running
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
+drawable set_medication_banner
+drawable set_water_banner
 drawable shadow_walk
 drawable side_nav_bar
 drawable spot_jumping_a
@@ -2835,6 +2839,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id butoon_plus
+id buttomNavigation
 id buttonFacebook
 id buttonForgot
 id buttonGmail
@@ -2842,6 +2848,8 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id buttonSendcode
+id button_plus_medication
+id button_plus_water
 id cache_measures
 id calculator
 id callMeasure
@@ -3129,6 +3137,7 @@ id ratio
 id rectangles
 id rel1
 id rel_WalkStep
+id relaa1
 id relative
 id relative1
 id relative2
@@ -3163,6 +3172,8 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id set_medicion
+id set_water
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3385,6 +3396,7 @@ layout activity_feedback
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
+layout activity_medication_reminder
 layout activity_register
 layout activity_reminder
 layout activity_verifycode
