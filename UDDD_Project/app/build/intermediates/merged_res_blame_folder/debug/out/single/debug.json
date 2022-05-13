@@ -56,16 +56,16 @@
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_forgot_pass.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_heart_rate.png.flat",
-        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_heart_rate.png"
+        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_green.xml.flat",
+        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\button_green.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_green.xml.flat",
-        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\button_green.xml"
+        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_heart_rate.png.flat",
+        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_heart_rate.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_calculator.png.flat",
@@ -224,8 +224,16 @@
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\table_top_a.webp"
     },
     {
+        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_verify.gif.flat",
+        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\verify.gif"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_basal_metabolic_rate.png.flat",
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_basal_metabolic_rate.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_code_24.xml.flat",
+        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_code_24.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_calorie_burn.png.flat",
@@ -352,6 +360,10 @@
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\drt_land_swim_a.webp"
     },
     {
+        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_verifycode.xml.flat",
+        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_verifycode.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar.xml.flat",
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
@@ -458,6 +470,10 @@
     {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hopping_with_one_leg_b.webp.flat",
         "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hopping_with_one_leg_b.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_planegif.gif.flat",
+        "source": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\planegif.gif"
     },
     {
         "merged": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_bruce_trade_mill1.png.flat",
