@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
             "map": [
                 {
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\9e78633672c880ebd732eaf01cef9a0c\\transformed\\play-services-base-17.1.0\\res\\values-ms\\values.xml",
