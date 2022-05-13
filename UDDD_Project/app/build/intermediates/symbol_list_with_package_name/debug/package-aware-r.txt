@@ -2698,14 +2698,7 @@ drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable planegif
 drawable plank_a
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-drawable radius_relative
-=======
 drawable reminder_banner
->>>>>>> Stashed changes
-=======
->>>>>>> main
 drawable rope_jumping_a
 drawable rope_jumping_b
 drawable running
@@ -2850,14 +2843,7 @@ id buttonPanel
 id buttonRegister
 id buttonSendcode
 id cache_measures
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
 id calculator
->>>>>>> Stashed changes
-=======
-id caculator
->>>>>>> main
 id callMeasure
 id cancel_button
 id cardView3
@@ -2937,7 +2923,6 @@ id dragUp
 id dropdown_editable
 id dropdown_menu
 id dropdown_noneditable
-id dumbbell
 id easeIn
 id easeInOut
 id easeOut
@@ -3146,15 +3131,8 @@ id rel1
 id rel_WalkStep
 id relative
 id relative1
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
 id relative2
 id reminder
->>>>>>> Stashed changes
-=======
-id reminder
->>>>>>> main
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3408,20 +3386,11 @@ layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_register
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
 layout activity_reminder
-=======
->>>>>>> main
 layout activity_verifycode
 layout activity_workouts
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> main
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

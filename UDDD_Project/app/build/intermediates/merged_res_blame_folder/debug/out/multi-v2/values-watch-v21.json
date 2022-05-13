@@ -1,18 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "D:\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\914116008979e77bc79da871871e9f31\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
-=======
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
->>>>>>> Stashed changes
-=======
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-watch-v21\\values-watch-v21.xml",
->>>>>>> main
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

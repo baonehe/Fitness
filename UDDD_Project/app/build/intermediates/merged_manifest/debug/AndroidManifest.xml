@@ -22,14 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UDDD_Project" >
         <activity
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
             android:name="com.google.uddd_project.ReminderActivity"
             android:exported="false" />
         <activity
-=======
->>>>>>> main
             android:name="com.google.uddd_project.WorkoutsActivity"
             android:exported="false" />
         <activity
@@ -39,10 +34,6 @@
             android:name="com.google.uddd_project.AccountInformationActivity"
             android:exported="false" />
         <activity
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> main
             android:name="com.google.uddd_project.HomeActivity"
             android:exported="false" />
         <activity
