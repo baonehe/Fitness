@@ -12,13 +12,8 @@
     android:layout_height="match_parent"
     android:background="#F1F8FA"
     android:orientation="vertical">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/transparent"
-        android:minHeight="?attr/actionBarSize"
-        app:title="HOME" />
+
+    <include layout="@layout/toolbar"/>
 
     <ImageView
         android:layout_width="match_parent"
