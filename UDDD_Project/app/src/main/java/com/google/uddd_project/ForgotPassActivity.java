@@ -14,6 +14,7 @@ public class ForgotPassActivity extends AppCompatActivity {
         setContentView(R.layout.activity_forgot_pass);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Forgot Password");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

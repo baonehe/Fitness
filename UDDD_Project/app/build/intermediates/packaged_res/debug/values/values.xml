@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+        <item>@color/dot_light_screen</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+        <item>@color/dot_dark_screen</item>
+    </array>
+    <color name="background">#e0d7ce</color>
+    <color name="background_calendar">#20ffffff</color>
+    <color name="black">#000000</color>
+    <color name="btnbackground">#05a76b</color>
+    <color name="btnbackground1">#000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#090909</color>
+    <color name="colorPrimary">#1CABFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorSkyBlue">#03BBFF</color>
+    <color name="colorWhite">#F7F9F8</color>
+    <color name="colorgrey">#ffe5e4e4</color>
+    <color name="darkgrey">#757575</color>
+    <color name="dividerColor">#F5F5F5</color>
+    <color name="dot_dark_screen">#026499</color>
+    <color name="dot_light_screen">#448bb2</color>
+    <color name="gray">#ececec</color>
+    <color name="gray_color">#E6E6E6</color>
+    <color name="green">#388E3C</color>
+    <color name="grey">#A5A3A3</color>
+    <color name="grey_calendar">#434343</color>
+    <color name="lightestgrey">#ff8d8d8d</color>
+    <color name="line_color">#9BB5C1</color>
+    <color name="mainactivity_text">#ff3c494f</color>
+    <color name="middlegrey">#A8A8A8</color>
+    <color name="red">#D80101</color>
+    <color name="selected_background_calendar">#50ffffff</color>
+    <color name="selected_text_color">#ffffff</color>
+    <color name="smoking_cost">#e44035</color>
+    <color name="smoking_cost1">#e44035</color>
+    <color name="smoking_risk">#e2741f</color>
+    <color name="smoking_risk1">#cb681b</color>
+    <color name="textColor">#ffb4bcc0</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="transparent_origin">#00ffffff</color>
+    <color name="transparent_white">#20ffffff</color>
+    <color name="weightcolor">#ff8a65</color>
+    <color name="weightcolor1">#dc7858</color>
+    <color name="white">#ffffff</color>
+    <string name="app_name">UDDD_Project</string>
+    <string name="default_web_client_id" translatable="false">224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">224051973115</string>
+    <string name="google_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
+    <string name="google_app_id" translatable="false">1:224051973115:android:0d844460bc4bafe0f0995e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
+    <string name="google_storage_bucket" translatable="false">uddd-project-andr.appspot.com</string>
+    <string name="project_id" translatable="false">uddd-project-andr</string>
+    <style name="Theme.UDDD_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorgrey</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
