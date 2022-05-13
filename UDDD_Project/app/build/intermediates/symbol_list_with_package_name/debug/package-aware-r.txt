@@ -2506,6 +2506,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_food
 drawable bottom_nav_icon
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2665,6 +2666,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu
 drawable menu_banner_new
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
@@ -2696,7 +2698,6 @@ drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable planegif
 drawable plank_a
-drawable radius_relative
 drawable rope_jumping_a
 drawable rope_jumping_b
 drawable seated_toe_touch_a
@@ -3037,6 +3038,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menuSetting
 id message
 id middle
 id mini
@@ -3121,6 +3123,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id rel1
 id rel_WalkStep
 id relative
 id relative1
@@ -3375,6 +3378,7 @@ layout activity_home
 layout activity_main
 layout activity_register
 layout activity_verifycode
+layout activity_workouts
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

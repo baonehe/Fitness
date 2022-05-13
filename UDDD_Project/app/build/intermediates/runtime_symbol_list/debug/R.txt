@@ -2505,6 +2505,7 @@ int drawable abc_textfield_search_material 0x7f080054
 int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
+int drawable background_food 0x7f080134
 int drawable bottom_nav_icon 0x7f080058
 int drawable btn_checkbox_checked_mtrl 0x7f080059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f08005a
@@ -2664,6 +2665,7 @@ int drawable material_ic_keyboard_arrow_previous_black_24dp 0x7f0800f3
 int drawable material_ic_keyboard_arrow_right_black_24dp 0x7f0800f4
 int drawable material_ic_menu_arrow_down_black_24dp 0x7f0800f5
 int drawable material_ic_menu_arrow_up_black_24dp 0x7f0800f6
+int drawable menu 0x7f080136
 int drawable menu_banner_new 0x7f0800f7
 int drawable mtrl_dialog_background 0x7f0800f8
 int drawable mtrl_dropdown_arrow 0x7f0800f9
@@ -2695,7 +2697,6 @@ int drawable pilates_rool_over_a 0x7f080112
 int drawable pilates_rool_over_b 0x7f080113
 int drawable planegif 0x7f08012e
 int drawable plank_a 0x7f080114
-int drawable radius_relative 0x7f080115
 int drawable rope_jumping_a 0x7f080116
 int drawable rope_jumping_b 0x7f080117
 int drawable seated_toe_touch_a 0x7f080118
@@ -3036,6 +3037,7 @@ int id material_timepicker_ok_button 0x7f0a0135
 int id material_timepicker_view 0x7f0a0136
 int id material_value_index 0x7f0a0137
 int id matrix 0x7f0a0138
+int id menuSetting 0x7f0a0229
 int id message 0x7f0a0139
 int id middle 0x7f0a013a
 int id mini 0x7f0a013b
@@ -3120,6 +3122,7 @@ int id progress_horizontal 0x7f0a0189
 int id radio 0x7f0a018a
 int id ratio 0x7f0a018b
 int id rectangles 0x7f0a018c
+int id rel1 0x7f0a022a
 int id rel_WalkStep 0x7f0a018d
 int id relative 0x7f0a018e
 int id relative1 0x7f0a018f
@@ -3374,6 +3377,7 @@ int layout activity_home 0x7f0d001f
 int layout activity_main 0x7f0d0020
 int layout activity_register 0x7f0d0021
 int layout activity_verifycode 0x7f0d0080
+int layout activity_workouts 0x7f0d0081
 int layout browser_actions_context_menu_page 0x7f0d0022
 int layout browser_actions_context_menu_row 0x7f0d0023
 int layout custom_dialog 0x7f0d0024
