@@ -4,7 +4,11 @@
             "outputFile": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\a911bf5df232e3fd12bbd44240a4fea2\\transformed\\material-1.6.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\4164a13b6ed8f16c3f3d2aa043276e09\\transformed\\material-1.6.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

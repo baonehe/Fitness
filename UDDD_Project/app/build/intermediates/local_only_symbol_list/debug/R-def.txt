@@ -135,9 +135,14 @@ drawable pelvic_shift_b
 drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable plank_a
+<<<<<<< Updated upstream
 drawable radius_relative
+=======
+drawable reminder_banner
+>>>>>>> Stashed changes
 drawable rope_jumping_a
 drawable rope_jumping_b
+drawable running
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
 drawable shadow_walk
@@ -163,6 +168,11 @@ id buttonForgot
 id buttonGmail
 id buttonLogin
 id buttonRegister
+<<<<<<< Updated upstream
+=======
+id buttonSendcode
+id calculator
+>>>>>>> Stashed changes
 id cardView3
 id cardViewWalkStep
 id cardViewWater
@@ -180,6 +190,12 @@ id firstname_text_input_register
 id health_fitn
 id imag_1
 id imag_2
+<<<<<<< Updated upstream
+=======
+id imag_3
+id imageButton2
+id imageView
+>>>>>>> Stashed changes
 id lastname_edit_text_register
 id lastname_text_input_register
 id password_edit_text_login
@@ -187,19 +203,52 @@ id password_edit_text_register
 id password_text_input_login
 id password_text_input_register
 id percentScore
+id percentScore1
 id progress
+<<<<<<< Updated upstream
 id rel_WalkStep
 id relative
 id relative1
+=======
+id progress1
+id rel1
+id rel_WalkStep
+id relative
+id relative1
+id relative2
+id reminder
+>>>>>>> Stashed changes
 id textViewRegister
+id textViewReminder
+id textViewSet
 id toolbar
 id txt_excer
+<<<<<<< Updated upstream
 id water
 id waterLevelView
+=======
+id txt_walkStep
+id txt_water
+id walkstep
+id water
+id workouts
+layout activity_account_information
+layout activity_feedback
+>>>>>>> Stashed changes
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_register
+<<<<<<< Updated upstream
+=======
+layout activity_reminder
+layout activity_verifycode
+layout activity_workouts
+layout nav_header_navigationmenu
+layout toolbar
+menu activity_main_drawer
+menu bottom_nav
+>>>>>>> Stashed changes
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

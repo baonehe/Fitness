@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
         <activity
+<<<<<<< Updated upstream
+=======
+            android:name=".ReminderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountInformationActivity"
+            android:exported="false" />
+        <activity
+>>>>>>> Stashed changes
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

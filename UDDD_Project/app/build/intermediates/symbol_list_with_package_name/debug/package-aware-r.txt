@@ -2635,9 +2635,14 @@ drawable pelvic_shift_b
 drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable plank_a
+<<<<<<< Updated upstream
 drawable radius_relative
+=======
+drawable reminder_banner
+>>>>>>> Stashed changes
 drawable rope_jumping_a
 drawable rope_jumping_b
+drawable running
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
 drawable shadow_walk
@@ -2767,6 +2772,10 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id cache_measures
+<<<<<<< Updated upstream
+=======
+id calculator
+>>>>>>> Stashed changes
 id callMeasure
 id cancel_button
 id cardView3
@@ -2908,6 +2917,7 @@ id ignore
 id ignoreRequest
 id imag_1
 id imag_2
+id imag_3
 id image
 id immediateStop
 id included
@@ -3031,10 +3041,12 @@ id pathRelative
 id peekHeight
 id percent
 id percentScore
+id percentScore1
 id pin
 id position
 id postLayout
 id progress
+id progress1
 id progress_circular
 id progress_horizontal
 id radio
@@ -3043,6 +3055,11 @@ id rectangles
 id rel_WalkStep
 id relative
 id relative1
+<<<<<<< Updated upstream
+=======
+id relative2
+id reminder
+>>>>>>> Stashed changes
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3137,6 +3154,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textViewRegister
+id textViewReminder
+id textViewSet
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3164,6 +3183,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id txt_excer
+id txt_walkStep
+id txt_water
 id unchecked
 id uniform
 id unlabeled
@@ -3178,10 +3199,10 @@ id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
 id water
-id waterLevelView
 id west
 id withText
 id withinBounds
+id workouts
 id wrap
 id wrap_content
 id wrap_content_constrained
@@ -3284,6 +3305,14 @@ layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_register
+<<<<<<< Updated upstream
+=======
+layout activity_reminder
+layout activity_verifycode
+layout activity_workouts
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
+>>>>>>> Stashed changes
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
