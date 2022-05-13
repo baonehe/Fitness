@@ -16,6 +16,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Create Account");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

@@ -1,9 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\5c5564f3c21f160b8593b6357f42704c\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
 =======
@@ -20,6 +21,9 @@
                 {
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\8cfe277b6c0dbed7faa9157a001659d3\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
 >>>>>>> Stashed changes
+=======
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\8cfe277b6c0dbed7faa9157a001659d3\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,8 +42,12 @@
                     }
                 },
                 {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\914116008979e77bc79da871871e9f31\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+=======
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -50,10 +58,14 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\a911bf5df232e3fd12bbd44240a4fea2\\transformed\\material-1.6.0\\res\\values-v23\\values-v23.xml",
 =======
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\4164a13b6ed8f16c3f3d2aa043276e09\\transformed\\material-1.6.0\\res\\values-v23\\values-v23.xml",
 >>>>>>> Stashed changes
+=======
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\4164a13b6ed8f16c3f3d2aa043276e09\\transformed\\material-1.6.0\\res\\values-v23\\values-v23.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

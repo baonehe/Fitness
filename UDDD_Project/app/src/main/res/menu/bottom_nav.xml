@@ -4,12 +4,21 @@
     tools:showIn="bottomnav">
 
     <item
+<<<<<<< HEAD
         android:id="@+id/calculator"
         android:title="Calculator"
         android:icon="@drawable/calculator"/>
     <item
         android:id="@+id/workouts"
         android:title="Workouts"
+=======
+        android:id="@+id/caculator"
+        android:title="Caculator"
+        android:icon="@drawable/calculator"/>
+    <item
+        android:id="@+id/dumbbell"
+        android:title="Dumbbell"
+>>>>>>> main
         android:icon="@drawable/dumbbell"/>
     <item
         android:id="@+id/Home"

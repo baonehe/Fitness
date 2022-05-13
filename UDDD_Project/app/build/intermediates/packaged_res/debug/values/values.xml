@@ -55,6 +55,13 @@
     <color name="weightcolor1">#dc7858</color>
     <color name="white">#ffffff</color>
     <string name="app_name">UDDD_Project</string>
+    <string name="default_web_client_id" translatable="false">224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">224051973115</string>
+    <string name="google_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
+    <string name="google_app_id" translatable="false">1:224051973115:android:0d844460bc4bafe0f0995e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
+    <string name="google_storage_bucket" translatable="false">uddd-project-andr.appspot.com</string>
+    <string name="project_id" translatable="false">uddd-project-andr</string>
     <style name="Theme.UDDD_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimary</item>

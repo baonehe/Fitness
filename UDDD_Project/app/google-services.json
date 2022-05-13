@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "224051973115",
+    "project_id": "uddd-project-andr",
+    "storage_bucket": "uddd-project-andr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224051973115:android:0d844460bc4bafe0f0995e",
+        "android_client_info": {
+          "package_name": "com.google.uddd_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
