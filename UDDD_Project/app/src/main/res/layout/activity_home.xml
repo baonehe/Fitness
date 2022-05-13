@@ -6,7 +6,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1F8FA"
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+=======
     tools:context=".MainActivity">
+    <LinearLayout
+>>>>>>> Stashed changes
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:minHeight="?attr/actionBarSize"
+        app:title="HOME" />
+
+<<<<<<< Updated upstream
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/test" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewWalkStep"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        sweet:cardCornerRadius="20dp"
+        sweet:cardMaxElevation="20dp"
+        app:cardElevation="20dp">
+=======
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            sweet:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            sweet:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/menuSetting"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/menu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/menuSetting"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center_vertical"
+                    android:text="HOME"
+                    android:textColor="#165EBD"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+>>>>>>> Stashed changes
+
+        <RelativeLayout
+            android:id="@+id/rel_WalkStep"
+            android:layout_width="match_parent"
+<<<<<<< Updated upstream
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+=======
+    tools:context=".MainActivity">
+>>>>>>> main
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,12 +126,124 @@
             android:layout_marginBottom="5dp"
             app:cardElevation="20dp"
             sweet:cardCornerRadius="20dp"
+<<<<<<< HEAD
+            sweet:cardMaxElevation="20dp"
+            app:cardElevation="20dp">
+=======
+            android:layout_height="210dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/test"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewWalkStep"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            sweet:cardCornerRadius="20dp"
+            sweet:cardMaxElevation="20dp"
+            app:cardElevation="10dp">
+>>>>>>> Stashed changes
+=======
             sweet:cardMaxElevation="20dp">
+>>>>>>> main
 
             <RelativeLayout
                 android:id="@+id/rel_WalkStep"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+<<<<<<< HEAD
+                android:layout_height="match_parent">
+<<<<<<< Updated upstream
+=======
+                <RelativeLayout
+                    android:id="@+id/relative2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/imag_3"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/running" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_toStartOf="@+id/imag_3"
+                        android:fontFamily="@font/comfortaa"
+                        android:text="Walk &amp; Steps"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/txt_walkStep"
+                    android:layout_below="@+id/relative2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_collapseMode="parallax">
+
+
+                        <ProgressBar
+                            android:id="@+id/progress1"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:layout_centerHorizontal="true"
+                            android:progressDrawable="@drawable/custome_progressbar" />
+
+                        <TextView
+                            android:id="@+id/percentScore1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="0"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="20dp" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_walkStep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:singleLine="true"
+                    android:text="Walk Step Report"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:typeface="serif" />
+
+
+
+
+
+
+            </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
@@ -49,6 +252,143 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewWater"
+                android:layout_width="35dp"
+                android:layout_height="185dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                sweet:cardCornerRadius="20dp"
+                sweet:cardMaxElevation="20dp"
+                app:cardElevation="10dp">
+>>>>>>> Stashed changes
+
+                <RelativeLayout
+                    android:id="@+id/relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/imag_1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:padding="4dp"
+                        android:src="@drawable/water_bottle" />
+
+                    <TextView
+                        android:id="@+id/water"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+<<<<<<< Updated upstream
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@+id/imag_1"
+                        android:text="Water"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+=======
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp">
+
+                        <ImageView
+                            android:id="@+id/imag_1"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="4dp"
+                            android:src="@drawable/water_bottle" />
+
+                        <TextView
+                            android:id="@+id/water"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_toStartOf="@+id/imag_1"
+                            android:text="Water"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:fontFamily="@font/comfortaa"/>
+>>>>>>> Stashed changes
+
+                </RelativeLayout>
+
+
+<<<<<<< Updated upstream
+            </RelativeLayout>
+=======
+                    <TextView
+                        android:id="@+id/txt_water"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="@font/comfortaa"
+                        android:singleLine="true"
+                        android:text="Water Intake Report"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:typeface="serif" />
+
+>>>>>>> Stashed changes
+
+=======
+                android:layout_height="match_parent" />
+>>>>>>> main
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/relative1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/imag_2"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/excercises" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toLeftOf="@+id/imag_2"
+                        android:text="Excercises"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+
+                </RelativeLayout>
+=======
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardViewWater"
                 android:layout_width="30dp"
@@ -61,11 +401,30 @@
                 app:cardElevation="20dp"
                 sweet:cardCornerRadius="20dp"
                 sweet:cardMaxElevation="20dp">
+>>>>>>> main
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+=======
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="35dp"
+                android:layout_height="185dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                sweet:cardCornerRadius="20dp"
+                sweet:cardMaxElevation="20dp"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+>>>>>>> Stashed changes
                     <RelativeLayout
                         android:id="@+id/relative"
                         android:layout_width="match_parent"
@@ -74,6 +433,26 @@
                         android:layout_marginTop="5dp"
                         android:layout_marginRight="10dp">
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+
+                        <ProgressBar
+                            android:id="@+id/progress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:progress="25"
+                            android:progressDrawable="@drawable/custome_progressbar" />
+=======
+                        <ImageView
+                            android:id="@+id/imag_2"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@drawable/excercises" />
+>>>>>>> Stashed changes
+=======
                         <ImageView
                             android:id="@+id/imag_1"
                             android:layout_width="35dp"
@@ -81,24 +460,74 @@
                             android:layout_alignParentRight="true"
                             android:padding="4dp"
                             android:src="@drawable/water_bottle" />
+>>>>>>> main
 
                         <TextView
                             android:id="@+id/water"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+<<<<<<< HEAD
+                            android:layout_centerInParent="true"
+<<<<<<< Updated upstream
+                            android:text="0.0%"
+                            android:textAlignment="center"
+=======
+                            android:layout_marginStart="5dp"
+                            android:layout_toStartOf="@+id/imag_2"
+                            android:text="Excercises"
+>>>>>>> Stashed changes
+=======
                             android:layout_centerHorizontal="true"
                             android:layout_centerVertical="true"
                             android:layout_marginLeft="5dp"
                             android:layout_toLeftOf="@+id/imag_1"
                             android:text="Water"
+>>>>>>> main
                             android:textColor="@color/black"
-                            android:textSize="16dp" />
+                            android:textSize="20dp"
+                            android:fontFamily="@font/comfortaa"/>
 
 
                     </RelativeLayout>
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
 
+>>>>>>> main
                 </RelativeLayout>
+=======
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/daysLeft"
+                        android:layout_below="@+id/relative1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:layout_collapseMode="parallax">
+
+
+                            <ProgressBar
+                                android:id="@+id/progress"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="125dp"
+                                android:layout_height="125dp"
+                                android:layout_centerHorizontal="true"
+                                android:progressDrawable="@drawable/custome_progressbar" />
+
+                            <TextView
+                                android:id="@+id/percentScore"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="0.0%"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="16dp" />
+
+>>>>>>> Stashed changes
 
 
             </androidx.cardview.widget.CardView>
@@ -147,7 +576,24 @@
                             android:textSize="16dp" />
 
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+                <TextView
+                    android:id="@+id/txt_excer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/waterLevelView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:singleLine="true"
+                    android:text="Excercises Report"
+                    android:textAlignment="center"
+                    android:textSize="12dp"
+                    android:typeface="serif" />
+=======
                     </RelativeLayout>
+>>>>>>> main
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -160,6 +606,33 @@
                             android:layout_height="wrap_content"
                             app:layout_collapseMode="parallax">
 
+=======
+
+                    <TextView
+                        android:id="@+id/daysLeft"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/txt_excer"
+                        android:layout_marginBottom="-7dp"
+                        android:text="00 Days left"
+                        android:textAlignment="center"
+                        android:textColor="@color/darkgrey"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/txt_excer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="@font/comfortaa"
+                        android:singleLine="true"
+                        android:text="Excercises Report"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:typeface="serif" />
+>>>>>>> Stashed changes
 
                             <ProgressBar
                                 android:id="@+id/progress"
@@ -170,6 +643,10 @@
                                 android:progress="25"
                                 android:progressDrawable="@drawable/custome_progressbar" />
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+        </androidx.cardview.widget.CardView>
+=======
                             <TextView
                                 android:id="@+id/percentScore"
                                 android:layout_width="match_parent"
@@ -179,7 +656,15 @@
                                 android:textAlignment="center"
                                 android:textColor="@color/black"
                                 android:textSize="16dp" />
+>>>>>>> main
 
+=======
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="match_parent">
+>>>>>>> Stashed changes
 
                         </RelativeLayout>
 
@@ -230,11 +715,25 @@
                 app:menu="@menu/bottom_nav" />
         </RelativeLayout>
     </LinearLayout>
+<<<<<<< Updated upstream
 
+<<<<<<< HEAD
+</LinearLayout>
+=======
+=======
+>>>>>>> main
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+<<<<<<< HEAD
+        app:menu="@menu/activity_main_drawer"
+        app:headerLayout="@layout/nav_header_navigationmenu">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
+>>>>>>> Stashed changes
+=======
         app:headerLayout="@layout/nav_header_navigationmenu"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>
+>>>>>>> main

@@ -151,8 +151,17 @@ drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable planegif
 drawable plank_a
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+drawable radius_relative
+=======
+drawable reminder_banner
+>>>>>>> Stashed changes
+=======
+>>>>>>> main
 drawable rope_jumping_a
 drawable rope_jumping_b
+drawable running
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
 drawable shadow_walk
@@ -182,8 +191,16 @@ id buttonForgot
 id buttonGmail
 id buttonLogin
 id buttonRegister
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+id buttonSendcode
+id calculator
+>>>>>>> Stashed changes
+=======
 id buttonSendcode
 id caculator
+>>>>>>> main
 id cardView3
 id cardViewWalkStep
 id cardViewWater
@@ -202,8 +219,17 @@ id firstname_text_input_register
 id health_fitn
 id imag_1
 id imag_2
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+id imag_3
 id imageButton2
 id imageView
+>>>>>>> Stashed changes
+=======
+id imageButton2
+id imageView
+>>>>>>> main
 id lastname_edit_text_register
 id lastname_text_input_register
 id menuSetting
@@ -213,33 +239,77 @@ id password_edit_text_register
 id password_text_input_login
 id password_text_input_register
 id percentScore
+id percentScore1
 id progress
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+id rel_WalkStep
+id relative
+id relative1
+=======
+id progress1
+id rel1
+id rel_WalkStep
+id relative
+id relative1
+id relative2
+id reminder
+>>>>>>> Stashed changes
+=======
 id rel1
 id rel_WalkStep
 id relative
 id relative1
 id reminder
+>>>>>>> main
 id textViewRegister
+id textViewReminder
+id textViewSet
 id toolbar
 id tv_gmail
 id tv_nameava
 id tv_nameavatar
 id txt_excer
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+id water
+id waterLevelView
+=======
+id txt_walkStep
+id txt_water
+id walkstep
+id water
+id workouts
+layout activity_account_information
+layout activity_feedback
+>>>>>>> Stashed changes
+=======
 id walkstep
 id water
 id waterLevelView
 layout activity_account_information
 layout activity_feedback
+>>>>>>> main
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_register
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+layout activity_reminder
+=======
+>>>>>>> main
 layout activity_verifycode
 layout activity_workouts
 layout nav_header_navigationmenu
 layout toolbar
 menu activity_main_drawer
 menu bottom_nav
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+=======
+>>>>>>> main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

@@ -12,8 +12,9 @@
         <gradient
             android:centerY="0.5"
             android:endColor="#1A73E9"
+            android:centerColor="#40DFEF"
             android:startColor="@color/white"
-            android:type="sweep"
+            android:type="linear"
             android:useLevel="false" />
     </shape>
 </rotate>

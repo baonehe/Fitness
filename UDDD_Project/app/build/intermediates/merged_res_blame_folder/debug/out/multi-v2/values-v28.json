@@ -4,7 +4,12 @@
             "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\a911bf5df232e3fd12bbd44240a4fea2\\transformed\\material-1.6.0\\res\\values-v28\\values-v28.xml",
+=======
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\4164a13b6ed8f16c3f3d2aa043276e09\\transformed\\material-1.6.0\\res\\values-v28\\values-v28.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +19,14 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\914116008979e77bc79da871871e9f31\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+>>>>>>> Stashed changes
+=======
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -30,6 +42,16 @@
                         "endLines": "14,15,19,23",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "1211,1298,1528,1770"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\4164a13b6ed8f16c3f3d2aa043276e09\\transformed\\material-1.6.0\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,248,343,441,529,617,705,793,880,967,1054",
+                        "endColumns": "97,94,94,97,87,87,87,87,86,86,86,86",
+                        "endOffsets": "148,243,338,436,524,612,700,788,875,962,1049,1136"
                     }
                 }
             ]
