@@ -42,6 +42,7 @@ color transparent_white
 color weightcolor
 color weightcolor1
 color white
+drawable background_food
 drawable bottom_nav_icon
 drawable button_blue
 drawable button_green
@@ -141,6 +142,7 @@ drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
 drawable logo
+drawable menu
 drawable menu_banner_new
 drawable notification
 drawable pelvic_shift_a
@@ -149,7 +151,6 @@ drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable planegif
 drawable plank_a
-drawable radius_relative
 drawable rope_jumping_a
 drawable rope_jumping_b
 drawable seated_toe_touch_a
@@ -205,6 +206,7 @@ id imageButton2
 id imageView
 id lastname_edit_text_register
 id lastname_text_input_register
+id menuSetting
 id nav_home
 id password_edit_text_login
 id password_edit_text_register
@@ -212,6 +214,7 @@ id password_text_input_login
 id password_text_input_register
 id percentScore
 id progress
+id rel1
 id rel_WalkStep
 id relative
 id relative1
@@ -232,6 +235,7 @@ layout activity_home
 layout activity_main
 layout activity_register
 layout activity_verifycode
+layout activity_workouts
 layout nav_header_navigationmenu
 layout toolbar
 menu activity_main_drawer
