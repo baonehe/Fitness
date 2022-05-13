@@ -523,8 +523,10 @@ int attr fontWeight 0x7f0401c7
 int attr forceApplySystemWindowInsetTop 0x7f0401c8
 int attr foregroundInsidePadding 0x7f0401c9
 int attr framePosition 0x7f0401ca
+int attr freezesAnimation 0x7f040459
 int attr gapBetweenBars 0x7f0401cb
 int attr gestureInsetBottomIgnored 0x7f0401cc
+int attr gifSource 0x7f04045a
 int attr goIcon 0x7f0401cd
 int attr guidelineUseRtl 0x7f0401ce
 int attr haloColor 0x7f0401cf
@@ -578,6 +580,7 @@ int attr insetForeground 0x7f0401fe
 int attr isLightTheme 0x7f0401ff
 int attr isMaterial3Theme 0x7f040200
 int attr isMaterialTheme 0x7f040201
+int attr isOpaque 0x7f04045b
 int attr itemActiveIndicatorStyle 0x7f040202
 int attr itemBackground 0x7f040203
 int attr itemFillColor 0x7f040204
@@ -714,6 +717,7 @@ int attr logo 0x7f040286
 int attr logoAdjustViewBounds 0x7f040287
 int attr logoDescription 0x7f040288
 int attr logoScaleType 0x7f040289
+int attr loopCount 0x7f04045c
 int attr marginHorizontal 0x7f04028a
 int attr marginLeftSystemWindowInsets 0x7f04028b
 int attr marginRightSystemWindowInsets 0x7f04028c
@@ -2569,6 +2573,7 @@ int drawable ic_baseline_mail_24 0x7f080099
 int drawable ic_baseline_person_24 0x7f08009a
 int drawable ic_baseline_person_outline_24 0x7f08009b
 int drawable ic_clock_black_24dp 0x7f08009c
+int drawable ic_code_24 0x7f080132
 int drawable ic_facebook 0x7f08009d
 int drawable ic_home_24 0x7f08009e
 int drawable ic_keyboard_black_24dp 0x7f08009f
@@ -2688,6 +2693,7 @@ int drawable pelvic_shift_a 0x7f080110
 int drawable pelvic_shift_b 0x7f080111
 int drawable pilates_rool_over_a 0x7f080112
 int drawable pilates_rool_over_b 0x7f080113
+int drawable planegif 0x7f08012e
 int drawable plank_a 0x7f080114
 int drawable radius_relative 0x7f080115
 int drawable rope_jumping_a 0x7f080116
@@ -2710,6 +2716,7 @@ int drawable tooltip_frame_dark 0x7f080126
 int drawable tooltip_frame_light 0x7f080127
 int drawable triangle_pose 0x7f080128
 int drawable two_straight_legs_up 0x7f080129
+int drawable verify 0x7f080133
 int drawable wall_stretch_a 0x7f08012a
 int drawable wall_stretch_b 0x7f08012b
 int drawable water_bottle 0x7f08012c
@@ -2830,6 +2837,7 @@ int id buttonGmail 0x7f0a006e
 int id buttonLogin 0x7f0a006f
 int id buttonPanel 0x7f0a0070
 int id buttonRegister 0x7f0a0071
+int id buttonSendcode 0x7f0a0228
 int id cache_measures 0x7f0a0072
 int id caculator 0x7f0a0073
 int id callMeasure 0x7f0a0074
@@ -3365,6 +3373,7 @@ int layout activity_forgot_pass 0x7f0d001e
 int layout activity_home 0x7f0d001f
 int layout activity_main 0x7f0d0020
 int layout activity_register 0x7f0d0021
+int layout activity_verifycode 0x7f0d0080
 int layout browser_actions_context_menu_page 0x7f0d0022
 int layout browser_actions_context_menu_row 0x7f0d0023
 int layout custom_dialog 0x7f0d0024
@@ -5700,6 +5709,12 @@ int styleable Fragment_android_tag 2
 int[] styleable FragmentContainerView { 0x01010003, 0x010100d1 }
 int styleable FragmentContainerView_android_name 0
 int styleable FragmentContainerView_android_tag 1
+int[] styleable GifTextureView { 0x7f04045a, 0x7f04045b }
+int styleable GifTextureView_gifSource 0
+int styleable GifTextureView_isOpaque 1
+int[] styleable GifView { 0x7f040459, 0x7f04045c }
+int styleable GifView_freezesAnimation 0
+int styleable GifView_loopCount 1
 int[] styleable GradientColor { 0x0101019d, 0x0101019e, 0x010101a1, 0x010101a2, 0x010101a3, 0x010101a4, 0x01010201, 0x0101020b, 0x01010510, 0x01010511, 0x01010512, 0x01010513 }
 int styleable GradientColor_android_startColor 0
 int styleable GradientColor_android_endColor 1

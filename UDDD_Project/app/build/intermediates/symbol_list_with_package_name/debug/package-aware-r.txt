@@ -524,8 +524,10 @@ attr fontWeight
 attr forceApplySystemWindowInsetTop
 attr foregroundInsidePadding
 attr framePosition
+attr freezesAnimation
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
+attr gifSource
 attr goIcon
 attr guidelineUseRtl
 attr haloColor
@@ -579,6 +581,7 @@ attr insetForeground
 attr isLightTheme
 attr isMaterial3Theme
 attr isMaterialTheme
+attr isOpaque
 attr itemActiveIndicatorStyle
 attr itemBackground
 attr itemFillColor
@@ -715,6 +718,7 @@ attr logo
 attr logoAdjustViewBounds
 attr logoDescription
 attr logoScaleType
+attr loopCount
 attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
@@ -2570,6 +2574,7 @@ drawable ic_baseline_mail_24
 drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
 drawable ic_clock_black_24dp
+drawable ic_code_24
 drawable ic_facebook
 drawable ic_home_24
 drawable ic_keyboard_black_24dp
@@ -2689,6 +2694,7 @@ drawable pelvic_shift_a
 drawable pelvic_shift_b
 drawable pilates_rool_over_a
 drawable pilates_rool_over_b
+drawable planegif
 drawable plank_a
 drawable radius_relative
 drawable rope_jumping_a
@@ -2711,6 +2717,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable triangle_pose
 drawable two_straight_legs_up
+drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water_bottle
@@ -2831,6 +2838,7 @@ id buttonGmail
 id buttonLogin
 id buttonPanel
 id buttonRegister
+id buttonSendcode
 id cache_measures
 id caculator
 id callMeasure
@@ -3366,6 +3374,7 @@ layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_register
+layout activity_verifycode
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -4728,6 +4737,8 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation loopCount
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth

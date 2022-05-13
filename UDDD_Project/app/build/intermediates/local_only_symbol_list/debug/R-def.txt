@@ -60,6 +60,7 @@ drawable excercises
 drawable footsteps
 drawable forward_spine_stretch_a
 drawable forward_spine_stretch_b
+drawable gradientblue_button
 drawable hands_on_the_head_bow_down_a
 drawable hands_on_the_head_bow_down_b
 drawable hanging_exercise_a
@@ -75,6 +76,7 @@ drawable ic_baseline_lock_open_24
 drawable ic_baseline_mail_24
 drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
+drawable ic_code_24
 drawable ic_facebook
 drawable ic_home_24
 drawable ic_launcher_background
@@ -145,6 +147,7 @@ drawable pelvic_shift_a
 drawable pelvic_shift_b
 drawable pilates_rool_over_a
 drawable pilates_rool_over_b
+drawable planegif
 drawable plank_a
 drawable radius_relative
 drawable rope_jumping_a
@@ -163,6 +166,7 @@ drawable table_top_b
 drawable test
 drawable triangle_pose
 drawable two_straight_legs_up
+drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water_bottle
@@ -177,6 +181,7 @@ id buttonForgot
 id buttonGmail
 id buttonLogin
 id buttonRegister
+id buttonSendcode
 id caculator
 id cardView3
 id cardViewWalkStep
@@ -226,6 +231,7 @@ layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_register
+layout activity_verifycode
 layout nav_header_navigationmenu
 layout toolbar
 menu activity_main_drawer
