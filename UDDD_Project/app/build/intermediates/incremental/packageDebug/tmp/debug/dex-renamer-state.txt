@@ -1,13 +1,9 @@
-<<<<<<< Updated upstream
-#Thu May 12 18:14:49 ICT 2022
-=======
-#Sun May 15 16:16:03 ICT 2022
->>>>>>> Stashed changes
-base.2=C\:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+#Sun May 15 23:21:32 ICT 2022
+base.2=C\:\\Users\\USER\\Downloads\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
 path.2=3/classes.dex
-base.1=C\:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\USER\\Downloads\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.0=C\:\\Users\\USER\\Downloads\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

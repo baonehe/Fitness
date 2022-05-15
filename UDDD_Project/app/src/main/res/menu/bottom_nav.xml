@@ -1,40 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="bottomnav">
+    tools:showIn="bottomnav"
+    android:id="@+id/bottomNavigation">
 
     <item
-<<<<<<< Updated upstream
-        android:id="@+id/caculator"
-        android:title="Caculator"
-        android:icon="@drawable/calculator"/>
-    <item
-        android:id="@+id/dumbbell"
-        android:title="Dumbbell"
-=======
-        android:id="@+id/nav_bottom_calculator"
+        android:id="@+id/calculator"
         android:title="Calculator"
         android:icon="@drawable/calculator"/>
     <item
-        android:id="@+id/nav_bottom_workouts"
+        android:id="@+id/workouts"
         android:title="Workouts"
->>>>>>> Stashed changes
         android:icon="@drawable/dumbbell"/>
     <item
-        android:id="@+id/nav_bottom_Home"
+        android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/home"/>
     <item
-<<<<<<< Updated upstream
         android:id="@+id/walkstep"
-        android:title="Walk Step"
-=======
-        android:id="@+id/nav_bottom_walkstep"
         android:title="Walk &amp; Step"
->>>>>>> Stashed changes
         android:icon="@drawable/footsteps"/>
     <item
-        android:id="@+id/nav_bottom_reminder"
+        android:id="@+id/reminder"
         android:title="Reminder"
         android:icon="@drawable/notification"/>
 </menu>

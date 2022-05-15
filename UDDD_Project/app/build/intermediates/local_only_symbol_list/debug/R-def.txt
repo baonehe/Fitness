@@ -42,6 +42,8 @@ color transparent_white
 color weightcolor
 color weightcolor1
 color white
+drawable add_button
+drawable background_food
 drawable bottom_nav_icon
 drawable button_blue
 drawable button_green
@@ -76,6 +78,7 @@ drawable ic_baseline_lock_open_24
 drawable ic_baseline_mail_24
 drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
+drawable ic_code_24
 drawable ic_facebook
 drawable ic_home_24
 drawable ic_launcher_background
@@ -140,18 +143,25 @@ drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
 drawable logo
+drawable medication_remender_banner
+drawable menu
 drawable menu_banner_new
 drawable notification
 drawable pelvic_shift_a
 drawable pelvic_shift_b
 drawable pilates_rool_over_a
 drawable pilates_rool_over_b
+drawable planegif
 drawable plank_a
 drawable radius_relative
+drawable reminder_banner
 drawable rope_jumping_a
 drawable rope_jumping_b
+drawable running
 drawable seated_toe_touch_a
 drawable seated_toe_touch_b
+drawable set_medication_banner
+drawable set_water_banner
 drawable shadow_walk
 drawable side_nav_bar
 drawable spot_jumping_a
@@ -164,6 +174,7 @@ drawable table_top_b
 drawable test
 drawable triangle_pose
 drawable two_straight_legs_up
+drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water_bottle
@@ -172,19 +183,17 @@ font roboto
 font roboto_medium
 id appbar_layout
 id background
+id bottomNavigation
 id bottom_navigation
+id butoon_plus
 id buttonFacebook
 id buttonForgot
 id buttonGmail
 id buttonLogin
 id buttonRegister
-<<<<<<< Updated upstream
-id caculator
-=======
-id buttonSendcode
 id button_plus_medication
 id button_plus_water
->>>>>>> Stashed changes
+id calculator
 id cardView3
 id cardViewWalkStep
 id cardViewWater
@@ -192,11 +201,7 @@ id confirmpass_edit_text_register
 id confirmpass_text_input_register
 id content_frame
 id daysLeft
-<<<<<<< Updated upstream
-id dumbbell
-=======
 id drawer_layout_home
->>>>>>> Stashed changes
 id email_edit_text_forgot
 id email_edit_text_login
 id email_edit_text_register
@@ -206,23 +211,17 @@ id email_text_input_register
 id firstname_edit_text_register
 id firstname_text_input_register
 id health_fitn
+id home
 id imag_1
 id imag_2
+id imag_3
 id imageButton
 id imageButton2
 id imageView
 id lastname_edit_text_register
 id lastname_text_input_register
-<<<<<<< Updated upstream
-=======
 id menuSetting
-id nav_bottom_Home
-id nav_bottom_calculator
-id nav_bottom_reminder
-id nav_bottom_walkstep
-id nav_bottom_workouts
 id nav_feedback
->>>>>>> Stashed changes
 id nav_home
 id nav_logout
 id nav_myaccount
@@ -232,41 +231,39 @@ id password_edit_text_register
 id password_text_input_login
 id password_text_input_register
 id percentScore
+id percentScore1
 id progress
+id progress1
+id rel1
 id rel_WalkStep
+id relaa1
 id relative
 id relative1
-<<<<<<< Updated upstream
-id reminder
-id textView
-=======
 id relative2
+id reminder
 id set_medicion
 id set_water
->>>>>>> Stashed changes
+id textView
 id textViewRegister
+id textViewReminder
+id textViewSet
 id toolbar
 id tv_gmail
 id tv_nameava
 id tv_nameavatar
 id txt_excer
-<<<<<<< Updated upstream
-id walkstep
-id water
-id waterLevelView
-=======
 id txt_walkStep
 id txt_water
+id walkstep
 id water
->>>>>>> Stashed changes
+id workouts
 layout activity_account_information
 layout activity_feedback
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
+layout activity_medication_reminder
 layout activity_register
-<<<<<<< Updated upstream
-=======
 layout activity_reminder
 layout activity_verifycode
 layout activity_workouts
@@ -275,24 +272,14 @@ layout fragment_home
 layout fragment_my_account
 layout fragment_reminder
 layout fragment_work_out
->>>>>>> Stashed changes
 layout nav_header_navigationmenu
+layout toolbar
 menu activity_main_drawer
 menu bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
-<<<<<<< Updated upstream
-=======
-string default_web_client_id
-string gcm_defaultSenderId
-string google_api_key
-string google_app_id
-string google_crash_reporting_api_key
-string google_storage_bucket
 string hello_blank_fragment
 string navigation_drawer_close
 string navigation_drawer_open
-string project_id
->>>>>>> Stashed changes
 style Theme.UDDD_Project

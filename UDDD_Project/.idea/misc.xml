@@ -9,6 +9,20 @@
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.276268115942029" />
+<<<<<<< Updated upstream
+=======
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.12817028985507245" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.3171875" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_work_out.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.3171875" />
+>>>>>>> Stashed changes
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/custome_progressbar.xml" value="0.2425" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/radius_relative.xml" value="0.2425" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.2006340579710145" />
