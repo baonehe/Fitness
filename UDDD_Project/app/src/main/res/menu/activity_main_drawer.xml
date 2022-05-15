@@ -9,15 +9,16 @@
             android:icon="@drawable/ic_home_24"
             android:title="Home" />
         <item
-
+            android:id="@+id/nav_myaccount"
             android:icon="@drawable/ic_baseline_person_24"
             android:title="My account" />
 
         <item
-
+            android:id="@+id/nav_feedback"
             android:icon="@drawable/ic_baseline_feedback_24"
             android:title="Feedback" />
         <item
+            android:id="@+id/nav_logout"
             android:icon="@drawable/ic_logout_24"
             android:title="Log out" />
 

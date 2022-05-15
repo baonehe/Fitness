@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sweet="http://schemas.android.com/apk/res-auto"
+    android:background="#F1F8FA"
+    tools:context=".ReminderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F8FA"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/reminder_banner" />
+
+            <TextView
+                android:id="@+id/textViewSet"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Set"
+                android:textColor="#1A73E9"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textViewReminder"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="105dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Reminder"
+                android:textColor="#1A73E9"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relaa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:id="@+id/set_water"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/set_water_banner" />
+
+            <ImageView
+                android:id="@+id/button_plus_water"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/set_water"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-65dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/add_button" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/relaa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <ImageView
+                android:id="@+id/set_medicion"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/set_medication_banner" />
+
+            <ImageView
+                android:id="@+id/button_plus_medication"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/set_medicion"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-65dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/add_button" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
