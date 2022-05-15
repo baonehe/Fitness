@@ -4,23 +4,37 @@
     tools:showIn="bottomnav">
 
     <item
+<<<<<<< Updated upstream
         android:id="@+id/caculator"
         android:title="Caculator"
         android:icon="@drawable/calculator"/>
     <item
         android:id="@+id/dumbbell"
         android:title="Dumbbell"
+=======
+        android:id="@+id/nav_bottom_calculator"
+        android:title="Calculator"
+        android:icon="@drawable/calculator"/>
+    <item
+        android:id="@+id/nav_bottom_workouts"
+        android:title="Workouts"
+>>>>>>> Stashed changes
         android:icon="@drawable/dumbbell"/>
     <item
-        android:id="@+id/Home"
+        android:id="@+id/nav_bottom_Home"
         android:title="Home"
         android:icon="@drawable/home"/>
     <item
+<<<<<<< Updated upstream
         android:id="@+id/walkstep"
         android:title="Walk Step"
+=======
+        android:id="@+id/nav_bottom_walkstep"
+        android:title="Walk &amp; Step"
+>>>>>>> Stashed changes
         android:icon="@drawable/footsteps"/>
     <item
-        android:id="@+id/reminder"
+        android:id="@+id/nav_bottom_reminder"
         android:title="Reminder"
         android:icon="@drawable/notification"/>
 </menu>
