@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="bottomnav">
+    tools:showIn="bottomnav"
+    android:id="@+id/bottomNavigation">
 
     <item
-        android:id="@+id/caculator"
-        android:title="Caculator"
+        android:id="@+id/calculator"
+        android:title="Calculator"
         android:icon="@drawable/calculator"/>
     <item
-        android:id="@+id/dumbbell"
-        android:title="Dumbbell"
+        android:id="@+id/workouts"
+        android:title="Workouts"
         android:icon="@drawable/dumbbell"/>
     <item
-        android:id="@+id/Home"
+        android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/home"/>
     <item
         android:id="@+id/walkstep"
-        android:title="Walk Step"
+        android:title="Walk &amp; Step"
         android:icon="@drawable/footsteps"/>
     <item
         android:id="@+id/reminder"

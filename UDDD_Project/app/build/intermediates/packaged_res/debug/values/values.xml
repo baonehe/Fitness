@@ -61,6 +61,9 @@
     <string name="google_app_id" translatable="false">1:224051973115:android:0d844460bc4bafe0f0995e</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
     <string name="google_storage_bucket" translatable="false">uddd-project-andr.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+    <string name="navigation_drawer_open">Open navigation</string>
     <string name="project_id" translatable="false">uddd-project-andr</string>
     <style name="Theme.UDDD_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
