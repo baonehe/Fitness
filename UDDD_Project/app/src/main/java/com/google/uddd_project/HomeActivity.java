@@ -2,9 +2,7 @@ package com.google.uddd_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -14,7 +12,6 @@ import androidx.fragment.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 
-import android.view.Gravity;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -93,28 +90,28 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-       int id = item.getItemId();
-       if (id == R.id.nav_home){
-          OpenHomeFragment();
-          bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);
-       }else
-           if (id == R.id.nav_myaccount){
-               OpenMyAccountFragment();
-               IsCheckFalseFragment_nav_bottom();
-           }else
-               if (id == R.id.nav_feedback){
-                  OpenFeedBackFragment();
-                   IsCheckFalseFragment_nav_bottom();
-               }
-               else
-               if (id == R.id.nav_logout){
-                   Intent intent = new Intent(this,MainActivity.class);
-                   startActivity(intent);
-                   finish();
-               }
+        int id = item.getItemId();
+        if (id == R.id.nav_home){
+            OpenHomeFragment();
+            bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);
+        }else
+        if (id == R.id.nav_myaccount){
+            OpenMyAccountFragment();
+            IsCheckFalseFragment_nav_bottom();
+        }else
+        if (id == R.id.nav_feedback){
+            OpenFeedBackFragment();
+            IsCheckFalseFragment_nav_bottom();
+        }
+        else
+        if (id == R.id.nav_logout){
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
 
         item.setChecked(true);
-               setTitle(item.getTitle());
+        setTitle(item.getTitle());
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -137,7 +134,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             currentFragment = FRAGEMENT_FEEDBACK;
         }
     }
-//    public void OpenCaculatorFragment(){
+    //    public void OpenCaculatorFragment(){
 //        if (currentFragment != FRAGEMENT_CALCULATOR){
 //            replaceFragment(new FeedbackFragment());
 //            currentFragment = FRAGEMENT_CALCULATOR;
@@ -145,7 +142,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 //    }
     public  void OpenWorkOutsFragment(){
         if (currentFragment != FRAGEMENT_WORKOUTS){
-            replaceFragment(new WorkOutFragment());
+            replaceFragment(new WorkoutsFragment());
             currentFragment = FRAGEMENT_WORKOUTS;
         }
     }

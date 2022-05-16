@@ -13,16 +13,7 @@
             android:name=".MedicationReminderActivity"
             android:exported="false" />
         <activity
-            android:name=".ReminderActivity"
-            android:exported="false" />
-        <activity
-            android:name=".WorkoutsActivity"
-            android:exported="false" />
-        <activity
             android:name=".VerifyCodeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AccountInformationActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

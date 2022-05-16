@@ -3,51 +3,78 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3095" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/drawable/button_green.xml" value="0.276" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/drawable/dotted.xml" value="0.328" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.276268115942029" />
-<<<<<<< Updated upstream
-=======
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.12817028985507245" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.3171875" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.3171875" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder.xml" value="0.3171875" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.3171875" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.3171875" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.3072916666666667" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_work_out.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.1" />
-        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.3171875" />
->>>>>>> Stashed changes
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_account_information.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_feedback.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_medication_reminder.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/fragment_feedback.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/fragment_reminder.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/fragment_work_out.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.21224489795918366" />
+        <entry key="..\:/Users/Administrator/Downloads/Healthy_fitnessApp-Nhat/Healthy_fitnessApp-Nhat/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/bottom_nav_icon.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/customedt.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/gradientblue_button.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/side_nav_bar.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/button_blue.xml" value="0.3465" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/button_green.xml" value="0.3465" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/custome_progressbar.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/dotted.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/edittextbackground.xml" value="0.3465" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3465" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/imagebackground.xml" value="0.3465" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/radius_relative.xml" value="0.326" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/radius_relative_blue.xml" value="0.3465" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_account_information.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_feedback.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/custome_progressbar.xml" value="0.2425" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/radius_relative.xml" value="0.2425" />
-        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.15579710144927536" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_medication_reminder.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.2006340579710145" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder.xml" value="0.264" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/bottom_nav_icon.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/ic_baseline_arrow_back_24.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/ic_baseline_feedback_24.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_account_information.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.2037037037037037" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_medication_reminder.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder.xml" value="0.2037037037037037" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.2037037037037037" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/feedback.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_feedback.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.2037037037037037" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_reminder.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_work_out.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.1" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
       </map>
     </option>
