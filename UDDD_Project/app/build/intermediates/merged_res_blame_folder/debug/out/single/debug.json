@@ -1,658 +1,734 @@
 [
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_volume1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_volume1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_adiposity_index1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_adiposity_index1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_facebook.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_facebook.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_spot_jumping_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\spot_jumping_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_resting_metabolic_rate.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_resting_metabolic_rate.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_seated_toe_touch_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\seated_toe_touch_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_bottom_nav_icon.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\bottom_nav_icon.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_mass.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_mass.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_bruce_trade_mill.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_bruce_trade_mill.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_bruce_trade_mill.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_bruce_trade_mill.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_sugar1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_sugar1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_code_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_code_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_forward_spine_stretch_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\forward_spine_stretch_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_dumbbell.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\dumbbell.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_cholestrol_ratio1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_cholestrol_ratio1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_medication_remender_banner.jpg.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\medication_remender_banner.jpg"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_pressure1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_pressure1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_baseline_arrow_back_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_baseline_arrow_back_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_roboto.ttf.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\font\\roboto.ttf"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_alcohol_content.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_alcohol_content.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_navigationmenu.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\nav_header_navigationmenu.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_switch_on.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\custom_switch_on.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_wall_stretch_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\wall_stretch_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_surface_area.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_surface_area.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_menstraul_ovulation.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_menstraul_ovulation.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_set_water_banner.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\set_water_banner.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_pressure.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_pressure.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_planegif.gif.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\planegif.gif"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_forward_spine_stretch_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\forward_spine_stretch_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_button.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\add_button.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_alcohol_content1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_alcohol_content1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_custome_progressbar.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\custome_progressbar.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_table_top_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\table_top_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_surface_areaimg_body_surface_area1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_surface_areaimg_body_surface_area1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_menstraul_ovulation.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_menstraul_ovulation.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_shadow_walk.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\shadow_walk.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_navigationmenu.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\nav_header_navigationmenu.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_two_straight_legs_up.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\two_straight_legs_up.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_plank_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\plank_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_heart_rate1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_heart_rate1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_calculator.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\calculator.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_forward_spine_stretch_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\forward_spine_stretch_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_seated_toe_touch_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\seated_toe_touch_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_menstraul_ovulation1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_menstraul_ovulation1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_kids_growth1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_kids_growth1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_medication_reminder.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_medication_reminder.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_food.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\background_food.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_mass1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_mass1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_adiposity_index.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_adiposity_index.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_logout_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_logout_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_ideal_body_weight.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_ideal_body_weight.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hopping_with_one_leg_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hopping_with_one_leg_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_fat1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_fat1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_ideal_body_weight1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_ideal_body_weight1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_surface_area.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_surface_area.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_chest_to_hip_ratio1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_chest_to_hip_ratio1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_set_medication_banner.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\set_medication_banner.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_home_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_dumbbell.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\dumbbell.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_wall_stretch_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\wall_stretch_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_code_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_code_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_reminder_banner.jpg.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\reminder_banner.jpg"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_drt_land_swim_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\drt_land_swim_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_roboto_medium.ttf.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\font\\roboto_medium.ttf"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\menu\\bottom_nav.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_brightness_1_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_brightness_1_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_test.jpg.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\test.jpg"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_standing_vertical_stretch_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\standing_vertical_stretch_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_baseline_person_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_button_save_medication.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\button_save_medication.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_pressure1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_pressure1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_volume.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_volume.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_dotted.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\dotted.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_button_delete_medication.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\button_delete_medication.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_cholestrol_ratio.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_cholestrol_ratio.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_adiposity_index.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_adiposity_index.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_cat_cow_stretch_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\cat_cow_stretch_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_planegif.gif.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\planegif.gif"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_medication.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_add_medication.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_verifycode.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_verifycode.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_basal_metabolic_rate.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_basal_metabolic_rate.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_reminder_banner.jpg.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\reminder_banner.jpg"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_smoking_risk1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_smoking_risk1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pelvic_shift_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pelvic_shift_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_resting_metabolic_rate1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_resting_metabolic_rate1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_footsteps.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\footsteps.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_calorie_intake1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_calorie_intake1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pregnancy_due_date.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_pregnancy_due_date.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hopping_with_one_leg_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hopping_with_one_leg_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_alcohol_content.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_alcohol_content.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\menu.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_lock_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_verify.gif.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\verify.gif"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_forward_spine_stretch_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\forward_spine_stretch_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_plank_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\plank_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reminder_items.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_reminder_items.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_standing_vertical_stretch_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\standing_vertical_stretch_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_pressure.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_pressure.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_menu_banner_new.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\menu_banner_new.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hopping_with_one_leg_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hopping_with_one_leg_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_water_intake1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_water_intake1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_two_straight_legs_up.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\two_straight_legs_up.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_roboto.ttf.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\font\\roboto.ttf"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hands_on_the_head_bow_down_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hands_on_the_head_bow_down_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_blue.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\button_blue.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_childrens_height_predictor.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_childrens_height_predictor.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hopping_with_one_leg_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hopping_with_one_leg_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_standing_vertical_stretc_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\standing_vertical_stretc_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_medication_reminder.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_medication_reminder.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_doge_pose.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\doge_pose.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_hip_ratio.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_hip_ratio.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_reminder.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\fragment_reminder.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_donation.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_donation.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_work_outs.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\fragment_work_outs.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_key_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_key_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_rope_jumping_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\rope_jumping_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_doge_pose.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\doge_pose.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_running.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\running.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_cat_cow_stretch_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\cat_cow_stretch_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_childrens_height_predictor1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_childrens_height_predictor1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_calorie_intake.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_calorie_intake.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_test.jpg.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\test.jpg"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_drt_land_swim_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\drt_land_swim_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_hip_ratio1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_hip_ratio1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\menu.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_date_detail.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_date_detail.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_frame_size1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_frame_size1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_type_detail.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_type_detail.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_cholestrol_ratio.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_cholestrol_ratio.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_volume1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_volume1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_green.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\button_green.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_green.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\button_green.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_rope_jumping_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\rope_jumping_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_heart_rate.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_heart_rate.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_feedback.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\fragment_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_lean_body_mass1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_lean_body_mass1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_card_blue.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\card_blue.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_baseline_feedback_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_baseline_feedback_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_my_account.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\fragment_my_account.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_excercises.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\excercises.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_cat_cow_stretch_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\cat_cow_stretch_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_seated_toe_touch_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\seated_toe_touch_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu_food.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_menu_food.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_bruce_trade_mill1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_bruce_trade_mill1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_baseline_feedback_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_baseline_feedback_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hands_on_the_head_bow_down_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hands_on_the_head_bow_down_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgot_pass.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_forgot_pass.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_calorie_burn1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_calorie_burn1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_chest_to_hip_ratio.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_chest_to_hip_ratio.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_time_detail.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_time_detail.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_customedt.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\customedt.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_menstraul_ovulation1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_menstraul_ovulation1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pregnancy_due_date1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_pregnancy_due_date1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_roboto_medium.ttf.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\font\\roboto_medium.ttf"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_water_intake.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_water_intake.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_childrens_height_predictor.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_childrens_height_predictor.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_fat.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_fat.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_volume.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_volume.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_resting_metabolic_rate.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_resting_metabolic_rate.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_smoking_risk.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_smoking_risk.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hands_on_the_head_bow_down_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hands_on_the_head_bow_down_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_resting_metabolic_rate1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_resting_metabolic_rate1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_switch_off.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\custom_switch_off.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_table_top_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\table_top_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pelvic_shift_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pelvic_shift_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_verifycode.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_verifycode.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_water_bottle.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\water_bottle.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_footsteps.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\footsteps.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pregnancy_due_date.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_pregnancy_due_date.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_account_information.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_account_information.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_calendarcardmenufood.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\calendarcardmenufood.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_table_top_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\table_top_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_sugar.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_sugar.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_calorie_intake1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_calorie_intake1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_workouts.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_workouts.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_fat1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_fat1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_home.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\home.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_height_ratio1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_height_ratio1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_standing_vertical_stretc_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\standing_vertical_stretc_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_notification.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\notification.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_calculator.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\calculator.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_background_details_medication.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\background_details_medication.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittextbackground.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\edittextbackground.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_surface_area1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_surface_area1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_mass.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_mass.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_kids_growth1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_kids_growth1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_spot_jumping_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\spot_jumping_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_calorie_burn.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_calorie_burn.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hanging_exercise_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hanging_exercise_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_frame_size1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_frame_size1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_set_medication_banner.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\set_medication_banner.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_pregnancy_due_date1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_pregnancy_due_date1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_home.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\home.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_outline_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_person_outline_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pilates_rool_over_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pilates_rool_over_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_customedt.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\customedt.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_custome_progressbar.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\custome_progressbar.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_wall_stretch_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\wall_stretch_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_water_intake.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_water_intake.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_alcohol_content1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_alcohol_content1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_hip_ratio1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_hip_ratio1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_ideal_body_weight.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_ideal_body_weight.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_comfortaa.ttf.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\font\\comfortaa.ttf"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_seated_toe_touch_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\seated_toe_touch_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_feedback.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_feedback.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_childrens_height_predictor1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_childrens_height_predictor1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pilates_rool_over_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pilates_rool_over_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_smoking_risk.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_smoking_risk.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_super_cobra_stretch.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\super_cobra_stretch.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgot_pass.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_forgot_pass.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_wall_stretch_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\wall_stretch_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_drt_land_swim_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\drt_land_swim_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_kids_growth.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_kids_growth.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_frame_size.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_frame_size.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_basal_metabolic_rate.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_basal_metabolic_rate.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_kids_growth.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_kids_growth.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_key_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_key_24.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_repeat_detail.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_repeat_detail.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_fat.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_fat.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_medication_remender_banner.jpg.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\medication_remender_banner.jpg"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_notification.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\notification.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_basal_metabolic_rate1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_basal_metabolic_rate1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_spot_jumping_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\spot_jumping_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_donation.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_donation.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_home_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_home_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_basal_metabolic_rate1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_basal_metabolic_rate1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reminder.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_reminder.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_switch_track.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_hip_ratio.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_hip_ratio.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hanging_exercise_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hanging_exercise_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_water_bottle.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\water_bottle.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_triangle_pose.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\triangle_pose.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_sugar1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_sugar1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_lean_body_mass.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_lean_body_mass.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_water_intake1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_water_intake1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_rope_jumping_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\rope_jumping_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_drt_land_swim_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\drt_land_swim_a.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hands_on_the_head_bow_down_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hands_on_the_head_bow_down_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_table_top_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\table_top_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_spot_jumping_b.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\spot_jumping_b.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_cholestrol_ratio1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_cholestrol_ratio1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_adiposity_index1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_adiposity_index1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pelvic_shift_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pelvic_shift_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_super_cobra_stretch.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\super_cobra_stretch.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_calorie_burn.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_calorie_burn.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_shadow_walk.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\shadow_walk.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\side_nav_bar.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_frame_size.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_frame_size.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_button.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\add_button.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_donation1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_donation1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_excercises.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\excercises.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_mail_24.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_mail_24.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\menu\\bottom_nav.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_feedback.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_verify.gif.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\verify.gif"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_heart_rate.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_heart_rate.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_smoking_risk1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_smoking_risk1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_daily_calorie_intake.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_daily_calorie_intake.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_mass1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_mass1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_bottom_nav_icon.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\bottom_nav_icon.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_surface_area1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_surface_area1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_height_ratio1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_height_ratio1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pilates_rool_over_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pilates_rool_over_b.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_chest_to_hip_ratio1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_chest_to_hip_ratio1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_menu_banner_new.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\menu_banner_new.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_rope_jumping_a.webp.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\rope_jumping_a.webp"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_bruce_trade_mill1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_bruce_trade_mill1.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\icon.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_lean_body_mass.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_lean_body_mass.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_calorie_burn1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_calorie_burn1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_running.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\running.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_chest_to_hip_ratio.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_chest_to_hip_ratio.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_ideal_body_weight1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_ideal_body_weight1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_dotted.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\dotted.xml"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_body_surface_areaimg_body_surface_area1.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_body_surface_areaimg_body_surface_area1.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_facebook.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_facebook.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_set_water_banner.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\set_water_banner.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_food.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\background_food.png"
     },
     {
-        "merged": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_height_ratio.png.flat",
-        "source": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_height_ratio.png"
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pilates_rool_over_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pilates_rool_over_a.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_height_ratio.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_waist_to_height_ratio.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_ic_logout_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_logout_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hanging_exercise_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hanging_exercise_b.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_lock_open_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_lock_open_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_donation1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_donation1.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_mail_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_mail_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_comfortaa.ttf.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\font\\comfortaa.ttf"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittextbackground.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\edittextbackground.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_cat_cow_stretch_b.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\cat_cow_stretch_b.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_hanging_exercise_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\hanging_exercise_a.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_triangle_pose.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\triangle_pose.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_blue.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\button_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_lean_body_mass1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_lean_body_mass1.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\font_roboto_light.ttf.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\font\\roboto_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_pelvic_shift_a.webp.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\pelvic_shift_a.webp"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_blood_sugar.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_blood_sugar.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_heart_rate1.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_heart_rate1.png"
     }
 ]

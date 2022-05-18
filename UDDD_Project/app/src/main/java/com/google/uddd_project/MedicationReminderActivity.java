@@ -1,10 +1,12 @@
 package com.google.uddd_project;
 
-import android.os.Bundle;
-import android.view.MenuItem;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
 
 public class MedicationReminderActivity extends AppCompatActivity {
 
@@ -17,6 +19,14 @@ public class MedicationReminderActivity extends AppCompatActivity {
         toolbar.setTitle("Medication Reminder");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        findViewById(R.id.button_PlusAddMedication).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), AddMedicationActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
