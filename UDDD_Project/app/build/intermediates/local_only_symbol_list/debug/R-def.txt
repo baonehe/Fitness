@@ -51,6 +51,8 @@ drawable button_delete_medication
 drawable button_green
 drawable button_save_medication
 drawable calculator
+drawable calendarcardmenufood
+drawable card_blue
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
 drawable custom_switch_off
@@ -236,6 +238,7 @@ id lastname_edit_text_register
 id lastname_text_input_register
 id layout2
 id medicationName
+id menufood7day
 id nav_feedback
 id nav_home
 id nav_logout
@@ -286,6 +289,7 @@ layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_medication_reminder
+layout activity_menu_food
 layout activity_register
 layout activity_reminder_items
 layout activity_verifycode

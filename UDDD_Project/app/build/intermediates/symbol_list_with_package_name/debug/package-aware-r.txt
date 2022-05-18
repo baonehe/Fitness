@@ -2523,6 +2523,8 @@ drawable button_delete_medication
 drawable button_green
 drawable button_save_medication
 drawable calculator
+drawable calendarcardmenufood
+drawable card_blue
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
 drawable common_full_open_on_phone
@@ -3068,6 +3070,7 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id medicationName
+id menufood7day
 id message
 id middle
 id mini
@@ -3429,6 +3432,7 @@ layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_medication_reminder
+layout activity_menu_food
 layout activity_register
 layout activity_reminder_items
 layout activity_verifycode

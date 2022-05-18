@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
         <activity
+            android:name=".MenuFoodActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReminderItems"
             android:exported="false" />
         <activity
