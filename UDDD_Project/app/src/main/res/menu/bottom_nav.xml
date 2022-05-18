@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="bottomnav"
-    android:id="@+id/buttomNavigation">
+    android:id="@+id/bottomNavigation">
 
     <item
         android:id="@+id/calculator"
@@ -13,7 +13,7 @@
         android:title="Workouts"
         android:icon="@drawable/dumbbell"/>
     <item
-        android:id="@+id/Home"
+        android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/home"/>
     <item

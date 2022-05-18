@@ -22,19 +22,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.UDDD_Project" >
         <activity
+            android:name="com.google.uddd_project.ReminderItems"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.AddMedicationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.uddd_project.MedicationReminderActivity"
             android:exported="false" />
         <activity
-            android:name="com.google.uddd_project.ReminderActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.google.uddd_project.WorkoutsActivity"
-            android:exported="false" />
-        <activity
             android:name="com.google.uddd_project.VerifyCodeActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.google.uddd_project.AccountInformationActivity"
             android:exported="false" />
         <activity
             android:name="com.google.uddd_project.HomeActivity"

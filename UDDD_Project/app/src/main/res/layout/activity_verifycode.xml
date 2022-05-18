@@ -30,7 +30,7 @@
         <TextView
             android:layout_width="348dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="320dp"
             android:fontFamily="@font/roboto"
             android:text="Enter the verification code we just sent you on your email address."
@@ -67,7 +67,7 @@
         </LinearLayout>
     </RelativeLayout>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/buttonRegister"
+        android:id="@+id/buttonVerify"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
