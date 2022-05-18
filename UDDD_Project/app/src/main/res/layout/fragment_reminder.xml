@@ -30,7 +30,6 @@
                 android:src="@drawable/reminder_banner" />
 
             <TextView
-                android:id="@+id/textViewSet"
                 android:layout_width="65dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -42,7 +41,6 @@
                 android:textStyle="italic" />
 
             <TextView
-                android:id="@+id/textViewReminder"
                 android:layout_width="141dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="55dp"
@@ -80,7 +78,7 @@
 
         </RelativeLayout>
         <RelativeLayout
-            android:layout_below="@+id/relaa1"
+            android:layout_below="@+id/relaa2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"

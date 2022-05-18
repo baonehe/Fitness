@@ -2507,6 +2507,7 @@ drawable abc_vector_test
 drawable add_button
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_details_medication
 drawable background_food
 drawable bottom_nav_icon
 drawable btn_checkbox_checked_mtrl
@@ -2518,7 +2519,9 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_blue
+drawable button_delete_medication
 drawable button_green
+drawable button_save_medication
 drawable calculator
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
@@ -2541,6 +2544,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custom_switch_off
+drawable custom_switch_on
 drawable custome_progressbar
 drawable customedt
 drawable design_fab_background
@@ -2568,6 +2573,7 @@ drawable home
 drawable hopping_with_one_leg_a
 drawable hopping_with_one_leg_b
 drawable ic_baseline_arrow_back_24
+drawable ic_baseline_brightness_1_24
 drawable ic_baseline_feedback_24
 drawable ic_baseline_key_24
 drawable ic_baseline_lock_24
@@ -2577,6 +2583,7 @@ drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
 drawable ic_clock_black_24dp
 drawable ic_code_24
+drawable ic_date_detail
 drawable ic_facebook
 drawable ic_home_24
 drawable ic_keyboard_black_24dp
@@ -2590,6 +2597,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_repeat_detail
+drawable ic_time_detail
+drawable ic_type_detail
 drawable icon
 drawable img_basal_metabolic_rate
 drawable img_basal_metabolic_rate1
@@ -2715,6 +2725,7 @@ drawable spot_jumping_b
 drawable standing_vertical_stretc_b
 drawable standing_vertical_stretch_a
 drawable super_cobra_stretch
+drawable switch_track
 drawable table_top_a
 drawable table_top_b
 drawable test
@@ -2730,6 +2741,7 @@ drawable wall_stretch_b
 drawable water_bottle
 font comfortaa
 font roboto
+font roboto_light
 font roboto_medium
 id ALT
 id BOTTOM_END
@@ -2840,7 +2852,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id butoon_plus
+id btnDeleteMedication
+id btnSaveMedication
 id buttonFacebook
 id buttonForgot
 id buttonGmail
@@ -2849,6 +2862,7 @@ id buttonPanel
 id buttonRegister
 id buttonSendcode
 id buttonVerify
+id button_PlusAddMedication
 id button_plus_medication
 id button_plus_water
 id cache_measures
@@ -2858,6 +2872,7 @@ id cancel_button
 id cardView3
 id cardViewWalkStep
 id cardViewWater
+id cardviewone
 id carryVelocity
 id center
 id centerCrop
@@ -3019,6 +3034,7 @@ id labeled
 id lastname_edit_text_register
 id lastname_text_input_register
 id layout
+id layout2
 id left
 id leftToRight
 id legacy
@@ -3051,6 +3067,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id medicationName
 id message
 id middle
 id mini
@@ -3102,6 +3119,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id no_reminder_text
 id none
 id normal
 id north
@@ -3143,10 +3161,16 @@ id ratio
 id rectangles
 id rel_WalkStep
 id relaa1
+id relaa2
 id relative
 id relative1
 id relative2
 id reminder
+id reminder_date
+id reminder_list
+id reminder_time
+id reminder_title
+id repeat_switch
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3177,7 +3201,11 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id set_date
 id set_medicion
+id set_repeat
+id set_time
+id set_typeOfRepetions
 id set_water
 id sharedValueSet
 id sharedValueUnset
@@ -3217,6 +3245,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchOnOff
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3243,8 +3272,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textViewRegister
-id textViewReminder
-id textViewSet
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3396,12 +3423,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_medication
 layout activity_feedback
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
 layout activity_medication_reminder
 layout activity_register
+layout activity_reminder_items
 layout activity_verifycode
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
