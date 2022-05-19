@@ -34,9 +34,6 @@
             android:name="com.google.uddd_project.MedicationReminderActivity"
             android:exported="false" />
         <activity
-            android:name="com.google.uddd_project.VerifyCodeActivity"
-            android:exported="false" />
-        <activity
             android:name="com.google.uddd_project.HomeActivity"
             android:exported="false" />
         <activity
