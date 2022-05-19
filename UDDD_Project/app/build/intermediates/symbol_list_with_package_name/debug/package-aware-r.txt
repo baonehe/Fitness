@@ -2679,7 +2679,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
-drawable medication_remender_banner
+drawable medication_reminder_banner
 drawable menu
 drawable menu_banner_new
 drawable mtrl_dialog_background
@@ -2863,7 +2863,6 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id buttonSendcode
-id buttonVerify
 id button_PlusAddMedication
 id button_plus_medication
 id button_plus_water
@@ -3017,7 +3016,6 @@ id imag_1
 id imag_2
 id imag_3
 id image
-id imageButton2
 id imageView
 id immediateStop
 id included
@@ -3427,7 +3425,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_medication
-layout activity_feedback
 layout activity_forgot_pass
 layout activity_home
 layout activity_main
@@ -3435,7 +3432,6 @@ layout activity_medication_reminder
 layout activity_menu_food
 layout activity_register
 layout activity_reminder_items
-layout activity_verifycode
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
