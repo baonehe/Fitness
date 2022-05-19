@@ -13,10 +13,12 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -105,6 +107,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
         else
         if (id == R.id.nav_logout){
+            FirebaseAuth.getInstance().signOut();
+            Toast.makeText(this, "Log out successful", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this,MainActivity.class);
             startActivity(intent);
             finish();

@@ -6,18 +6,18 @@ import androidx.appcompat.widget.Toolbar;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class VerifyCodeActivity extends AppCompatActivity {
+public class AddMedicationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_verifycode);
-
+        setContentView(R.layout.activity_add_medication);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Verify Code");
+        toolbar.setTitle("Add Reminder");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();

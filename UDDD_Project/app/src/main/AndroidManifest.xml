@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
         <activity
-            android:name=".MedicationReminderActivity"
+            android:name=".MenuFoodActivity"
             android:exported="false" />
         <activity
-            android:name=".VerifyCodeActivity"
+            android:name=".ReminderItems"
+            android:exported="false" />
+        <activity
+            android:name=".AddMedicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MedicationReminderActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
