@@ -21,19 +21,6 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.SignInMethodQueryResult;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Properties;
-import java.util.Random;
-
-import javax.mail.Authenticator;
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.PasswordAuthentication;
-import javax.mail.Session;
-import javax.mail.Transport;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
-
 public class RegisterActivity extends AppCompatActivity {
     private EditText editTextEmail, editTextFirstName, editTextLastName, editTextPass, editTextPassConfirm;
     private FirebaseAuth auth;
@@ -97,16 +84,16 @@ public class RegisterActivity extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                         if (task.isSuccessful()) {
-                                            Toast.makeText(RegisterActivity.this, "Verify", Toast.LENGTH_SHORT).show();
                                             FirebaseUser user = auth.getCurrentUser();
                                             user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
                                                 @Override
                                                 public void onComplete(@NonNull Task<Void> task) {
-                                                    Toast.makeText(RegisterActivity.this, "Register successful", Toast.LENGTH_SHORT).show();
+                                                    Toast.makeText(RegisterActivity.this, "Verify your account by email", Toast.LENGTH_SHORT).show();
                                                 }
                                             });
                                         } else
                                             Toast.makeText(RegisterActivity.this, "Error!", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(RegisterActivity.this, "Register successful", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                             }

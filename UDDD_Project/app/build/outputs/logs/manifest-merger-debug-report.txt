@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\4164a13b6ed8f16c3f3d2aa043276e09\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\6da9f8502273c1ee047d3252d8508a80\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\67c0381ea558987e872d7ddaceb3e747\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
@@ -59,25 +59,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.g
 MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\cd1d79213caaad42bfd4774f3b19e89c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1ff792657c023d58aece05eb4b4d836d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\af47a12d83b509b62ea31b1413a2e8f6\transformed\relinker-1.3.1\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:5:5-42:19
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:5:5-42:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\4164a13b6ed8f16c3f3d2aa043276e09\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\4164a13b6ed8f16c3f3d2aa043276e09\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\6da9f8502273c1ee047d3252d8508a80\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -109,79 +109,79 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Administrator\.gra
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Administrator\.gradle\caches\transforms-3\7af146acc005b5d9ef6967bd0747cb28\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:11:9-50
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:11:9-50
 activity#com.google.uddd_project.MenuFoodActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:12:9-14:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:13:13-45
 activity#com.google.uddd_project.ReminderItems
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:15:9-17:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:16:13-42
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:16:13-42
 activity#com.google.uddd_project.AddMedicationActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:18:9-20:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:20:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:19:13-50
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:19:13-50
 activity#com.google.uddd_project.MedicationReminderActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:21:9-23:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:22:13-55
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:22:13-55
 activity#com.google.uddd_project.HomeActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:24:9-26:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:25:13-41
 activity#com.google.uddd_project.ForgotPassActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:27:9-29:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:29:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:28:13-47
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:28:13-47
 activity#com.google.uddd_project.RegisterActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:30:9-32:40
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:32:13-37
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:31:13-45
 activity#com.google.uddd_project.MainActivity
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:33:9-41:20
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:exported
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:34:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml:39:27-74
 uses-sdk
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\4164a13b6ed8f16c3f3d2aa043276e09\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\4164a13b6ed8f16c3f3d2aa043276e09\transformed\material-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\6da9f8502273c1ee047d3252d8508a80\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
@@ -292,16 +292,16 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Adminis
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1ff792657c023d58aece05eb4b4d836d\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\af47a12d83b509b62ea31b1413a2e8f6\transformed\relinker-1.3.1\AndroidManifest.xml:5:5-43
 MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\af47a12d83b509b62ea31b1413a2e8f6\transformed\relinker-1.3.1\AndroidManifest.xml:5:5-43
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Administrator\AndroidStudioProjects\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\OneDrive\Documents\GitHub\Healthy_fitnessApp\UDDD_Project\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:21.0.4] C:\Users\Administrator\.gradle\caches\transforms-3\329096b747e1168c32b2196718cf3d75\transformed\firebase-auth-21.0.4\AndroidManifest.xml:23:5-67
 	android:name
