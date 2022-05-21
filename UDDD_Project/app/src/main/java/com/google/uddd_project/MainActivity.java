@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -24,12 +25,13 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextEmail, editTextPass;
     private FirebaseAuth auth;
     private TextInputLayout textInputLayoutEmail,textInputLayoutPassword;
+    Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        handler = new Handler();
         editTextEmail = findViewById(R.id.email_edit_text_login);
         editTextPass = findViewById(R.id.password_edit_text_login);
         textInputLayoutEmail= findViewById(R.id.email_text_input_login);
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonLogin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 if (TextUtils.isEmpty(editTextEmail.getText().toString())){
                     textInputLayoutEmail.setErrorEnabled(true);
                     textInputLayoutEmail.setError("Please enter your Email");
@@ -73,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     String passText = editTextPass.getText().toString();
                     loginUser(emailText, passText);
                 }
+
             }
         });
     }
@@ -82,8 +86,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
+                    handler.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            startActivity(new Intent(MainActivity.this, LoadingPageActivity.class));
+                            finish();
+                        }
+                    },1000);
                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this, HomeActivity.class));
                     finish();
                 } else
                     Toast.makeText(MainActivity.this, "Account is incorrect or doesn't exist!", Toast.LENGTH_SHORT).show();

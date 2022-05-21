@@ -55,6 +55,7 @@ drawable calendarcardmenufood
 drawable card_blue
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
+drawable cloud
 drawable correct
 drawable custom_switch_off
 drawable custom_switch_on
@@ -72,6 +73,7 @@ drawable dotted
 drawable drt_land_swim_a
 drawable drt_land_swim_b
 drawable dumbbell
+drawable eatergif
 drawable edittextbackground
 drawable excercises
 drawable footsteps
@@ -161,6 +163,7 @@ drawable img_waist_to_height_ratio
 drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
+drawable loadingtextgif
 drawable logo
 drawable medication_reminder_banner
 drawable menu
@@ -197,6 +200,7 @@ drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water_bottle
+drawable wave
 font comfortaa
 font roboto
 font roboto_light
@@ -295,6 +299,7 @@ layout activity_add_medication
 layout activity_forgot_pass
 layout activity_home
 layout activity_image_page_view
+layout activity_loading_page
 layout activity_main
 layout activity_medication_reminder
 layout activity_menu_food

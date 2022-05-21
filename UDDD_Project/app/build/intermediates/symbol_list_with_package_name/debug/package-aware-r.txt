@@ -2527,6 +2527,7 @@ drawable calendarcardmenufood
 drawable card_blue
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
+drawable cloud
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2568,6 +2569,7 @@ drawable dotted
 drawable drt_land_swim_a
 drawable drt_land_swim_b
 drawable dumbbell
+drawable eatergif
 drawable edittextbackground
 drawable excercises
 drawable footsteps
@@ -2668,6 +2670,7 @@ drawable img_waist_to_height_ratio
 drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
+drawable loadingtextgif
 drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2749,6 +2752,7 @@ drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water_bottle
+drawable wave
 font comfortaa
 font roboto
 font roboto_light
@@ -3438,6 +3442,7 @@ layout activity_add_medication
 layout activity_forgot_pass
 layout activity_home
 layout activity_image_page_view
+layout activity_loading_page
 layout activity_main
 layout activity_medication_reminder
 layout activity_menu_food

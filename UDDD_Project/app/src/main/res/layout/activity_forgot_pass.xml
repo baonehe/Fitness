@@ -30,8 +30,8 @@
         <TextView
             android:layout_width="348dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="320dp"
             android:layout_marginLeft="40dp"
+            android:layout_marginTop="320dp"
             android:fontFamily="@font/roboto"
             android:text="Enter your email associated with your account and we’ll send an email with code to reset your password."
             android:textColor="@color/black"
