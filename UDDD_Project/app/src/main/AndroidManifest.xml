@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
         <activity
+            android:name=".LoadingPageActivity"
+            android:exported="false" />
+        <activity
             android:name=".ImagePageView"
             android:exported="false" />
         <activity

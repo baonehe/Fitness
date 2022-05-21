@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccountInformationActivity">
+    tools:context=".MyAccountFragment">
 
 <!--    <include layout="@layout/toolbar"/>-->
 
@@ -16,8 +16,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:text="Home address"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:paddingLeft="20dp"
             android:layout_marginBottom="5dp"
             android:textSize="20dp"
@@ -28,12 +29,14 @@
             android:layout_height="wrap_content">
             <TextView
                 android:layout_width="122dp"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:text="First Name"
                 android:layout_marginRight="100dp"
                 android:paddingLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:text="Last Name"
                 android:paddingLeft="20dp"/>
@@ -45,6 +48,7 @@
             android:layout_height="wrap_content">
             <EditText
                 android:maxLines="1"
+                android:fontFamily="@font/roboto"
                 android:layout_width="122dp"
                 android:layout_marginLeft="12dp"
                 android:layout_height="wrap_content"
@@ -53,17 +57,20 @@
             <EditText
                 android:layout_width="122dp"
                 android:maxLines="1"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:layout_marginLeft="2dp"/>
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:text="Address"
             android:paddingLeft="20dp"/>
         <EditText
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:textSize="16dp"
             android:maxLines="1"
@@ -75,12 +82,14 @@
             android:layout_height="wrap_content">
             <TextView
                 android:layout_width="122dp"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:text="City"
                 android:layout_marginRight="100dp"
                 android:paddingLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:text="Country"
                 android:paddingLeft="20dp"/>
@@ -92,6 +101,7 @@
             android:layout_height="wrap_content">
             <EditText
                 android:layout_width="122dp"
+                android:fontFamily="@font/roboto"
                 android:layout_marginLeft="12dp"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
@@ -99,6 +109,7 @@
                 android:layout_marginRight="100dp" />
             <EditText
                 android:layout_width="122dp"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:maxLines="1"
@@ -106,9 +117,10 @@
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:text="INFORMATION"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:paddingLeft="20dp"
             android:layout_marginBottom="5dp"
             android:textSize="20dp"
@@ -120,17 +132,20 @@
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
                 android:text="Age"
                 android:layout_marginRight="90dp"
                 android:paddingLeft="20dp"/>
             <TextView
                 android:layout_width="70dp"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:text="Height"
                 android:layout_marginRight="60dp"
                 android:paddingLeft="10dp"/>
             <TextView
                 android:layout_width="70dp"
+                android:fontFamily="@font/roboto"
                 android:text="Weight"
                 android:paddingLeft="0dp"
                 android:layout_height="wrap_content"/>
@@ -142,6 +157,7 @@
             android:layout_height="wrap_content">
             <EditText
                 android:layout_width="100dp"
+                android:fontFamily="@font/roboto"
                 android:layout_marginLeft="12dp"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
@@ -149,12 +165,14 @@
                 android:layout_marginRight="20dp" />
             <EditText
                 android:layout_width="100dp"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:maxLines="1"
                 android:textSize="16dp"
                 android:layout_marginRight="20dp"/>
             <EditText
                 android:layout_width="100dp"
+                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
                 android:textSize="16dp"
                 android:maxLines="1"
@@ -162,9 +180,10 @@
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_medium"
             android:layout_height="wrap_content"
             android:text="Account"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:paddingLeft="20dp"
             android:textSize="20dp"
             android:layout_marginBottom="5dp"
@@ -172,12 +191,14 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:text="Gmail"
             android:paddingLeft="20dp"/>
         <EditText
             android:focusable="false"
             android:inputType="none"
+            android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16dp"
@@ -187,10 +208,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
             android:text="New password"
             android:paddingLeft="20dp"/>
         <EditText
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:maxLines="1"
             android:textSize="16dp"
@@ -198,11 +221,13 @@
 
         <TextView
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:text="Confirm password"
             android:paddingLeft="20dp"/>
         <EditText
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
             android:textSize="16dp"
             android:maxLines="1"
@@ -210,14 +235,15 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginTop="5dp"
-            android:layout_width="328dp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_width="280dp"
             android:layout_gravity="center"
             android:background="@drawable/button_blue"
             android:text="SAVE CHANGE"
             android:textSize="18dp"
             android:elevation="6dp"
             android:textColor="@color/white"
-            android:layout_height="50dp"/>
+            android:layout_height="40dp"/>
 
     </LinearLayout>
 </RelativeLayout>
