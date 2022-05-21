@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\67c0381ea558987e872d7ddaceb3e747\\transformed\\appcompat-1.4.1\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
