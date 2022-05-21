@@ -2546,10 +2546,18 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable correct
 drawable custom_switch_off
 drawable custom_switch_on
 drawable custome_progressbar
 drawable customedt
+drawable day1
+drawable day2
+drawable day3
+drawable day4
+drawable day5
+drawable day6
+drawable day7
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3017,6 +3025,7 @@ id imag_2
 id imag_3
 id image
 id imageView
+id imageViewMain
 id immediateStop
 id included
 id info
@@ -3311,6 +3320,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewPagerMain
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3427,6 +3437,7 @@ layout abc_tooltip
 layout activity_add_medication
 layout activity_forgot_pass
 layout activity_home
+layout activity_image_page_view
 layout activity_main
 layout activity_medication_reminder
 layout activity_menu_food
@@ -3455,6 +3466,7 @@ layout fragment_home
 layout fragment_my_account
 layout fragment_reminder
 layout fragment_work_outs
+layout imageitemviewpage
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

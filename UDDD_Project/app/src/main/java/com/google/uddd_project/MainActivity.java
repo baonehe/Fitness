@@ -3,16 +3,19 @@ package com.google.uddd_project;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -20,6 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
     private EditText editTextEmail, editTextPass;
     private FirebaseAuth auth;
+    private TextInputLayout textInputLayoutEmail,textInputLayoutPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         editTextEmail = findViewById(R.id.email_edit_text_login);
         editTextPass = findViewById(R.id.password_edit_text_login);
+        textInputLayoutEmail= findViewById(R.id.email_text_input_login);
+        textInputLayoutPassword= findViewById(R.id.password_text_input_login);
         findViewById(R.id.textViewRegister).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,9 +53,21 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.buttonLogin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (TextUtils.isEmpty(editTextEmail.getText().toString()) || TextUtils.isEmpty(editTextPass.getText().toString())) {
-                    Toast.makeText(MainActivity.this, "Please fill in the blanks", Toast.LENGTH_SHORT).show();
+                if (TextUtils.isEmpty(editTextEmail.getText().toString())){
+                    textInputLayoutEmail.setErrorEnabled(true);
+                    textInputLayoutEmail.setError("Please enter your Email");
+
+
+                }else if (TextUtils.isEmpty(editTextPass.getText().toString())) {
+                    textInputLayoutEmail.setErrorEnabled(false);
+                    textInputLayoutEmail.setError(null);
+                    textInputLayoutPassword.setErrorEnabled(true);
+                    textInputLayoutPassword.setError("Please enter your Password");
                 } else {
+                    textInputLayoutEmail.setError(null);
+                    textInputLayoutPassword.setError(null);
+                    textInputLayoutEmail.setErrorEnabled(false);
+                    textInputLayoutPassword.setErrorEnabled(false);
                     auth = FirebaseAuth.getInstance();
                     String emailText = editTextEmail.getText().toString();
                     String passText = editTextPass.getText().toString();

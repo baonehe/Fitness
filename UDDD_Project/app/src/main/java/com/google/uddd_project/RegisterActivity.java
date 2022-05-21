@@ -8,7 +8,9 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import android.os.StrictMode;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -16,6 +18,7 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,6 +28,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText editTextEmail, editTextFirstName, editTextLastName, editTextPass, editTextPassConfirm;
     private FirebaseAuth auth;
     private boolean isNotExist;
+    private TextInputLayout textInputLayoutpass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
         editTextLastName = findViewById(R.id.lastname_edit_text_register);
         editTextPass = findViewById(R.id.password_edit_text_register);
         editTextPassConfirm = findViewById(R.id.confirmpass_edit_text_register);
-
+        textInputLayoutpass = findViewById(R.id.password_text_input_login);
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Create Account");
         setSupportActionBar(toolbar);

@@ -63,7 +63,7 @@ public class WorkoutsFragment extends Fragment {
         view.findViewById(R.id.menufood7day).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(),MenuFoodActivity.class);
+                Intent intent = new Intent(view.getContext(),ImagePageView.class);
                 startActivity(intent);
             }
         });
