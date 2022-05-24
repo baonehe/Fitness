@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.github.mikephil.charting.charts.BarChart;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
@@ -37,6 +38,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
     private int currentFragment = FRAGEMENT_HOME;
     private  BottomNavigationView bottomNavigationView;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +58,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         navigationView= findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(this);
-
         replaceFragment(new HomeFragment());
         navigationView.getMenu().findItem(R.id.nav_home).setChecked(true);
         bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);
@@ -79,8 +81,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         IsCheckFalseFragment_nav_drawer();
                         break;
                     }
-                    case 4:{}
-                    case 5:{}
+                    case R.id.walkstep:{
+                        OpenWalkStepFragment();
+                        IsCheckFalseFragment_nav_drawer();
+                        break;
+                    }
                 }
                 item.setChecked(true);
                 setTitle(item.getTitle());
@@ -150,7 +155,13 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             currentFragment = FRAGEMENT_WORKOUTS;
         }
     }
-    public  void OpenWalkStepFragment(){}
+    public  void OpenWalkStepFragment()
+    {
+        if (currentFragment != FRAGEMENT_WALKSTEP){
+            replaceFragment(new SummaryFragment());
+            currentFragment = FRAGEMENT_WALKSTEP;
+        }
+    }
     public void OpenReminderFragment(){
         if (currentFragment != FRAGEMENT_REMINDER){
             replaceFragment(new ReminderFragment());
@@ -182,4 +193,5 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         fragmentTransaction.replace(R.id.content_frame,fragment);
         fragmentTransaction.commit();
     }
+
 }

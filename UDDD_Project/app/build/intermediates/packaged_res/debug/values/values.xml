@@ -54,17 +54,54 @@
     <color name="weightcolor">#ff8a65</color>
     <color name="weightcolor1">#dc7858</color>
     <color name="white">#ffffff</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="activity_chart_summary_subtitle">Detailed summary of your activities</string>
     <string name="app_name">UDDD_Project</string>
     <string name="default_web_client_id" translatable="false">224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com</string>
+    <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">224051973115</string>
     <string name="google_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
     <string name="google_app_id" translatable="false">1:224051973115:android:0d844460bc4bafe0f0995e</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
     <string name="google_storage_bucket" translatable="false">uddd-project-andr.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="navigation_drawer_close">Close navigation</string>
     <string name="navigation_drawer_open">Open navigation</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
     <string name="project_id" translatable="false">uddd-project-andr</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="steps">Steps</string>
+    <string name="summary_card_kilocalories">kcal</string>
+    <string name="title_activity_walk_step">WalkStepActivity</string>
+    <style name="CardViewPrimaryTitle" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="CardViewSubTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/middlegrey</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SimpleImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+    </style>
     <style name="Theme.UDDD_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -78,4 +115,10 @@
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.UDDD_Project.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.UDDD_Project.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.UDDD_Project.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
