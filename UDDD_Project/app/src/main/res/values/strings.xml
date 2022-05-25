@@ -8,6 +8,7 @@
     <string name="summary_card_kilocalories">kcal</string>
     <string name="activity_chart_summary_subtitle">Detailed summary of your activities</string>
     <string name="title_activity_walk_step">WalkStepActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

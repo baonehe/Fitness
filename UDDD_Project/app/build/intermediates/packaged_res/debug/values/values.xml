@@ -75,6 +75,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="steps">Steps</string>
     <string name="summary_card_kilocalories">kcal</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_walk_step">WalkStepActivity</string>
     <style name="CardViewPrimaryTitle" parent="@android:style/TextAppearance.Large">
         <item name="android:layout_width">match_parent</item>

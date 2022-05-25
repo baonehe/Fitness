@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MyAccountFragment">
 
-<!--    <include layout="@layout/toolbar"/>-->
+    <!--    <include layout="@layout/toolbar"/>-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,234 +16,265 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_medium"
-            android:text="Home address"
-            android:layout_marginTop="5dp"
-            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
-            android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:fontFamily="@font/roboto_medium"
+            android:paddingLeft="20dp"
+            android:text="Home address"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="122dp"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:text="First Name"
                 android:layout_marginRight="100dp"
-                android:paddingLeft="20dp"/>
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="20dp"
+                android:text="First Name" />
+
             <TextView
                 android:layout_width="match_parent"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:text="Last Name"
-                android:paddingLeft="20dp"/>
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="20dp"
+                android:text="Last Name" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <EditText
-                android:maxLines="1"
-                android:fontFamily="@font/roboto"
                 android:layout_width="122dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:layout_marginRight="100dp" />
+                android:layout_marginRight="100dp"
+                android:fontFamily="@font/roboto"
+                android:maxLines="1"
+                android:textSize="16dp" />
+
             <EditText
                 android:layout_width="122dp"
-                android:maxLines="1"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
-                android:layout_marginLeft="2dp"/>
+                android:layout_marginLeft="2dp"
+                android:fontFamily="@font/roboto"
+                android:maxLines="1"
+                android:textSize="16dp" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
-            android:text="Address"
-            android:paddingLeft="20dp"/>
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto"
+            android:paddingLeft="20dp"
+            android:text="Address" />
+
         <EditText
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/roboto"
             android:maxLines="1"
-            android:layout_marginLeft="12dp"/>
+            android:textSize="16dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="122dp"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:text="City"
                 android:layout_marginRight="100dp"
-                android:paddingLeft="20dp"/>
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="20dp"
+                android:text="City" />
+
             <TextView
                 android:layout_width="match_parent"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:text="Country"
-                android:paddingLeft="20dp"/>
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="20dp"
+                android:text="Country" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <EditText
                 android:layout_width="122dp"
-                android:fontFamily="@font/roboto"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
-                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:fontFamily="@font/roboto"
                 android:maxLines="1"
-                android:textSize="16dp"
-                android:layout_marginRight="100dp" />
+                android:textSize="16dp" />
+
             <EditText
                 android:layout_width="122dp"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:layout_marginLeft="2dp"
+                android:fontFamily="@font/roboto"
                 android:maxLines="1"
-                android:layout_marginLeft="2dp"/>
+                android:textSize="16dp" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
-            android:text="INFORMATION"
-            android:layout_marginTop="5dp"
-            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
-            android:textSize="20dp"
-            android:textColor="@color/black"/>
+            android:fontFamily="@font/roboto"
+            android:paddingLeft="20dp"
+            android:text="INFORMATION"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/roboto"
-                android:text="Age"
                 android:layout_marginRight="90dp"
-                android:paddingLeft="20dp"/>
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="20dp"
+                android:text="Age" />
+
             <TextView
                 android:layout_width="70dp"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:text="Height"
                 android:layout_marginRight="60dp"
-                android:paddingLeft="10dp"/>
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="10dp"
+                android:text="Height" />
+
             <TextView
                 android:layout_width="70dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:text="Weight"
                 android:paddingLeft="0dp"
-                android:layout_height="wrap_content"/>
+                android:text="Weight" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
             <EditText
                 android:layout_width="100dp"
-                android:fontFamily="@font/roboto"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
-                android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/roboto"
                 android:maxLines="1"
-                android:layout_marginRight="20dp" />
+                android:textSize="16dp" />
+
             <EditText
                 android:layout_width="100dp"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/roboto"
                 android:maxLines="1"
-                android:textSize="16dp"
-                android:layout_marginRight="20dp"/>
+                android:textSize="16dp" />
+
             <EditText
                 android:layout_width="100dp"
-                android:fontFamily="@font/roboto"
                 android:layout_height="wrap_content"
-                android:textSize="16dp"
+                android:layout_marginLeft="2dp"
+                android:fontFamily="@font/roboto"
                 android:maxLines="1"
-                android:layout_marginLeft="2dp"/>
+                android:textSize="16dp" />
         </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto_medium"
             android:layout_height="wrap_content"
-            android:text="Account"
-            android:layout_marginTop="5dp"
-            android:paddingLeft="20dp"
-            android:textSize="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
-            android:textColor="@color/black"/>
+            android:fontFamily="@font/roboto_medium"
+            android:paddingLeft="20dp"
+            android:text="Account"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
-            android:text="Gmail"
-            android:paddingLeft="20dp"/>
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto"
+            android:paddingLeft="20dp"
+            android:text="Gmail" />
+
         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
             android:focusable="false"
+            android:fontFamily="@font/roboto"
             android:inputType="none"
-            android:fontFamily="@font/roboto"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
             android:maxLines="1"
-            android:layout_marginLeft="12dp"/>
+            android:textSize="16dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/roboto"
-            android:text="New password"
-            android:paddingLeft="20dp"/>
+            android:paddingLeft="20dp"
+
+            android:text="New password" />
+
         <EditText
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/roboto"
             android:maxLines="1"
-            android:textSize="16dp"
-            android:layout_marginLeft="12dp"/>
+            android:textSize="16dp" />
 
         <TextView
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
-            android:text="Confirm password"
-            android:paddingLeft="20dp"/>
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto"
+            android:paddingLeft="20dp"
+            android:text="Confirm password" />
+
         <EditText
             android:layout_width="match_parent"
-            android:fontFamily="@font/roboto"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/roboto"
             android:maxLines="1"
-            android:layout_marginLeft="12dp"/>
+            android:textSize="16dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto_medium"
             android:layout_width="280dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_blue"
-            android:text="SAVE CHANGE"
-            android:textSize="18dp"
             android:elevation="6dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="SAVE CHANGE"
             android:textColor="@color/white"
-            android:layout_height="40dp"/>
+            android:textSize="18dp" />
 
     </LinearLayout>
 </RelativeLayout>
