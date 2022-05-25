@@ -2564,10 +2564,12 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable add_button
+drawable alarm
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_details_medication
 drawable background_food
+drawable bar_chart
 drawable bottom_nav_icon
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2583,6 +2585,7 @@ drawable button_green
 drawable button_save_medication
 drawable calculator
 drawable calendarcardmenufood
+drawable can
 drawable card_blue
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
@@ -2735,6 +2738,7 @@ drawable img_waist_to_height_ratio
 drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
+drawable kettle
 drawable loadingtextgif
 drawable logo
 drawable m3_appbar_background
@@ -2758,6 +2762,8 @@ drawable material_ic_menu_arrow_up_black_24dp
 drawable medication_reminder_banner
 drawable menu
 drawable menu_banner_new
+drawable milk
+drawable milktea
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2807,6 +2813,7 @@ drawable super_cobra_stretch
 drawable switch_track
 drawable table_top_a
 drawable table_top_b
+drawable tea
 drawable test
 drawable test_custom_background
 drawable test_level_drawable
@@ -2814,9 +2821,11 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable triangle_pose
 drawable two_straight_legs_up
+drawable user
 drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
+drawable water
 drawable water_bottle
 drawable wave
 font comfortaa
@@ -2939,6 +2948,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnDeleteMedication
 id btnSaveMedication
+id btn_continue
 id buttonFacebook
 id buttonForgot
 id buttonGmail
@@ -3112,6 +3122,7 @@ id imag_3
 id image
 id imageView
 id imageViewMain
+id image_avatar
 id imgRun
 id immediateStop
 id included
@@ -3204,6 +3215,7 @@ id multiply
 id nav_controller_view_tag
 id nav_feedback
 id nav_graph
+id nav_graph2
 id nav_home
 id nav_host_fragment_container
 id nav_logout
@@ -3417,8 +3429,12 @@ id tv_nameava
 id tv_nameavatar
 id txtProgress
 id txt_excer
+id txt_timeSleep
+id txt_timeWakeUp
+id txt_timeWorkOut
 id txt_walkStep
 id txt_water
+id txt_weight
 id unchecked
 id uniform
 id unlabeled
@@ -3541,6 +3557,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_medication
+layout activity_daily_drink_target
 layout activity_forgot_pass
 layout activity_home
 layout activity_image_page_view
@@ -3549,6 +3566,7 @@ layout activity_main
 layout activity_maps
 layout activity_medication_reminder
 layout activity_menu_food
+layout activity_provide_infor_to_custom
 layout activity_register
 layout activity_reminder_items
 layout browser_actions_context_menu_page
@@ -3670,6 +3688,7 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+navigation nav_graph2
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3739,8 +3758,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string hello_blank_fragment
-string hello_first_fragment
-string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

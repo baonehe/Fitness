@@ -44,7 +44,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="420dp"
+            android:layout_height="460dp"
             android:layout_gravity="center"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="20dp"
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -111,7 +111,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="35dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -149,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="35dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -203,7 +203,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="35dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -254,6 +254,7 @@
             android:id="@+id/btnDeleteMedication"
             android:layout_width="55dp"
             android:layout_height="55dp"
+            android:layout_gravity="center"
             android:src="@drawable/button_delete_medication"/>
         <ImageView
             android:id="@+id/btnSaveMedication"
@@ -261,6 +262,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="3dp"
             android:layout_marginLeft="110dp"
+            android:layout_gravity="center"
             android:src="@drawable/button_save_medication"/>
 
     </LinearLayout>

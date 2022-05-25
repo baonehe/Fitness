@@ -76,14 +76,26 @@
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/custome_progressbar.xml" value="0.2425" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/radius_relative.xml" value="0.2425" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_add_medication.xml" value="0.2" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_daily_drink_target.xml" value="0.2" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.15579710144927536" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_loading_page.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
-        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_medication_reminder.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_medication_reminder.xml" value="0.2" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_provide_infor_to_custom.xml" value="0.2" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_register.xml" value="0.2006340579710145" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder.xml" value="0.264" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder_items.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/content_provide_infor_to_custom.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_first.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_reminder.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_second.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_summary.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.23645833333333333" />

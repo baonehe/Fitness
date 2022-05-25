@@ -11,6 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UDDD_Project">
+        <activity
+            android:name=".DailyDrinkTargetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProvideInforToCustom"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCj8vyppDCwOK9vBgAjrGfenVPYwtlto5A" />
