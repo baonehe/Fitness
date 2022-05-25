@@ -68,6 +68,14 @@ public class ReminderFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        view.findViewById(R.id.button_plus_water).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), ProvideInforToCustom.class);
+                startActivity(intent);
+            }
+        });
         return  view;
     }
 }

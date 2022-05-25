@@ -44,8 +44,10 @@ color weightcolor1
 color white
 dimen fab_margin
 drawable add_button
+drawable alarm
 drawable background_details_medication
 drawable background_food
+drawable bar_chart
 drawable bottom_nav_icon
 drawable button_blue
 drawable button_delete_medication
@@ -53,6 +55,7 @@ drawable button_green
 drawable button_save_medication
 drawable calculator
 drawable calendarcardmenufood
+drawable can
 drawable card_blue
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
@@ -170,11 +173,14 @@ drawable img_waist_to_height_ratio
 drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
+drawable kettle
 drawable loadingtextgif
 drawable logo
 drawable medication_reminder_banner
 drawable menu
 drawable menu_banner_new
+drawable milk
+drawable milktea
 drawable notification
 drawable pelvic_shift_a
 drawable pelvic_shift_b
@@ -201,12 +207,15 @@ drawable super_cobra_stretch
 drawable switch_track
 drawable table_top_a
 drawable table_top_b
+drawable tea
 drawable test
 drawable triangle_pose
 drawable two_straight_legs_up
+drawable user
 drawable verify
 drawable wall_stretch_a
 drawable wall_stretch_b
+drawable water
 drawable water_bottle
 drawable wave
 font comfortaa
@@ -223,6 +232,7 @@ id bottomNavigation
 id bottom_navigation
 id btnDeleteMedication
 id btnSaveMedication
+id btn_continue
 id buttonFacebook
 id buttonForgot
 id buttonGmail
@@ -265,6 +275,7 @@ id imag_2
 id imag_3
 id imageView
 id imageViewMain
+id image_avatar
 id imgRun
 id lastname_edit_text_register
 id lastname_text_input_register
@@ -274,6 +285,7 @@ id medicationName
 id menufood7day
 id nav_feedback
 id nav_graph
+id nav_graph2
 id nav_home
 id nav_logout
 id nav_myaccount
@@ -322,13 +334,18 @@ id tv_nameava
 id tv_nameavatar
 id txtProgress
 id txt_excer
+id txt_timeSleep
+id txt_timeWakeUp
+id txt_timeWorkOut
 id txt_walkStep
 id txt_water
+id txt_weight
 id viewPagerMain
 id walkstep
 id water
 id workouts
 layout activity_add_medication
+layout activity_daily_drink_target
 layout activity_forgot_pass
 layout activity_home
 layout activity_image_page_view
@@ -337,6 +354,7 @@ layout activity_main
 layout activity_maps
 layout activity_medication_reminder
 layout activity_menu_food
+layout activity_provide_infor_to_custom
 layout activity_register
 layout activity_reminder_items
 layout fragment_bar_chart
@@ -355,6 +373,7 @@ menu bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+navigation nav_graph2
 string activity_chart_summary_subtitle
 string app_name
 string default_web_client_id
@@ -365,8 +384,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string hello_blank_fragment
-string hello_first_fragment
-string hello_second_fragment
 string navigation_drawer_close
 string navigation_drawer_open
 string next
