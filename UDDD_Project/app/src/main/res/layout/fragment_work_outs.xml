@@ -18,6 +18,7 @@
             android:id="@+id/menufood7day"
             android:layout_width="match_parent"
             android:layout_height="210dp"
+            android:layout_marginTop="10dp"
             android:layout_marginHorizontal="10sp"
             android:scaleType="fitXY"
             android:src="@drawable/background_food" />

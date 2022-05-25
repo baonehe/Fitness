@@ -15,17 +15,18 @@
         android:background="#F1F8FA"
         android:orientation="vertical">
 
-
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_height="190dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/reminder_banner" />
 
@@ -63,7 +64,7 @@
             <ImageView
                 android:id="@+id/set_water"
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="225dp"
                 android:background="@drawable/set_water_banner" />
 
             <ImageView
@@ -81,13 +82,14 @@
             android:layout_below="@+id/relaa2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp">
 
             <ImageView
                 android:id="@+id/set_medicion"
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="225dp"
                 android:background="@drawable/set_medication_banner" />
 
             <ImageView

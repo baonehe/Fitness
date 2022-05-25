@@ -13,9 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_margin="10dp"
         card_view:cardCornerRadius="15dp">
 
         <LinearLayout
@@ -130,6 +128,7 @@
                                 android:progressDrawable="@drawable/custome_progressbar" />
 
                             <ImageView
+                                android:id="@+id/imgRun"
                                 android:layout_width="30dp"
                                 android:layout_height="161dp"
                                 android:layout_centerHorizontal="true"

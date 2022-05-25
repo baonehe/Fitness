@@ -265,9 +265,11 @@ id imag_2
 id imag_3
 id imageView
 id imageViewMain
+id imgRun
 id lastname_edit_text_register
 id lastname_text_input_register
 id layout2
+id map
 id medicationName
 id menufood7day
 id nav_feedback
@@ -332,6 +334,7 @@ layout activity_home
 layout activity_image_page_view
 layout activity_loading_page
 layout activity_main
+layout activity_maps
 layout activity_medication_reminder
 layout activity_menu_food
 layout activity_register
@@ -372,6 +375,7 @@ string project_id
 string second_fragment_label
 string steps
 string summary_card_kilocalories
+string title_activity_maps
 string title_activity_walk_step
 style CardViewPrimaryTitle
 style CardViewSubTitle

@@ -26,6 +26,12 @@
 
         </TextView>
 
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/planegif" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email_text_input_register"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
