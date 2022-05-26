@@ -86,6 +86,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         IsCheckFalseFragment_nav_drawer();
                         break;
                     }
+                    case R.id.calculator:{
+                        OpenCaLculatorFragment();
+                        IsCheckFalseFragment_nav_drawer();
+                        break;
+                    }
                 }
                 item.setChecked(true);
                 setTitle(item.getTitle());
@@ -143,12 +148,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             currentFragment = FRAGEMENT_FEEDBACK;
         }
     }
-    //    public void OpenCaculatorFragment(){
-//        if (currentFragment != FRAGEMENT_CALCULATOR){
-//            replaceFragment(new FeedbackFragment());
-//            currentFragment = FRAGEMENT_CALCULATOR;
-//        }
-//    }
+        public void OpenCaLculatorFragment(){
+        if (currentFragment != FRAGEMENT_CALCULATOR){
+         replaceFragment(new CalculatorFragment());
+           currentFragment = FRAGEMENT_CALCULATOR;
+       }
+   }
     public  void OpenWorkOutsFragment(){
         if (currentFragment != FRAGEMENT_WORKOUTS){
             replaceFragment(new WorkoutsFragment());
