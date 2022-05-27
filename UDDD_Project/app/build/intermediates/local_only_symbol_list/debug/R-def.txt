@@ -56,6 +56,7 @@ drawable button_blue
 drawable button_delete_medication
 drawable button_green
 drawable button_save_medication
+drawable button_white
 drawable cal_bmi
 drawable cal_bmr
 drawable cal_body_fat
@@ -250,11 +251,7 @@ id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id appbar_layout
-id averagePaceTextView
 id background
-id bf
-id bmi
-id bmr
 id bottomNavigation
 id bottom_navigation
 id bt_cal_Body_fat
@@ -288,9 +285,6 @@ id confirmpass_text_input_register
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
-id constraintLayout4
-id constraintLayout6
-id constraintLayout7
 id content_frame
 id daysLeft
 id distanceCount
@@ -300,13 +294,21 @@ id drawer_layout_home
 id editTextNumber_age
 id editTextNumber_height
 id editTextNumber_weight
+id edtaddress
+id edtage
+id edtcity
+id edtcountry
+id edtemail
+id edtfirstname
+id edtheight
+id edtlastname
+id edtweight
 id email_edit_text_forgot
 id email_edit_text_login
 id email_edit_text_register
 id email_text_input_forgot
 id email_text_input_login
 id email_text_input_register
-id endButton
 id firstname_edit_text_register
 id firstname_text_input_register
 id health_fitn
@@ -340,7 +342,6 @@ id nav_myaccount
 id navigation_view
 id next_btn
 id no_reminder_text
-id numberOfStepTextView
 id password_edit_text_login
 id password_edit_text_register
 id password_text_input_login
@@ -377,7 +378,6 @@ id set_repeat
 id set_time
 id set_typeOfRepetions
 id set_water
-id startButton
 id stepCount
 id stepTitle
 id switchOnOff
@@ -389,7 +389,6 @@ id textView8
 id textView9
 id textViewRegister
 id toolbar
-id totalDistanceTextView
 id tv_ans_bmi
 id tv_ans_bmr
 id tv_ans_bodyfat

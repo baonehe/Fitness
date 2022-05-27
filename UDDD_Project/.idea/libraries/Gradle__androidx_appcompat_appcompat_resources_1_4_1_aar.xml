@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat-resources:1.4.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d62a59a64cefce372fddfa84a24d6993/transformed/appcompat-resources-1.4.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d62a59a64cefce372fddfa84a24d6993/transformed/appcompat-resources-1.4.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d62a59a64cefce372fddfa84a24d6993/transformed/appcompat-resources-1.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/971d46a129d5b22f11aa41a6754ce9d9/transformed/appcompat-resources-1.4.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/971d46a129d5b22f11aa41a6754ce9d9/transformed/appcompat-resources-1.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/971d46a129d5b22f11aa41a6754ce9d9/transformed/appcompat-resources-1.4.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
