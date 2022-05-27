@@ -33,9 +33,6 @@
             android:name=".ImagePageView"
             android:exported="false" />
         <activity
-            android:name=".MenuFoodActivity"
-            android:exported="false" />
-        <activity
             android:name=".ReminderItems"
             android:exported="false" />
         <activity

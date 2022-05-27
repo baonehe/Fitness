@@ -3627,7 +3627,6 @@ layout activity_loading_page
 layout activity_main
 layout activity_maps
 layout activity_medication_reminder
-layout activity_menu_food
 layout activity_provide_infor_to_custom
 layout activity_register
 layout activity_reminder_items
@@ -3759,7 +3758,6 @@ mipmap ic_launcher_round
 navigation nav_graph
 navigation nav_graph2
 plurals mtrl_badge_content_description
-raw keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3816,11 +3814,15 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy_toast_msg
 string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key
@@ -5152,6 +5154,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml image_share_filepaths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

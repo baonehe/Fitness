@@ -415,7 +415,6 @@ layout activity_loading_page
 layout activity_main
 layout activity_maps
 layout activity_medication_reminder
-layout activity_menu_food
 layout activity_provide_infor_to_custom
 layout activity_register
 layout activity_reminder_items

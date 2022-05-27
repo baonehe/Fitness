@@ -57,19 +57,19 @@
     <dimen name="fab_margin">16dp</dimen>
     <string name="activity_chart_summary_subtitle">Detailed summary of your activities</string>
     <string name="app_name">UDDD_Project</string>
-    <string name="default_web_client_id" translatable="false">224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">213610715481-41ccbiminmlf5p0qdso6hci0jce6uhia.apps.googleusercontent.com</string>
     <string name="first_fragment_label">First Fragment</string>
-    <string name="gcm_defaultSenderId" translatable="false">224051973115</string>
-    <string name="google_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
-    <string name="google_app_id" translatable="false">1:224051973115:android:0d844460bc4bafe0f0995e</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M</string>
-    <string name="google_storage_bucket" translatable="false">uddd-project-andr.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">213610715481</string>
+    <string name="google_api_key" translatable="false">AIzaSyDOntYOXre8BnYZo2Y8sIH84JNChX93mYM</string>
+    <string name="google_app_id" translatable="false">1:213610715481:android:77f37277c3b019388f5448</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDOntYOXre8BnYZo2Y8sIH84JNChX93mYM</string>
+    <string name="google_storage_bucket" translatable="false">uddd-project-123.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="navigation_drawer_close">Close navigation</string>
     <string name="navigation_drawer_open">Open navigation</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="project_id" translatable="false">uddd-project-andr</string>
+    <string name="project_id" translatable="false">uddd-project-123</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="steps">Steps</string>
     <string name="summary_card_kilocalories">kcal</string>
