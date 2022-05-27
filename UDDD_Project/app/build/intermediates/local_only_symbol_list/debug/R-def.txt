@@ -49,6 +49,8 @@ drawable anh_popup
 drawable background_details_medication
 drawable background_food
 drawable bar_chart
+drawable bmi_icon
+drawable bmr_icon
 drawable bottom_nav_icon
 drawable button_blue
 drawable button_delete_medication
@@ -58,6 +60,7 @@ drawable cal_bmi
 drawable cal_bmr
 drawable cal_body_fat
 drawable calculator
+drawable calculator_healthy
 drawable calendarcardmenufood
 drawable can
 drawable card_blue
@@ -89,7 +92,6 @@ drawable fire_blue
 drawable footsteps
 drawable forward_spine_stretch_a
 drawable forward_spine_stretch_b
-drawable h_cal
 drawable hands_on_the_head_bow_down_a
 drawable hands_on_the_head_bow_down_b
 drawable hanging_exercise_a
@@ -121,8 +123,6 @@ drawable ic_time_detail
 drawable ic_type_detail
 drawable icon
 drawable icon_bf
-drawable icon_bi
-drawable icon_br
 drawable icon_cal_main
 drawable icon_main_ac
 drawable icon_popup
@@ -218,7 +218,9 @@ drawable shadow_walk
 drawable shadown_cal
 drawable shape_bt
 drawable shape_button
-drawable shape_button_ac_main
+drawable shape_button_calculator_bd
+drawable shape_button_calculator_bmi
+drawable shape_button_calculator_bmr
 drawable side_nav_bar
 drawable spot_jumping_a
 drawable spot_jumping_b
@@ -260,6 +262,7 @@ id bt_cal_bmr
 id btnDeleteMedication
 id btnSaveMedication
 id btn_continue
+id btnsavechange
 id buttonFacebook
 id buttonForgot
 id buttonGmail
@@ -311,7 +314,6 @@ id imag_2
 id imag_3
 id imageView
 id imageView2
-id imageView3
 id imageView4
 id imageViewMain
 id image_avatar
@@ -375,9 +377,6 @@ id set_water
 id stepCount
 id stepTitle
 id switchOnOff
-id textView
-id textView2
-id textView3
 id textView4
 id textView5
 id textView6
