@@ -2586,6 +2586,7 @@ drawable button_blue
 drawable button_delete_medication
 drawable button_green
 drawable button_save_medication
+drawable button_white
 drawable cal_bmi
 drawable cal_bmr
 drawable cal_body_fat
@@ -2956,10 +2957,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
-id bf
 id blocking
-id bmi
-id bmr
 id bottom
 id bottomNavigation
 id bottom_navigation
@@ -3035,9 +3033,6 @@ id constraint
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
-id constraintLayout4
-id constraintLayout6
-id constraintLayout7
 id container
 id content
 id contentPanel
@@ -3098,6 +3093,15 @@ id editTextNumber_weight
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
+id edtaddress
+id edtage
+id edtcity
+id edtcountry
+id edtemail
+id edtfirstname
+id edtheight
+id edtlastname
+id edtweight
 id elastic
 id email_edit_text_forgot
 id email_edit_text_login
@@ -3758,6 +3762,7 @@ mipmap ic_launcher_round
 navigation nav_graph
 navigation nav_graph2
 plurals mtrl_badge_content_description
+raw keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

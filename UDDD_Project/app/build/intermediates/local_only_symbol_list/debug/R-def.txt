@@ -56,6 +56,7 @@ drawable button_blue
 drawable button_delete_medication
 drawable button_green
 drawable button_save_medication
+drawable button_white
 drawable cal_bmi
 drawable cal_bmr
 drawable cal_body_fat
@@ -251,9 +252,6 @@ id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id appbar_layout
 id background
-id bf
-id bmi
-id bmr
 id bottomNavigation
 id bottom_navigation
 id bt_cal_Body_fat
@@ -287,9 +285,6 @@ id confirmpass_text_input_register
 id constraintLayout
 id constraintLayout2
 id constraintLayout3
-id constraintLayout4
-id constraintLayout6
-id constraintLayout7
 id content_frame
 id daysLeft
 id distanceCount
@@ -299,6 +294,15 @@ id drawer_layout_home
 id editTextNumber_age
 id editTextNumber_height
 id editTextNumber_weight
+id edtaddress
+id edtage
+id edtcity
+id edtcountry
+id edtemail
+id edtfirstname
+id edtheight
+id edtlastname
+id edtweight
 id email_edit_text_forgot
 id email_edit_text_login
 id email_edit_text_register
