@@ -2,164 +2,151 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="360dp"
-    android:layout_height="720dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8FA"
     tools:context=".CalculatorFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="285dp"
-        android:text="Calculators"
-        android:textColor="#31B0EF"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="375dp"
-        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <include layout="@layout/toolbar"/>
+        <com.google.android.material.card.MaterialCardView
+            app:strokeColor="@color/white"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="10dp"
+            android:outlineAmbientShadowColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="350dp"
+            android:layout_height="150dp">
+            <ImageView
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/calculator_healthy"
+                android:layout_width="140dp"
+                android:layout_height="140dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="16dp"
+                android:layout_marginEnd="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Hi, Bao"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="120dp"
+                android:fontFamily="@font/roboto_light"
+                android:textSize="16dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="right"
+                android:text="Please chose one to know your healthy"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.card.MaterialCardView>
 
-        android:background="@drawable/shadow_corner_cal"
-        android:foregroundGravity="center">
-
-        <TextView
-            android:id="@+id/bmi"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="44dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/shape_button_ac_main"
-            android:gravity="center"
-            android:text="BMI"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout6"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <TextView
-            android:id="@+id/bf"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="44dp"
-            android:layout_marginBottom="12dp"
-            android:background="@drawable/shape_button_ac_main"
-            android:gravity="center"
-            android:text="BODY FAT"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout7"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <TextView
-            android:id="@+id/bmr"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="44dp"
-            android:layout_marginBottom="12dp"
-            android:background="@drawable/shape_button_ac_main"
-            android:gravity="center"
-            android:text="BMR"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
-            app:layout_constraintEnd_toEndOf="parent" />
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout6"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="36dp"
-            android:background="@drawable/icon_bi"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="44dp"
-            android:layout_marginTop="28dp"
-            android:background="@drawable/icon_br"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout7"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="28dp"
-            android:background="@drawable/icon_bf"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="259dp"
-        android:layout_height="266dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"
-
-        android:rotationY="-4"
-        android:src="@drawable/h_cal" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="278dp"
-        android:src="@drawable/icon_cal_main" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:background="@drawable/round_four_corner"
-        android:rotationY="12">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:text="Healthy"
-            android:textAlignment="textEnd"
-            android:textColor="#31B0EF"
-            android:textSize="34sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:text="Calculator"
-            android:textColor="#31B0EF"
-            android:textSize="34sp"
-            android:textStyle="bold|italic"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center">
+                <TextView
+                    android:elevation="5dp"
+                    android:id="@+id/bmi"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/shape_button_calculator_bmi"
+                    android:gravity="center"
+                    android:text="BMI"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/constraintLayout6"
+                    app:layout_constraintEnd_toEndOf="parent" />
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/bmr"
+                    android:elevation="5dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/shape_button_calculator_bmr"
+                    android:gravity="center"
+                    android:text="BMR"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/constraintLayout4"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <TextView
+                    android:elevation="5dp"
+                    android:id="@+id/bf"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/shape_button_calculator_bd"
+                    android:gravity="center"
+                    android:text="BODY FAT"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/constraintLayout7"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="36dp"
+                    android:background="@drawable/bmi_icon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/bmr_icon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/icon_bf"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
 
 </FrameLayout>
