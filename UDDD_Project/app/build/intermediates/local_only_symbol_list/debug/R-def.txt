@@ -250,6 +250,7 @@ id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id appbar_layout
+id averagePaceTextView
 id background
 id bf
 id bmi
@@ -305,6 +306,7 @@ id email_edit_text_register
 id email_text_input_forgot
 id email_text_input_login
 id email_text_input_register
+id endButton
 id firstname_edit_text_register
 id firstname_text_input_register
 id health_fitn
@@ -338,6 +340,7 @@ id nav_myaccount
 id navigation_view
 id next_btn
 id no_reminder_text
+id numberOfStepTextView
 id password_edit_text_login
 id password_edit_text_register
 id password_text_input_login
@@ -374,6 +377,7 @@ id set_repeat
 id set_time
 id set_typeOfRepetions
 id set_water
+id startButton
 id stepCount
 id stepTitle
 id switchOnOff
@@ -385,6 +389,7 @@ id textView8
 id textView9
 id textViewRegister
 id toolbar
+id totalDistanceTextView
 id tv_ans_bmi
 id tv_ans_bmr
 id tv_ans_bodyfat

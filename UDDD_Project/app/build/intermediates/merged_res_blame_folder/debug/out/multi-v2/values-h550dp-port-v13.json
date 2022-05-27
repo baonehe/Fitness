@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\5e65dd7e895664a304e638f09f95201e\\transformed\\material-1.6.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\603b084e8ebb90a2a45015950bd6ea3e\\transformed\\material-1.6.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

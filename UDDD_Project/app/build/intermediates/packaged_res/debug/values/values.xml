@@ -102,17 +102,17 @@
         <item name="android:clickable">true</item>
     </style>
     <style name="Theme.UDDD_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/colorAccent</item>
         <item name="colorSecondaryVariant">@color/colorgrey</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
     </style>
     <style name="Theme.UDDD_Project.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.UDDD_Project.NoActionBar">

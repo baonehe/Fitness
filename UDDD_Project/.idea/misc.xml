@@ -63,6 +63,7 @@
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_reminder_items.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_verifycode.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_workouts.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/bodyfat_cal.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_feedback.xml" value="0.13405797101449277" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.26721014492753625" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.340625" />
@@ -71,6 +72,8 @@
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_work_outs.xml" value="0.340625" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/imageitemviewpage.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/nav_header_navigationmenu.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/popup_bmi.xml" value="0.3" />
+        <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/popup_bodyfat.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.34479166666666666" />
         <entry key="..\:/Users/Administrator/OneDrive/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.34479166666666666" />
