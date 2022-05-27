@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "224051973115",
-    "project_id": "uddd-project-andr",
-    "storage_bucket": "uddd-project-andr.appspot.com"
+    "project_number": "213610715481",
+    "project_id": "uddd-project-123",
+    "storage_bucket": "uddd-project-123.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:224051973115:android:0d844460bc4bafe0f0995e",
+        "mobilesdk_app_id": "1:213610715481:android:77f37277c3b019388f5448",
         "android_client_info": {
           "package_name": "com.google.uddd_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com",
+          "client_id": "213610715481-41ccbiminmlf5p0qdso6hci0jce6uhia.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDebAsMuBZkzFgRdjWprEDo72fHA3Xab_M"
+          "current_key": "AIzaSyDOntYOXre8BnYZo2Y8sIH84JNChX93mYM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "224051973115-g6ki28fleuia9kn2k4hk3oqp7cfdgvsd.apps.googleusercontent.com",
+              "client_id": "213610715481-41ccbiminmlf5p0qdso6hci0jce6uhia.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
