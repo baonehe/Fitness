@@ -4,9 +4,8 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5e7bf743e269e02b75809f42b1affe71/transformed/runner-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a9c710974b3a8982cf8a394ee637f77a/transformed/runner-1.4.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e685ac7ee0174e8f06e8265f1a0331f9/transformed/runner-1.4.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/df8cdbb1e4ae4565426e1e64d3dfa9c3/transformed/runner-1.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df8cdbb1e4ae4565426e1e64d3dfa9c3/transformed/runner-1.4.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/df8cdbb1e4ae4565426e1e64d3dfa9c3/transformed/runner-1.4.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e685ac7ee0174e8f06e8265f1a0331f9/transformed/runner-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e685ac7ee0174e8f06e8265f1a0331f9/transformed/runner-1.4.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test/runner/1.4.0/aee6a62a26d9b413dadc1732e66cc4ef3bcf9d61/runner-1.4.0-javadoc.jar!/" />
