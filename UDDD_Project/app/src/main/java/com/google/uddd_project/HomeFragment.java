@@ -1,11 +1,15 @@
 package com.google.uddd_project;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +23,15 @@ public class HomeFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
+    private static final  int FRAGEMENT_HOME=0;
+    private static final  int FRAGEMENT_MYACCOUNT=1;
+    private static final  int FRAGEMENT_FEEDBACK=2;
+    private static final  int FRAGEMENT_CALCULATOR=3;
+    private static final  int FRAGEMENT_WORKOUTS=4;
+    private static final  int FRAGEMENT_WALKSTEP=5;
+    private static final  int FRAGEMENT_REMINDER=6;
+
+    private int currentFragment = FRAGEMENT_HOME;
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -58,6 +71,38 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        view.findViewById(R.id.cardViewWalkStep).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (currentFragment != FRAGEMENT_WALKSTEP){
+                    replaceFragment(new SummaryFragment());
+                    currentFragment = FRAGEMENT_WALKSTEP;
+                }
+            }
+        });
+
+        view.findViewById(R.id.cardViewWater).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), DailyDrinkTargetActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        view.findViewById(R.id.cardViewExcercises).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (currentFragment != FRAGEMENT_WORKOUTS){
+                    replaceFragment(new WorkoutsFragment());
+                    currentFragment = FRAGEMENT_WORKOUTS;
+                }
+            }
+        });
+        return  view;
+    }
+    private  void replaceFragment(Fragment fragment){
+        getActivity().getSupportFragmentManager().beginTransaction().replace(((ViewGroup)getView().getParent()).getId(), fragment, "find").addToBackStack(null).commit();
     }
 }

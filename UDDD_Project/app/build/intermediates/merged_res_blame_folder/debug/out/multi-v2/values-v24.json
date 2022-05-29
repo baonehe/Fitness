@@ -4,7 +4,11 @@
             "outputFile": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\5e65dd7e895664a304e638f09f95201e\\transformed\\material-1.6.0\\res\\values-v24\\values-v24.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\603b084e8ebb90a2a45015950bd6ea3e\\transformed\\material-1.6.0\\res\\values-v24\\values-v24.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,6 +27,7 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\84dfa614b5240347bd721bc12b69de6c\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
@@ -34,6 +39,9 @@
                 },
                 {
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\1c8d4a3d3f93a6ef0a1b9c40a72ebef3\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\f8f04c11e9c40ba7e7c19f291aaa24dd\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -48,6 +56,19 @@
                         "endColumns": "65,60,65,66",
                         "endOffsets": "1608,1669,1735,1802"
                     }
+<<<<<<< Updated upstream
+=======
+                },
+                {
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\5e261ab42b01ef115161f19a09e83344\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+>>>>>>> Stashed changes
                 }
             ]
         }

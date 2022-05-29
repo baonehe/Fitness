@@ -4,7 +4,11 @@
             "outputFile": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\84dfa614b5240347bd721bc12b69de6c\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\5e261ab42b01ef115161f19a09e83344\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

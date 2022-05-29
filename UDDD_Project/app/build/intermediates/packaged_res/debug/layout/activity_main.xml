@@ -8,7 +8,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp">
+        android:layout_height="340dp">
 
         <ImageView
             android:id="@+id/background"
@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="150dp"
             android:fontFamily="@font/comfortaa"
             android:text="Heath\n&amp; Fitness"
             android:textAlignment="center"
@@ -35,7 +35,7 @@
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="340dp"
+            android:layout_marginTop="290dp"
             android:background="@drawable/icon" />
     </RelativeLayout>
 
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="20sp"
+                android:layout_marginTop="10sp"
                 android:layout_marginEnd="15dp"
                 android:hint="Password"
                 app:endIconMode="password_toggle"

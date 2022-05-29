@@ -246,7 +246,7 @@ id calculator
 id calorieCount
 id calorieIcon
 id calorieTitle
-id cardView3
+id cardViewExcercises
 id cardViewWalkStep
 id cardViewWater
 id card_view
@@ -268,6 +268,7 @@ id email_text_input_login
 id email_text_input_register
 id firstname_edit_text_register
 id firstname_text_input_register
+id gach
 id health_fitn
 id home
 id imag_1
@@ -343,6 +344,7 @@ id txt_weight
 id viewPagerMain
 id walkstep
 id water
+id waterLevelView
 id workouts
 layout activity_add_medication
 layout activity_daily_drink_target

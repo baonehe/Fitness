@@ -234,6 +234,11 @@ attr carousel_touchUpMode
 attr carousel_touchUp_dampeningFactor
 attr carousel_touchUp_velocityThreshold
 attr centerIfNoTextEnabled
+attr cfl_border
+attr cfl_border_width
+attr cfl_progress
+attr cfl_wave_amplitude
+attr cfl_wave_color
 attr chainUseRtl
 attr checkMarkCompat
 attr checkMarkTint
@@ -2967,7 +2972,7 @@ id calorieIcon
 id calorieTitle
 id cancel_action
 id cancel_button
-id cardView3
+id cardViewExcercises
 id cardViewWalkStep
 id cardViewWater
 id card_view
@@ -3093,6 +3098,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id gach
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3451,6 +3457,11 @@ id visible
 id visible_removing_fragment_view_tag
 id walkstep
 id water
+<<<<<<< Updated upstream
+=======
+id waterLevelView
+id webview
+>>>>>>> Stashed changes
 id west
 id wide
 id withText
@@ -4949,6 +4960,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircularFillableLoaders cfl_border cfl_border_width cfl_progress cfl_wave_amplitude cfl_wave_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

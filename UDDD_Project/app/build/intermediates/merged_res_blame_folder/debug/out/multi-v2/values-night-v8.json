@@ -4,7 +4,11 @@
             "outputFile": "C:\\Users\\FShop\\Desktop\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\84dfa614b5240347bd721bc12b69de6c\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\5e261ab42b01ef115161f19a09e83344\\transformed\\appcompat-1.4.1\\res\\values-night-v8\\values-night-v8.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -40,7 +44,11 @@
                     }
                 },
                 {
+<<<<<<< Updated upstream
                     "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\5e65dd7e895664a304e638f09f95201e\\transformed\\material-1.6.0\\res\\values-night-v8\\values-night-v8.xml",
+=======
+                    "source": "C:\\Users\\FShop\\.gradle\\caches\\transforms-3\\603b084e8ebb90a2a45015950bd6ea3e\\transformed\\material-1.6.0\\res\\values-night-v8\\values-night-v8.xml",
+>>>>>>> Stashed changes
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
