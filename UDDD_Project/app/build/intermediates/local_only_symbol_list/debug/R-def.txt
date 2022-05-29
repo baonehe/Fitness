@@ -246,11 +246,8 @@ font comfortaa
 font roboto
 font roboto_light
 font roboto_medium
-id FirstFragment
-id SecondFragment
-id action_FirstFragment_to_SecondFragment
-id action_SecondFragment_to_FirstFragment
 id appbar_layout
+id averagePaceTextView
 id background
 id bottomNavigation
 id bottom_navigation
@@ -309,6 +306,7 @@ id email_edit_text_register
 id email_text_input_forgot
 id email_text_input_login
 id email_text_input_register
+id endButton
 id firstname_edit_text_register
 id firstname_text_input_register
 id health_fitn
@@ -334,14 +332,13 @@ id map
 id medicationName
 id menufood7day
 id nav_feedback
-id nav_graph
-id nav_graph2
 id nav_home
 id nav_logout
 id nav_myaccount
 id navigation_view
 id next_btn
 id no_reminder_text
+id numberOfStepTextView
 id password_edit_text_login
 id password_edit_text_register
 id password_text_input_login
@@ -378,6 +375,7 @@ id set_repeat
 id set_time
 id set_typeOfRepetions
 id set_water
+id startButton
 id stepCount
 id stepTitle
 id switchOnOff
@@ -389,6 +387,7 @@ id textView8
 id textView9
 id textViewRegister
 id toolbar
+id totalDistanceTextView
 id tv_ans_bmi
 id tv_ans_bmr
 id tv_ans_bodyfat
@@ -444,8 +443,6 @@ menu activity_main_drawer
 menu bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
-navigation nav_graph
-navigation nav_graph2
 string activity_chart_summary_subtitle
 string app_name
 string default_web_client_id

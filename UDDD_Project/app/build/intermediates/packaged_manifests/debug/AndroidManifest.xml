@@ -9,6 +9,9 @@
         android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
 
     <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -33,21 +36,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.UDDD_Project" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARO-4H2oWboD0GJv6CVXSOpXikjYtsNk0" />
+
+        <activity
+            android:name="com.google.uddd_project.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
         <activity
             android:name="com.google.uddd_project.DailyDrinkTargetActivity"
             android:exported="false" />
         <activity
             android:name="com.google.uddd_project.ProvideInforToCustom"
             android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCj8vyppDCwOK9vBgAjrGfenVPYwtlto5A" />
-
-        <activity
-            android:name="com.google.uddd_project.MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
         <activity
             android:name="com.google.uddd_project.LoadingPageActivity"
             android:exported="false" />
@@ -81,10 +83,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Needs to be explicitly declared on P+ -->
+        <activity android:name="com.vmadalin.easypermissions.components.TestActivity" />
+        <activity android:name="com.vmadalin.easypermissions.components.TestAppCompatActivity" />
+        <activity android:name="com.vmadalin.easypermissions.components.TestSupportFragmentActivity" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -146,11 +161,6 @@
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.google.uddd_project.androidx-startup"
