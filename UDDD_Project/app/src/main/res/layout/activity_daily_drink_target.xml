@@ -13,24 +13,80 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="350dp">
+        android:layout_height="310dp">
+
+        <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+            android:id="@+id/waterLevelView"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            android:translationZ="100dp"
+            app:cfl_border="true"
+            app:cfl_border_width="3dp"
+            app:cfl_progress="50"
+            app:cfl_wave_amplitude="0.06"
+            app:cfl_wave_color="#40bdf4">
+
+        </com.mikhaellopez.circularfillableloaders.CircularFillableLoaders>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/gach"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="-18dp"
+            android:text="1000ml"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textColor="#165EBD"
+            android:textSize="24dp"
+            android:translationZ="100dp" />
+
+        <TextView
+            android:id="@+id/gach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="_________"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textColor="#165EBD"
+            android:textSize="20dp"
+            android:translationZ="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/gach"
+            android:layout_marginTop="-5dp"
+            android:text="2000ml"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textColor="#165EBD"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:translationZ="100dp" />
+
 
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_height="265dp"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="130dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="115dp"
                 android:layout_height="115dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="2dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="10dp"
                 app:cardElevation="10dp"
@@ -62,7 +118,7 @@
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="2dp"
                 app:cardElevation="10dp"
                 sweet:cardCornerRadius="20dp"
                 sweet:cardMaxElevation="20dp">
@@ -92,7 +148,7 @@
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="2dp"
                 app:cardElevation="10dp"
                 sweet:cardCornerRadius="20dp"
                 sweet:cardMaxElevation="20dp">
@@ -120,7 +176,7 @@
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="135dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
@@ -215,21 +271,19 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginBottom="10dp"
             android:layout_gravity="center"
             android:src="@drawable/alarm"/>
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="60dp"
-            android:layout_marginBottom="10dp"
             android:layout_gravity="center"
             android:src="@drawable/add_button"/>
         <ImageView
@@ -237,7 +291,6 @@
             android:layout_height="50dp"
             android:layout_marginLeft="60dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
             android:src="@drawable/bar_chart"/>
 
     </LinearLayout>
