@@ -19,7 +19,7 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.uddd_project.databinding.ActivityMapsBinding
 import com.vmadalin.easypermissions.EasyPermissions
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class apsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding

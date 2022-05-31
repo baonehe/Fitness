@@ -13,6 +13,9 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.BarChart;
@@ -20,12 +23,19 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+    private ImageView imageView;
     private Toolbar toolbar;
     private static final  int FRAGEMENT_HOME=0;
     private static final  int FRAGEMENT_MYACCOUNT=1;
@@ -49,7 +59,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout_home);
         toolbar = findViewById(R.id.toolbar);
         bottomNavigationView =  findViewById(R.id.bottom_navigation);
-
+        imageView = findViewById(R.id.imageViewAva);
         setSupportActionBar(toolbar);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout,toolbar,R.string.navigation_drawer_open,
                 R.string.navigation_drawer_close);
@@ -61,6 +71,32 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         replaceFragment(new HomeFragment());
         navigationView.getMenu().findItem(R.id.nav_home).setChecked(true);
         bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);
+        View headerview =  navigationView.getHeaderView(0);
+//        TextView nav_gmail = headerview.findViewById(R.id.tv_gmail);
+//        TextView nav_name = headerview.findViewById(R.id.tv_nameava);
+        String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference(iduser).child("profileImage");
+        ImageView nav_image = headerview.findViewById(R.id.imageViewAva);
+        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                String link = snapshot.getValue(String.class);
+                Picasso.get().load(link).into(nav_image);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(HomeActivity.this, "Error Loading Image", Toast.LENGTH_SHORT).show();
+            }
+        });
+        nav_image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OpenEditPictureProfle();
+            }
+        });
+
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -128,6 +164,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         setTitle(item.getTitle());
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void OpenEditPictureProfle() {
+        Intent intent = new Intent(HomeActivity.this,EditPictureProfile.class);
+        startActivity(intent);
     }
 
     public void OpenHomeFragment(){
