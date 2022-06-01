@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EditPictureProfile">
-
+    <include layout="@layout/toolbar"/>
     <ImageView
         android:id="@+id/imageViewAvatar"
         android:layout_width="300dp"

@@ -7,6 +7,7 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompatSideChannelService;
 import androidx.core.content.ContextCompat;
@@ -61,6 +62,10 @@ public class EditPictureProfile extends AppCompatActivity {
         btnfirebase = findViewById(R.id.btnfirebase);
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("Edit Image");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
        btnchose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
