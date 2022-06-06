@@ -7,11 +7,15 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.Locale;
 
@@ -63,11 +67,14 @@ public class MyAccountFragment extends Fragment {
         }
     }
     EditText firstname,lastname,city,country,address,age,height,weight,email;
+    FirebaseDatabase database;
+    DatabaseReference myRef;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_my_account, container, false);
+
         firstname = view.findViewById(R.id.edtfirstname);
         lastname= view.findViewById(R.id.edtlastname);
         city = view.findViewById(R.id.edtcity);
@@ -77,9 +84,15 @@ public class MyAccountFragment extends Fragment {
         height=view.findViewById(R.id.edtheight);
         weight=view.findViewById(R.id.edtweight);
         email= view.findViewById(R.id.edtemail);
+
         String username= FirebaseAuth.getInstance().getCurrentUser().getEmail();
         String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference(iduser);
+        ReadData();
         email.setText(username);
+
         view.findViewById(R.id.btnsavechange).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,15 +102,65 @@ public class MyAccountFragment extends Fragment {
                 || (age.getText().length() == 0) || (height.getText().length() == 0) || (weight.getText().length() == 0))
                     Toast.makeText(view.getContext(), "Please fill full your inFormation", Toast.LENGTH_SHORT).show();
                 else{
-                    FirebaseDatabase database = FirebaseDatabase.getInstance();
-                    DatabaseReference myRef = database.getReference(iduser);
-                    AccountInfo accountInfo= new AccountInfo(firstname.getText().toString(),lastname.getText().toString(),address.getText().toString(),city.getText().toString(),
-                            country.getText().toString(),age.getText().toString(),height.getText().toString(),weight.getText().toString());
-                    myRef.setValue(accountInfo);
-                }
+                    String Fname= firstname.getText().toString();
+                    String Lname= lastname.getText().toString();
+                    String Address= address.getText().toString();
+                    String City = city.getText().toString();
+                    String Country= country.getText().toString();
+                    String Age =age.getText().toString();
+                    String Height = height.getText().toString();
+                    String Weight =weight.getText().toString();
 
+                    if(!Fname.isEmpty()){
+                        myRef.child("firstname").setValue(Fname);
+                    }
+
+                    if(!Lname.isEmpty()){
+                        myRef.child("lastname").setValue(Lname);
+                    }
+
+                    if(!Address.isEmpty()){
+                        myRef.child("address").setValue(Address);
+                    }
+
+                    if(!City.isEmpty()){
+                        myRef.child("city").setValue(City);
+                    }
+
+                    if(!Country.isEmpty()){
+                        myRef.child("country").setValue(Country);
+                    }
+
+                    if(!Age.isEmpty()){
+                        myRef.child("age").setValue(Age);
+                    }
+
+                    if(!Height.isEmpty()){
+                        myRef.child("height").setValue(Height);
+                    }
+
+                    if(!Weight.isEmpty()){
+                        myRef.child("weight").setValue(Weight);
+                    }
+                }
             }
         });
+
         return view;
     }
+    private  void ReadData(){
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                AccountInfo post = snapshot.getValue(AccountInfo.class);
+                firstname.setText(post.getFirstname());
+                lastname.setText(post.getLastname());
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+    }
+
 }

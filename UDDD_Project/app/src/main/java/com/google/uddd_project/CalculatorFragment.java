@@ -1,5 +1,6 @@
 package com.google.uddd_project;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -59,6 +60,28 @@ public class CalculatorFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_calculator, container, false);
+        View view = inflater.inflate(R.layout.fragment_calculator, container, false);
+        view.findViewById(R.id.bmi_calculate).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(view.getContext(),Bmi_calculator.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.bmr_calculate).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(view.getContext(),Bmr_calculator.class);
+                startActivity(intent);
+            }
+        });
+        view.findViewById(R.id.bdf_calculate).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(view.getContext(),BodyFat_Calculator.class);
+                startActivity(intent);
+            }
+        });
+        return view;
     }
 }

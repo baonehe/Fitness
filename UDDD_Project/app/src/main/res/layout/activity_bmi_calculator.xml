@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:sweet="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.mikhaellopez.circleview.CircleView
+            android:id="@+id/cv_bodystate"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            app:cv_border_color="#000000"
+            app:cv_color="@color/white"
+            app:cv_shadow="true"
+            app:cv_shadow_color="@color/gray"
+            app:cv_shadow_radius="10" />
+        <TextView
+            android:id="@+id/tv_bmi_tiitle"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="BMI"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_result_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="70dp" />
+        <TextView
+            android:id="@+id/tv_status_bmi"
+            android:layout_marginTop="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/roboto_light"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ToggleButton
+            android:id="@+id/fbfemale"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:textColor="@drawable/togglebutton_text"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/toggle_selector_female"
+            android:textOff="Female"
+            android:textOn="Female"/>
+        <ToggleButton
+            android:id="@+id/fbmale"
+            android:background="@drawable/toggle_male"
+            android:textOn="Male"
+            android:textColor="@drawable/togglebutton_text"
+            android:textOff="Male"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+        </ToggleButton>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Height(cm)"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_marginTop="4dp"
+                android:background="@color/black"
+                sweet:cardCornerRadius="20dp"
+                android:layout_height="80dp"
+                android:layout_width="140dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_blue"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/edt_numberheight_bmi"
+                        android:inputType="number"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="match_parent"
+                        android:textSize="40dp"
+                        android:textAlignment="center"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Weight(kg)"
+                android:fontFamily="@font/roboto"
+                android:textSize="15dp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewweight"
+                android:layout_marginTop="4dp"
+                android:background="@color/black"
+                sweet:cardCornerRadius="20dp"
+                android:layout_height="80dp"
+                android:layout_width="140dp" >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_yello"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/edt_numberweight_bmi"
+                        android:inputType="number"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="match_parent"
+                        android:textSize="40dp"
+                        android:textAlignment="center"
+                        android:text=""
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/transparent"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_calculate_bmi"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_green"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="20dp"
+        android:text="calculate"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="270dp"
+        android:layout_height="60dp"/>
+
+</LinearLayout>

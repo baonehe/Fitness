@@ -65,4 +65,7 @@ dependencies {
     implementation 'com.mikhaellopez:circularfillableloaders:1.4.0'
     implementation 'com.mikhaellopez:circularimageview:4.3.0'
 
+    implementation 'com.mikhaellopez:circleview:1.4.0'
+    implementation 'com.github.1902shubh:SendMail:1.0.0'
+
 }

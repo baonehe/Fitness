@@ -75,6 +75,8 @@ animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
 array array_dot_active
 array array_dot_inactive
+array daysofweek
+array timepicker
 attr SharedValue
 attr SharedValueId
 attr action
@@ -425,6 +427,20 @@ attr customNavigationLayout
 attr customPixelDimension
 attr customReference
 attr customStringValue
+attr cv_border
+attr cv_border_color
+attr cv_border_color_direction
+attr cv_border_color_end
+attr cv_border_color_start
+attr cv_border_width
+attr cv_color
+attr cv_color_direction
+attr cv_color_end
+attr cv_color_start
+attr cv_shadow
+attr cv_shadow_color
+attr cv_shadow_gravity
+attr cv_shadow_radius
 attr data
 attr dataPattern
 attr dayInvalidStyle
@@ -1904,6 +1920,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color pink
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1912,6 +1929,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple
 color radiobutton_themeable_attribute_color
 color red
 color ripple_material_dark
@@ -2701,6 +2719,8 @@ drawable calculator_healthy
 drawable calendarcardmenufood
 drawable can
 drawable card_blue
+drawable card_pink
+drawable card_yello
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
 drawable cloud
@@ -2778,6 +2798,7 @@ drawable ic_clock_black_24dp
 drawable ic_code_24
 drawable ic_date_detail
 drawable ic_facebook
+drawable ic_female
 drawable ic_home_24
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2786,6 +2807,7 @@ drawable ic_logout_24
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_male
 drawable ic_more_vert_black_24dp
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -2918,6 +2940,7 @@ drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable planegif
 drawable plank_a
+drawable register
 drawable reminder_banner
 drawable rope_jumping_a
 drawable rope_jumping_b
@@ -2951,6 +2974,13 @@ drawable tea
 drawable test
 drawable test_custom_background
 drawable test_level_drawable
+drawable toggle_male
+drawable toggle_off_female
+drawable toggle_off_male
+drawable toggle_on_female
+drawable toggle_on_male
+drawable toggle_selector_female
+drawable togglebutton_text
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable triangle_pose
@@ -3086,10 +3116,13 @@ id averagePaceTextView
 id background
 id barrier
 id baseline
+id bdf_calculate
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bmi_calculate
+id bmr_calculate
 id bottom
 id bottomNavigation
 id bottom_navigation
@@ -3104,15 +3137,19 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id bt_cal_Body_fat
-id bt_cal_bmi
 id bt_cal_bmr
 id btnDeleteMedication
 id btnSaveMedication
+id btn_calculate_bdf
+id btn_calculate_bmi
+id btn_calculate_bmr
 id btn_continue
 id btnchoose
 id btnfirebase
 id btnopencamera
 id btnsavechange
+id btnsendemail
+id btnveryfi
 id buttonFacebook
 id buttonForgot
 id buttonGmail
@@ -3135,7 +3172,10 @@ id cardViewExcercises
 id cardViewWalkStep
 id cardViewWater
 id card_view
+id cardview
+id cardviewage
 id cardviewone
+id cardviewweight
 id carryVelocity
 id center
 id centerCrop
@@ -3166,7 +3206,6 @@ id confirm_button
 id confirmpass_edit_text_register
 id confirmpass_text_input_register
 id constraint
-id constraintLayout
 id constraintLayout2
 id constraintLayout3
 id container
@@ -3184,6 +3223,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id cv_bodystate
 id dark
 id date_picker_actions
 id daysLeft
@@ -3231,14 +3271,24 @@ id editTextNumber_weight
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
+id edt_numberage_bdf
+id edt_numberage_bmr
+id edt_numberheight_bdf
+id edt_numberheight_bmi
+id edt_numberheight_bmr
+id edt_numberweight_bdf
+id edt_numberweight_bmi
+id edt_numberweight_bmr
 id edtaddress
 id edtage
 id edtcity
 id edtcountry
 id edtemail
 id edtfirstname
+id edtgmail
 id edtheight
 id edtlastname
+id edtpass
 id edtweight
 id elastic
 id email_edit_text_forgot
@@ -3257,6 +3307,12 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fbfemale
+id fbfemale_bdf
+id fbfemale_bmr
+id fbmale
+id fbmale_bdf
+id fbmale_bmr
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3346,7 +3402,6 @@ id light
 id line1
 id line3
 id linear
-id linearLayoutCompat
 id linearLayoutCompat2
 id linearLayoutCompat3
 id listMode
@@ -3509,6 +3564,10 @@ id right_icon
 id right_side
 id right_to_left
 id rl_main
+id rltDate
+id rltRepeat
+id rltTime
+id rltType
 id rotate_scroll_wheel
 id rounded
 id row_index_key
@@ -3563,6 +3622,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinertimerepeat
 id spline
 id split_action_bar
 id spread
@@ -3660,12 +3720,17 @@ id triangle
 id tv_ans_bmi
 id tv_ans_bmr
 id tv_ans_bodyfat
+id tv_bmi_tiitle
 id tv_bodyfat
 id tv_current_state
 id tv_gmail
 id tv_nameava
 id tv_nameavatar
 id tv_recomended
+id tv_result_bdf
+id tv_result_bmi
+id tv_result_bmr
+id tv_status_bmi
 id txtProgress
 id txt_excer
 id txt_timeSleep
@@ -3808,6 +3873,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_medication
+layout activity_bmi_calculator
+layout activity_bmr_calculator
+layout activity_body_fat_calculator
 layout activity_daily_drink_target
 layout activity_edit_picture_profile
 layout activity_forgot_pass
@@ -3825,12 +3893,12 @@ layout activity_reminder_items
 layout amu_info_window
 layout amu_text_bubble
 layout amu_webview
-layout bmi_cal
 layout bmr_cal
 layout bodyfat_cal
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
+layout custom_emailcheck
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -5262,6 +5330,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleView cv_border cv_border_color cv_border_color_direction cv_border_color_end cv_border_color_start cv_border_width cv_color cv_color_direction cv_color_end cv_color_start cv_shadow cv_shadow_color cv_shadow_gravity cv_shadow_radius
 styleable CircularFillableLoaders cfl_border cfl_border_width cfl_progress cfl_wave_amplitude cfl_wave_color
 styleable CircularImageView civ_border civ_border_color civ_border_color_direction civ_border_color_end civ_border_color_start civ_border_width civ_circle_color civ_circle_color_direction civ_circle_color_end civ_circle_color_start civ_shadow civ_shadow_color civ_shadow_gravity civ_shadow_radius
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize

@@ -46,6 +46,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.UDDD_Project" >
         <activity
+            android:name="com.google.uddd_project.BodyFat_Calculator"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.Bmr_calculator"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.Bmi_calculator"
+            android:exported="false" />
+        <activity
             android:name="com.google.uddd_project.OpenCamera"
             android:exported="false" />
         <activity

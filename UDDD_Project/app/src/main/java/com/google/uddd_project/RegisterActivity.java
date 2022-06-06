@@ -23,6 +23,10 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.SignInMethodQueryResult;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.Locale;
 
 public class RegisterActivity extends AppCompatActivity {
     private EditText editTextEmail, editTextFirstName, editTextLastName, editTextPass, editTextPassConfirm;
@@ -93,6 +97,14 @@ public class RegisterActivity extends AppCompatActivity {
                                                 @Override
                                                 public void onComplete(@NonNull Task<Void> task) {
                                                     Toast.makeText(RegisterActivity.this, "Verify your account by email", Toast.LENGTH_SHORT).show();
+                                                    //Update realtime  firebase
+
+                                                    FirebaseDatabase database = FirebaseDatabase.getInstance();
+                                                    DatabaseReference myRef = database.getReference(FirebaseAuth.getInstance().getCurrentUser().getUid());
+                                                    AccountInfo accountInfo= new AccountInfo(firstname.toString(),lastname.toString(),"","","","","","","");
+                                                    myRef.setValue(accountInfo);
+                                                    Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
+                                                    startActivity(intent);
                                                 }
                                             });
                                         } else

@@ -9,8 +9,9 @@ public class AccountInfo {
     private String Age;
     private String Height;
     private String Weight;
+    private String profileImage;
 
-    public AccountInfo(String firstname, String lastname, String address, String city, String country, String age, String height, String weight) {
+    public AccountInfo(String firstname, String lastname, String address, String city, String country, String age, String height, String weight, String profileImage) {
         Firstname = firstname;
         Lastname = lastname;
         Address = address;
@@ -19,10 +20,9 @@ public class AccountInfo {
         Age = age;
         Height = height;
         Weight = weight;
+        this.profileImage = profileImage;
     }
-    public AccountInfo(){
 
-    }
     public String getFirstname() {
         return Firstname;
     }
@@ -86,4 +86,17 @@ public class AccountInfo {
     public void setWeight(String weight) {
         Weight = weight;
     }
+
+    public String getProfileImage() {
+        return profileImage;
+    }
+
+    public void setProfileImage(String profileImage) {
+        this.profileImage = profileImage;
+    }
+
+    public AccountInfo(){
+
+    }
+
 }

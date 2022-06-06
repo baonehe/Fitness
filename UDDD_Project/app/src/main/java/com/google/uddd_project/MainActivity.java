@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth auth;
     private TextInputLayout textInputLayoutEmail,textInputLayoutPassword;
     Handler handler;
+    String pass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         handler = new Handler();
         editTextEmail = findViewById(R.id.email_edit_text_login);
         editTextPass = findViewById(R.id.password_edit_text_login);
+        pass =editTextPass.toString();
         textInputLayoutEmail= findViewById(R.id.email_text_input_login);
         textInputLayoutPassword= findViewById(R.id.password_text_input_login);
         findViewById(R.id.textViewRegister).setOnClickListener(new View.OnClickListener() {
@@ -108,4 +110,5 @@ public class MainActivity extends AppCompatActivity {
 //        }
 //        else Toast.makeText(MainActivity.this, "Email isn't verify", Toast.LENGTH_SHORT).show();
     }
+
 }

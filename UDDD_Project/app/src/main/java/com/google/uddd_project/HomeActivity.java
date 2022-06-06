@@ -71,25 +71,43 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         replaceFragment(new HomeFragment());
         navigationView.getMenu().findItem(R.id.nav_home).setChecked(true);
         bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);
+
         View headerview =  navigationView.getHeaderView(0);
-//        TextView nav_gmail = headerview.findViewById(R.id.tv_gmail);
-//        TextView nav_name = headerview.findViewById(R.id.tv_nameava);
-        String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference(iduser).child("profileImage");
+        TextView nav_gmail = headerview.findViewById(R.id.tv_gmail);
+        TextView nav_name = headerview.findViewById(R.id.tv_nameava);
         ImageView nav_image = headerview.findViewById(R.id.imageViewAva);
-        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+        String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+        nav_gmail.setText(FirebaseAuth.getInstance().getCurrentUser().getEmail());
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference(iduser);
+
+        myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String link = snapshot.getValue(String.class);
-                Picasso.get().load(link).into(nav_image);
+                AccountInfo accountInfo = snapshot.getValue(AccountInfo.class);
+                Picasso.get().load(accountInfo.getProfileImage()).into(nav_image);
+                nav_name.setText(accountInfo.getFirstname());
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(HomeActivity.this, "Error Loading Image", Toast.LENGTH_SHORT).show();
+                Toast.makeText(HomeActivity.this, "Error Loading ", Toast.LENGTH_SHORT).show();
             }
         });
+
+//        myRef.addListenerForSingleValueEvent(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                String link = snapshot.getValue(String.class);
+//                Picasso.get().load(link).into(nav_image);
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//                Toast.makeText(HomeActivity.this, "Error Loading Image", Toast.LENGTH_SHORT).show();
+//            }
+//        });
         nav_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -64,6 +64,7 @@
                        android:layout_marginLeft="30dp"
                        android:layout_height="wrap_content">
                        <androidx.cardview.widget.CardView
+                           android:id="@+id/bmi_calculate"
                            app:cardElevation="15dp"
                            app:cardCornerRadius="10dp"
                            android:gravity="left"
@@ -88,6 +89,7 @@
                                android:layout_height="wrap_content"/>
                        </androidx.cardview.widget.CardView>
                        <androidx.cardview.widget.CardView
+                           android:id="@+id/bmr_calculate"
                            app:cardElevation="15dp"
                            app:cardCornerRadius="10dp"
                            android:gravity="left"
@@ -113,6 +115,7 @@
                        </androidx.cardview.widget.CardView>
                    </LinearLayout>
                    <androidx.cardview.widget.CardView
+                       android:id="@+id/bdf_calculate"
                        android:layout_marginTop="30dp"
                        app:cardElevation="15dp"
                        app:cardCornerRadius="10dp"
