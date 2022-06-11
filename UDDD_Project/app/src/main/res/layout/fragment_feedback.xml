@@ -46,6 +46,34 @@
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="10dp"/>
         <EditText
+            android:id="@+id/edtemail"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:elevation="10dp"
+            android:focusable="false"
+            android:fontFamily="@font/roboto"
+            android:padding="3dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:layout_height="50dp"
+            android:background="@drawable/customedt"/>
+        <EditText
+            android:id="@+id/edtsubject"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/roboto"
+            android:padding="3dp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:layout_height="50dp"
+            android:background="@drawable/customedt"/>
+        <EditText
+            android:id="@+id/edtdiscription"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:layout_width="350dp"
@@ -53,9 +81,9 @@
             android:fontFamily="@font/roboto"
             android:gravity="top"
             android:padding="3dp"
+            android:hint="Discription"
             android:imeOptions="actionDone"
-            android:singleLine="true"
-            android:layout_height="350dp"
+            android:layout_height="250dp"
             android:background="@drawable/customedt"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnsendemail"

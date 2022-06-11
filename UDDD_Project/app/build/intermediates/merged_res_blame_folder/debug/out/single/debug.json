@@ -320,12 +320,12 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\spot_jumping_a.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_alarm.png.flat",
-        "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\alarm.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_register.gif.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\register.gif"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_alarm.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\alarm.png"
     },
     {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_waist_to_height_ratio1.png.flat",
@@ -648,12 +648,12 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\can.png"
     },
     {
-        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_chevron_right_black_24dp.png.flat",
-        "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-v24\\ic_chevron_right_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_edit_picture_profile.xml.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\layout\\activity_edit_picture_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_chevron_right_black_24dp.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-v24\\ic_chevron_right_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_shadow_walk.png.flat",

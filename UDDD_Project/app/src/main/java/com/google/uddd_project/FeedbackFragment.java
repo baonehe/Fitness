@@ -73,6 +73,7 @@ public class FeedbackFragment extends Fragment {
     TextView nameava;
     FirebaseDatabase database;
     DatabaseReference myRef;
+    EditText edtemail,edtsubject,edtdiscription;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -83,37 +84,37 @@ public class FeedbackFragment extends Fragment {
         String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
         myRef = database.getReference(iduser);
         nameava= view.findViewById(R.id.tv_nameavatar);
+        edtemail=view.findViewById(R.id.edtemail);
+        edtemail.setText("20520409@gm.uit.edu.vn");
+        edtsubject=view.findViewById(R.id.edtsubject);
+        edtdiscription=view.findViewById(R.id.edtdiscription);
         ReadData();
         view.findViewById(R.id.btnsendemail).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDialog();
+                sendMail();
 
             }
         });
         return view;
     }
 
-    private void showDialog() {
-        final Dialog dialog = new Dialog(getView().getContext());
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setCancelable(true);
-        dialog.setContentView(R.layout.custom_emailcheck);
-        final EditText mail = dialog.findViewById(R.id.edtgmail);
-        final EditText pass = dialog.findViewById(R.id.edtpass);
-        mail.setText(FirebaseAuth.getInstance().getCurrentUser().getEmail());
-        SendMail sendMail= new SendMail("giabao1352002@gmail.com","giabao@123456@",
-                "20520409@gm.uit.edu.vn","FEEDBACK","HEHE");
-        dialog.findViewById(R.id.btnveryfi).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    private void sendMail() {
+        String recipientList = edtemail.getText().toString();
+        String[] recipients = recipientList.split(",");
 
-                sendMail.execute();
-                dialog.dismiss();
-            }
-        });
-        dialog.show();
+        String subject = edtsubject.getText().toString();
+        String message= edtdiscription.getText().toString();
+
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_EMAIL, recipients);
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject);
+        intent.putExtra(Intent.EXTRA_TEXT, message);
+
+        intent.setType("message/rfc822");
+        startActivity(Intent.createChooser(intent, "Choose an email client"));
     }
+
 
     private  void ReadData(){
         myRef.addValueEventListener(new ValueEventListener() {
