@@ -3283,12 +3283,14 @@ id edtaddress
 id edtage
 id edtcity
 id edtcountry
+id edtdiscription
 id edtemail
 id edtfirstname
 id edtgmail
 id edtheight
 id edtlastname
 id edtpass
+id edtsubject
 id edtweight
 id elastic
 id email_edit_text_forgot
