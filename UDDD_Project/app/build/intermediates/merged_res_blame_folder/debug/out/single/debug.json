@@ -84,12 +84,12 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-nodpi\\ic_home_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_running_stickman.png.flat",
-        "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-v24\\running_stickman.png"
-    },
-    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_menstraul_ovulation.png.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable\\img_menstraul_ovulation.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_running_stickman.png.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\src\\main\\res\\drawable-v24\\running_stickman.png"
     },
     {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\merged_res\\debug\\drawable_left_arrow.jpg.flat",

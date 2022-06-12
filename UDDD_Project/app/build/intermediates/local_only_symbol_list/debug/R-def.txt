@@ -418,6 +418,7 @@ id mainActivityDailyDrink
 id map
 id medicationName
 id menufood7day
+id name
 id nav_feedback
 id nav_graph
 id nav_graph2
