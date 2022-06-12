@@ -1,27 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\giaba\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\f4fe0a5e48b9f323a655baaf56236d7e\\transformed\\appcompat-1.4.2\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\giaba\\.gradle\\caches\\transforms-3\\528ec1871ae64c086de26bb986498a9f\\transformed\\material-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                        "startLines": "2,3,4,10",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,177,311,752",
+                        "endLines": "2,3,9,15",
+                        "endColumns": "121,133,10,10",
+                        "endOffsets": "172,306,747,1190"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,591,695",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,690,806"
+                        "startLines": "12,13,14,20",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "811,933,1067,1508",
+                        "endLines": "12,13,19,25",
+                        "endColumns": "121,133,10,10",
+                        "endOffsets": "928,1062,1503,1946"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\d61747fbff101f5440f498571086d769\\transformed\\jetified-commons-0.9.6.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\giaba\\.gradle\\caches\\transforms-3\\62895e1f9d4500bd55121861bb6e0a5c\\transformed\\jetified-commons-0.9.6.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,22 +40,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\528ec1871ae64c086de26bb986498a9f\\transformed\\material-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\giaba\\.gradle\\caches\\transforms-3\\f4fe0a5e48b9f323a655baaf56236d7e\\transformed\\appcompat-1.4.2\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
-                        "startLines": "2,3,4,10",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,177,311,752",
-                        "endLines": "2,3,9,15",
-                        "endColumns": "121,133,10,10",
-                        "endOffsets": "172,306,747,1190"
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
                     },
                     "to": {
-                        "startLines": "12,13,14,20",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "811,933,1067,1508",
-                        "endLines": "12,13,19,25",
-                        "endColumns": "121,133,10,10",
-                        "endOffsets": "928,1062,1503,1946"
+                        "startLines": "2,3,4,5,6,7,8,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,591,695",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,690,806"
                     }
                 }
             ]

@@ -29,8 +29,10 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.github.dhaval2404.imagepicker.ImagePicker;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -97,12 +99,16 @@ public class EditPictureProfile extends AppCompatActivity {
                     .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                            progressDialog.dismiss();
-                            String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                            FirebaseDatabase database = FirebaseDatabase.getInstance();
-                            DatabaseReference myRef = database.getReference(iduser).child("profileImage");
-                            myRef.setValue(filePath.toString());
-                            Toast.makeText(EditPictureProfile.this, myRef.toString(), Toast.LENGTH_SHORT).show();
+                          ref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                              @Override
+                              public void onSuccess(Uri uri) {
+                                  progressDialog.dismiss();
+                                  String iduser = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                                  FirebaseDatabase database = FirebaseDatabase.getInstance();
+                                  DatabaseReference myRef = database.getReference(iduser).child("profileImage");
+                                  myRef.setValue(uri.toString());
+                              }
+                          });
                         }
                     })
                     .addOnFailureListener(new OnFailureListener() {
