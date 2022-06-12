@@ -44,22 +44,23 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
-    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation 'com.google.android.gms:play-services-location:20.0.0'
     implementation 'com.google.maps.android:android-maps-utils:2.2.3'
     implementation 'com.google.maps.android:maps-utils-ktx:3.2.0'
     implementation 'com.vmadalin:easypermissions-ktx:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.navigation:navigation-fragment:2.4.2'
-    implementation 'androidx.navigation:navigation-ui:2.4.2'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'
     implementation 'com.google.firebase:firebase-auth:21.0.5'
     implementation 'com.google.firebase:firebase-database:20.0.5'
     implementation 'com.google.firebase:firebase-firestore:24.1.2'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
+    implementation 'com.google.android.gms:play-services-measurement-api:21.0.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     implementation 'com.github.dhaval2404:imagepicker:2.1'
@@ -71,6 +72,17 @@ dependencies {
 
     implementation 'com.mikhaellopez:circleview:1.4.0'
     implementation 'com.github.1902shubh:SendMail:1.0.0'
+
+    implementation 'com.mikhaellopez:circularfillableloaders:1.4.0'
+    implementation 'com.daimajia.numberprogressbar:library:1.4@aar'
+    implementation 'com.github.travijuu:numberpicker:1.0.7'
+    implementation 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'kr.pe.burt.android.lib:faimageview:0.0.6'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.6.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation 'com.zplesac:connectionbuddy:2.0.1'
 
     implementation 'com.daimajia.androidanimations:library:2.4@aar'
 

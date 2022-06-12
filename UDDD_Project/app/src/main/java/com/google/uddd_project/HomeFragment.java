@@ -1,15 +1,26 @@
 package com.google.uddd_project;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.uddd_project.adapters.WorkoutData;
+import com.google.uddd_project.database.DatabaseOperations;
+import com.google.uddd_project.utils.AppUtilss;
+import com.google.uddd_project.utils.Constants;
+
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -32,6 +43,19 @@ public class HomeFragment extends Fragment {
     private static final  int FRAGEMENT_REMINDER=6;
 
     private int currentFragment = FRAGEMENT_HOME;
+
+    TextView tvKM;
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
+    private ProgressBar progressBar, progressBar1;
+    private TextView txtProgress, percentScore1,dayleft;
+    public double k = 0.0d;
+    public SharedPreferences launchDataPreferences;
+    public DatabaseOperations databaseOperations;
+    public List<WorkoutData> workoutDataList;
+    public int workoutPosition = -1;
+    public int daysCompletionCounter = 0;
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -67,16 +91,123 @@ public class HomeFragment extends Fragment {
         }
     }
 
+    public BroadcastReceiver progressReceiver = new BroadcastReceiver() {
+        public void onReceive(Context context, Intent intent) {
+            double doubleExtra = intent.getDoubleExtra(AppUtilss.KEY_PROGRESS, 0.0d);
+            try {
+                ((WorkoutData) workoutDataList.get(workoutPosition)).setProgress((float) doubleExtra);
+                HomeFragment Workout = HomeFragment.this;
+                k = 0.0d;
+                daysCompletionCounter = 0;
+                for (int i = 0; i < Constants.TOTAL_DAYS; i++) {
+                    HomeFragment Workout2 = HomeFragment.this;
+                    double d = Workout2.k;
+                    double progress = (double) ((WorkoutData) Workout2.workoutDataList.get(i)).getProgress();
+                    Double.isNaN(progress);
+                    Workout2.k = (double) ((float) (d + ((progress * 4.348d) / 100.0d)));
+                    if (((WorkoutData) HomeFragment.this.workoutDataList.get(i)).getProgress() >= 99.0f) {
+                        HomeFragment.this.daysCompletionCounter = HomeFragment.this.daysCompletionCounter + 1;
+                    }
+                }
+                HomeFragment Workout3 = HomeFragment.this;
+                Workout3.daysCompletionCounter = Workout3.daysCompletionCounter + (HomeFragment.this.daysCompletionCounter / 3);
+                HomeFragment.this.progressBar1.setProgress((int) HomeFragment.this.k);
+                TextView g = HomeFragment.this.percentScore1;
+                StringBuilder sb = new StringBuilder();
+                sb.append((int) HomeFragment.this.k);
+                sb.append("%");
+                g.setText(sb.toString());
+                TextView h = HomeFragment.this.dayleft;
+                StringBuilder sb2 = new StringBuilder();
+                sb2.append(Constants.TOTAL_DAYS - HomeFragment.this.daysCompletionCounter);
+                sb2.append(" Days left");
+                h.setText(sb2.toString());
+//                HomeFragment.this.adapter.notifyDataSetChanged();
+                StringBuilder sb3 = new StringBuilder();
+                sb3.append("");
+                sb3.append(doubleExtra);
+                Log.i("progress broadcast", sb3.toString());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    };
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(view.getContext());
+        editor = sharedPreferences.edit();
+        tvKM = view.findViewById(R.id.tvDis);
+
+        if(!sharedPreferences.getString("DistancesKM", "").isEmpty()){
+            String KM = sharedPreferences.getString("DistancesKM", "");
+            tvKM.setText(KM);
+        }
+
+        txtProgress = view.findViewById(R.id.txtProgress);
+        progressBar1 = view.findViewById(R.id.progress);
+
+        percentScore1 = view.findViewById(R.id.percentScore);
+        dayleft = view.findViewById(R.id.daysLeft);
+
+        this.launchDataPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+        this.databaseOperations = new DatabaseOperations(getActivity());
+        final String str = "thirtyday";
+        boolean z = this.launchDataPreferences.getBoolean(str, false);
+        String str2 = "daysInserted";
+        boolean z2 = this.launchDataPreferences.getBoolean(str2, false);
+        if (!z2 && this.databaseOperations.CheckDBEmpty() == 0) {
+            this.databaseOperations.insertExcALLDayData();
+            SharedPreferences.Editor edit = this.launchDataPreferences.edit();
+            edit.putBoolean(str2, true);
+            edit.apply();
+        }
+
+
+        List<WorkoutData> list = this.workoutDataList;
+        if (list != null) {
+            list.clear();
+        }
+        this.workoutDataList = databaseOperations.getAllDaysProgress();
+//        this.progressBar1.setProgressDrawable(getResources().getDrawable(R.drawable.custom_progressbar_drawable));
+
+        for (int i = 0; i < Constants.TOTAL_DAYS; i++) {
+            double d = this.k;
+            double progress = (double) ((WorkoutData) this.workoutDataList.get(i)).getProgress();
+            Double.isNaN(progress);
+            this.k = (double) ((float) (d + ((progress * 4.348d) / 100.0d)));
+            if (((WorkoutData) this.workoutDataList.get(i)).getProgress() >= 99.0f) {
+                this.daysCompletionCounter++;
+            }
+        }
+
+
+        int i2 = this.daysCompletionCounter;
+        this.daysCompletionCounter = i2 + (i2 / 3);
+        this.progressBar1.setProgress((int) this.k);
+        TextView textView = this.percentScore1;
+        StringBuilder sb = new StringBuilder();
+        sb.append((int) this.k);
+        sb.append("%");
+        textView.setText(sb.toString());
+        TextView textView2 = this.dayleft;
+        StringBuilder sb2 = new StringBuilder();
+        sb2.append(Constants.TOTAL_DAYS - this.daysCompletionCounter);
+        sb2.append(" Days left");
+        textView2.setText(sb2.toString());
+
         view.findViewById(R.id.cardViewWalkStep).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((HomeActivity)getActivity()).LoadWalkStepFragemnt(new WalkStepFragment());
+                if (currentFragment != FRAGEMENT_WALKSTEP){
+                    replaceFragment(new SummaryFragment());
+                    currentFragment = FRAGEMENT_WALKSTEP;
+                }
             }
         });
 
@@ -91,7 +222,10 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.cardViewExcercises).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((HomeActivity)getActivity()).LoadExcersizeFragemnt(new WorkoutsFragment());
+                if (currentFragment != FRAGEMENT_WORKOUTS){
+                    replaceFragment(new WorkoutsFragment());
+                    currentFragment = FRAGEMENT_WORKOUTS;
+                }
             }
         });
         return  view;

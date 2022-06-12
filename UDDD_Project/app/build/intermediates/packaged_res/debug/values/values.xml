@@ -14,6 +14,518 @@
         <item>@color/dot_dark_screen</item>
         <item>@color/dot_dark_screen</item>
     </array>
+    <array name="cat_cow_stretch">
+        <item>@drawable/cat_cow_stretch_a</item>
+    </array>
+    <string-array name="day1">
+        <item>@string/dry_land_swim</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/pelvic_shift</item>
+        <item>@string/triangle_pose</item>
+        <item>@string/standing_vertical_stretch</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/seated_toe_touch</item>
+    </string-array>
+    <string-array name="day10">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/triangle_pose</item>
+        <item>@string/plank</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day10_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day11">
+        <item>@string/pelvic_shift</item>
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/standing_vertical_stretch</item>
+        <item>@string/triangle_pose</item>
+        <item>@string/seated_toe_touch</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day11_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <array name="day12"/>
+    <array name="day12_cycles"/>
+    <string-array name="day13">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/plank</item>
+    </string-array>
+    <integer-array name="day13_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day14">
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/triangle_pose</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/plank</item>
+    </string-array>
+    <integer-array name="day14_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day15">
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/hands_on_the_head_bow_down</item>
+        <item>@string/spot_jumping</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+    </string-array>
+    <integer-array name="day15_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <array name="day16"/>
+    <array name="day16_cycles"/>
+    <string-array name="day17">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/table_top</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day17_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day18">
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/seated_toe_touch</item>
+        <item>@string/hanging_exercise</item>
+    </string-array>
+    <integer-array name="day18_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day19">
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/pelvic_shift</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/spot_jumping</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/hands_on_the_head_bow_down</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/dry_land_swim</item>
+    </string-array>
+    <integer-array name="day19_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="day1_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day2">
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hands_on_the_head_bow_down</item>
+        <item>@string/triangle_pose</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/seated_toe_touch</item>
+    </string-array>
+    <array name="day20"/>
+    <array name="day20_cycles"/>
+    <string-array name="day21">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/table_top</item>
+        <item>@string/hanging_exercise</item>
+    </string-array>
+    <integer-array name="day21_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="day22">
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/seated_toe_touch</item>
+        <item>@string/table_top</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day22_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="day23">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/table_top</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day23_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <array name="day24"/>
+    <array name="day24_cycles"/>
+    <string-array name="day25">
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/pelvic_shift</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/spot_jumping</item>
+        <item>@string/hands_on_the_head_bow_down</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/dry_land_swim</item>
+        <item>@string/pelvic_shift</item>
+    </string-array>
+    <integer-array name="day25_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="day26">
+        <item>@string/dry_land_swim</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/pelvic_shift</item>
+        <item>@string/spot_jumping</item>
+        <item>@string/hands_on_the_head_bow_down</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/dry_land_swim</item>
+        <item>@string/pelvic_shift</item>
+        <item>@string/super_cobra_stretch</item>
+    </string-array>
+    <integer-array name="day26_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="day27">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/standing_vertical_stretch</item>
+        <item>@string/seated_toe_touch</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hanging_exercise</item>
+    </string-array>
+    <integer-array name="day27_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <array name="day28"/>
+    <array name="day28_cycles"/>
+    <string-array name="day29">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/standing_vertical_stretch</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/hanging_exercise</item>
+    </string-array>
+    <integer-array name="day29_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <integer-array name="day2_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day3">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/plank</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <string-array name="day30">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/table_top</item>
+        <item>@string/seated_toe_touch</item>
+        <item>@string/rope_jumping</item>
+        <item>@string/hanging_exercise</item>
+    </string-array>
+    <integer-array name="day30_cycles">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <integer-array name="day3_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <array name="day4"/>
+    <array name="day4_cycles"/>
+    <string-array name="day5">
+        <item>@string/hanging_exercise</item>
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/seated_toe_touch</item>
+        <item>@string/plank</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day5_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day6">
+        <item>@string/dry_land_swim</item>
+        <item>@string/pelvic_shift</item>
+        <item>@string/hands_on_the_head_bow_down</item>
+        <item>@string/wall_stretch</item>
+        <item>@string/spot_jumping</item>
+        <item>@string/table_top</item>
+        <item>@string/two_straight_legs_up</item>
+        <item>@string/dry_land_swim</item>
+        <item>@string/seated_toe_touch</item>
+    </string-array>
+    <integer-array name="day6_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day7">
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/pilates_roll_over</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/hopping_with_one_leg</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/plank</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day7_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <array name="day8"/>
+    <array name="day8_cycles"/>
+    <string-array name="day9">
+        <item>@string/super_cobra_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/downward_facing_dog_pose</item>
+        <item>@string/cat_cow_stretch</item>
+        <item>@string/forward_spine_stretch</item>
+        <item>@string/hanging_exercise</item>
+        <item>@string/plank</item>
+        <item>@string/rope_jumping</item>
+    </string-array>
+    <integer-array name="day9_cycles">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="day_list">
+        <item>@string/mon</item>
+        <item>@string/tu</item>
+        <item>@string/wed</item>
+        <item>@string/thur</item>
+        <item>@string/fri</item>
+        <item>@string/sat</item>
+        <item>@string/sun</item>
+    </string-array>
     <string-array name="daysofweek">
         <item>Monday</item>
         <item>Tuesday</item>
@@ -23,11 +535,105 @@
         <item>Saturday</item>
         <item>Sunday</item>
     </string-array>
+    <array name="downward_facing_dog_pose">
+        <item>@drawable/doge_pose</item>
+    </array>
+    <array name="dry_land_swim">
+        <item>@drawable/drt_land_swim_a</item>
+        <item>@drawable/drt_land_swim_b</item>
+        <item>@drawable/drt_land_swim_a</item>
+    </array>
+    <array name="forward_spine_stretch">
+        <item>@drawable/forward_spine_stretch_a</item>
+        <item>@drawable/forward_spine_stretch_b</item>
+        <item>@drawable/forward_spine_stretch_a</item>
+    </array>
+    <array name="hands_on_the_head_bow_down">
+        <item>@drawable/hands_on_the_head_bow_down_a</item>
+        <item>@drawable/hands_on_the_head_bow_down_b</item>
+        <item>@drawable/hands_on_the_head_bow_down_a</item>
+    </array>
+    <array name="hanging_exercise">
+        <item>@drawable/hanging_exercise_a</item>
+        <item>@drawable/hanging_exercise_b</item>
+        <item>@drawable/hanging_exercise_a</item>
+    </array>
+    <array name="hopping_with_one_leg">
+        <item>@drawable/hopping_with_one_leg_a</item>
+        <item>@drawable/hopping_with_one_leg_b</item>
+        <item>@drawable/hopping_with_one_leg_a</item>
+    </array>
+    <array name="notification_text">
+        <item>Checkout how healthy you are using all health parameter ?</item>
+        <item>What is your BMI ? Calculate now.</item>
+        <item>Have you done your weakly health checkup ?</item>
+    </array>
+    <array name="pelvic_shift">
+        <item>@drawable/pelvic_shift_a</item>
+        <item>@drawable/pelvic_shift_b</item>
+        <item>@drawable/pelvic_shift_a</item>
+    </array>
+    <array name="pilates_roll_over">
+        <item>@drawable/pilates_rool_over_a</item>
+        <item>@drawable/pilates_rool_over_b</item>
+        <item>@drawable/pilates_rool_over_a</item>
+    </array>
+    <array name="plank">
+        <item>@drawable/plank_a</item>
+    </array>
+    <array name="rope_jumping">
+        <item>@drawable/rope_jumping_a</item>
+        <item>@drawable/rope_jumping_b</item>
+    </array>
+    <array name="seated_toe_touch">
+        <item>@drawable/seated_toe_touch_b</item>
+        <item>@drawable/seated_toe_touch_a</item>
+        <item>@drawable/seated_toe_touch_b</item>
+    </array>
+    <array name="spot_jumping">
+        <item>@drawable/spot_jumping_b</item>
+        <item>@drawable/spot_jumping_a</item>
+    </array>
+    <array name="standing_vertical_stretch">
+        <item>@drawable/standing_vertical_stretch_a</item>
+        <item>@drawable/standing_vertical_stretch_b</item>
+    </array>
+    <array name="super_cobra_stretch">
+        <item>@drawable/super_cobra_stretch</item>
+    </array>
+    <array name="table_top">
+        <item>@drawable/table_top_a</item>
+        <item>@drawable/table_top_b</item>
+        <item>@drawable/table_top_a</item>
+    </array>
     <string-array name="timepicker">
         <item>5</item>
         <item>10</item>
         <item>15</item>
     </string-array>
+    <string-array name="tips">
+        <item>@string/tip1</item>
+        <item>@string/tip2</item>
+        <item>@string/tip3</item>
+        <item>@string/tip4</item>
+        <item>@string/tip5</item>
+        <item>@string/tip6</item>
+        <item>@string/tip7</item>
+        <item>@string/tip8</item>
+        <item>@string/tip9</item>
+        <item>@string/tip10</item>
+    </string-array>
+    <array name="triangle_pose">
+        <item>@drawable/triangle_pose</item>
+    </array>
+    <array name="two_straight_legs_up">
+        <item>@drawable/two_straight_legs_up</item>
+    </array>
+    <array name="wall_stretch">
+        <item>@drawable/wall_stretch_a</item>
+        <item>@drawable/wall_stretch_b</item>
+        <item>@drawable/wall_stretch_a</item>
+    </array>
     <color name="background">#e0d7ce</color>
     <color name="background_calendar">#20ffffff</color>
     <color name="black">#000000</color>
@@ -73,25 +679,85 @@
     <dimen name="fab_margin">16dp</dimen>
     <string name="activity_chart_summary_subtitle">Detailed summary of your activities</string>
     <string name="app_name">Healthy_Fitness</string>
+    <string name="cancel">Cancel</string>
+    <string name="cat_cow_stretch">cat cow stretch</string>
+    <string name="cycles">cycles</string>
     <string name="default_web_client_id" translatable="false">213610715481-41ccbiminmlf5p0qdso6hci0jce6uhia.apps.googleusercontent.com</string>
+    <string name="desc_cat_cow_stretch">Initially, be in tabletop position. Inhale, move your belly towards the floor, lift your chin up in the cow pose. Now, exhale by moving your back and belly upwards towards the ceiling in the cat pose. Repeat it.</string>
+    <string name="desc_downward_facing_dog_pose">Lie down with your face, towards the ground and hands on your side. Now, with the support of your hands, lift the body and move to the table top position. Exhale and lift your hip towards the sky.</string>
+    <string name="desc_dry_land_swim">Lie down with your face, towards the ground and hands stretched forward. Lift your right arm and left leg above the ground. Be in this position. Repeat the same on the other side.</string>
+    <string name="desc_forward_spine_stretch">Sit down on the floor with your legs forward . Now stretch your arms forward. Then return back to the initial position.</string>
+    <string name="desc_hands_on_the_head_bow_down">Keep your hands on the back of your head. Now bend forward. Then return back to the initial position.</string>
+    <string name="desc_hanging_exercise">Initially, hang on a pole. Now raise both your legs. Then return back to the initial position.</string>
+    <string name="desc_hopping_with_one_leg">Initially rest on one leg. Then hop as high as you can, around 10 to 15 times. Repeat it on the other side.</string>
+    <string name="desc_pelvic_shift">Lie on your back with your legs tilted and arms by the side. Now raise your hips and be in this position for some time. Then lower your hips.</string>
+    <string name="desc_pilates_roll_over">Lie on your back with your arms by the side. Now raise your legs together at 90 degree angle. Then exhale, lower your body to a horizontal position and further. Caution : While lowering your body, do not try to stretch beyond your limits. If you feel any discomfort or pain, immediately consult a doctor.</string>
+    <string name="desc_plank">Be on your toes and forearms with your body straight. Stay in this position for as long as possible.</string>
+    <string name="desc_rope_jumping">Rope jumping is skipping. For this you need a skipping rope. Do it in sets of 15 as a beginner. Gradually increase the count.</string>
+    <string name="desc_seated_toe_touch">Sit with your legs stretched forward. Now raise your legs and stretch your body with your arms forward, then touch the knee and if possible the shin and toe.</string>
+    <string name="desc_spot_jumping">Initially, stand on your feet. Now raise your arms straight and upwards, then start jumping. Repeat it for 2 minutes.</string>
+    <string name="desc_standing_vertical_stretch">Stand with your feet wider than your hips. Inhale, stretch your arms over your head and lock your hands. Now inhale and lean towards the left, then exhale and return back to the initial position. Repeat the same on the other side.</string>
+    <string name="desc_super_cobra_stretch">Initially, keep your arms perpendicular to the ground and your spine arched. Bend your hips and bring the body to a V shaped position. Be in this position for sometime and then return back to the initial position.</string>
+    <string name="desc_table_top">Sit with your legs stretched forward with hands on the side and palms touching the ground. Now lift your body by pressing the arms and feet on the ground to make a table like shape. Stay in this position for about 15 seconds and then return back to the initial position. Repeat it.</string>
+    <string name="desc_triangle_pose">Stretch your legs, a little more than the shoulder width. Turn your right toe to the side. Inhale and raise your arms to the side. Exhale and stretch your right hand to touch the shin by tilting your hip, the left hand should be pointing towards the sky. Take two to three long, slow breaths through your nose. Inhale and come back to the initial position. Repeat the same on the other side.</string>
+    <string name="desc_two_straight_legs_up">Lie on your back with your hands by the side. Raise your legs above the ground at 90 degree. Now with the support of your forearms, lift your body and legs further up towards the ceiling, with the hands placed at the back for support.</string>
+    <string name="desc_wall_stretch">Lean against a wall with your hands. Now stretch with your left leg, a feet away from the wall and your right leg, a feet away from your left leg. Repeat on the other side.</string>
+    <string name="downward_facing_dog_pose">downward facing dog pose</string>
+    <string name="dry_land_swim">dry land swim</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="font_light">fonts/proximanova_light.otf</string>
+    <string name="forward_spine_stretch">forward spine stretch</string>
+    <string name="fri">Friday</string>
     <string name="gcm_defaultSenderId" translatable="false">213610715481</string>
     <string name="google_api_key" translatable="false">AIzaSyDOntYOXre8BnYZo2Y8sIH84JNChX93mYM</string>
     <string name="google_app_id" translatable="false">1:213610715481:android:77f37277c3b019388f5448</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDOntYOXre8BnYZo2Y8sIH84JNChX93mYM</string>
     <string name="google_storage_bucket" translatable="false">uddd-project-123.appspot.com</string>
+    <string name="hands_on_the_head_bow_down">hands on the head bow down</string>
+    <string name="hanging_exercise">hanging exercise</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hopping_with_one_leg">hopping with one leg</string>
+    <string name="mon">Monday</string>
     <string name="navigation_drawer_close">Close navigation</string>
     <string name="navigation_drawer_open">Open navigation</string>
     <string name="next">Next</string>
+    <string name="pelvic_shift">pelvic shift</string>
+    <string name="pilates_roll_over">pilates roll over</string>
+    <string name="plank">plank</string>
     <string name="pref_notification_message_value">Hey… Lets drink some water…</string>
     <string name="previous">Previous</string>
     <string name="project_id" translatable="false">uddd-project-123</string>
+    <string name="rope_jumping">rope jumping</string>
+    <string name="sat">Saturday</string>
+    <string name="seated_toe_touch">seated toe touch</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="seconds">seconds</string>
+    <string name="spot_jumping">spot jumping</string>
+    <string name="standing_vertical_stretch">standing vertical stretch</string>
+    <string name="start">Start</string>
     <string name="steps">Steps</string>
     <string name="summary_card_kilocalories">kcal</string>
+    <string name="sun">Sunday</string>
+    <string name="super_cobra_stretch">super cobra stretch</string>
+    <string name="table_top">table top</string>
+    <string name="thur">Thursday</string>
+    <string name="tip1">Avoid injuries. Carefully follow the instructions, for each of the workouts, to prevent injuries.</string>
+    <string name="tip10">Get adequate sleep of around 7 -8 hours. Insufficient sleep can lead to heart diseases, high blood pressure, diabetes, obesity etc.</string>
+    <string name="tip2">For your workout, buy shoes that are comfortable. It is better to go for training shoes, as it will give you the comfort and the grip that you are looking for. Replace shoes once in six months.</string>
+    <string name="tip3">Exercise in the morning. Exercising in the morning promotes weight loss, prevents diabetes, lowers blood pressure, keeps you active throughout the day and has many more benefits.</string>
+    <string name="tip4">Have a complete breakfast. Let the breakfast be the heaviest meal in the day. After a good night sleep, you need a nutritious breakfast to kick start your day.</string>
+    <string name="tip5">Drink sufficient quantity of water. Men should consume about 3.7 liters of water per day and women should consume about 2.7 liters of water per day.</string>
+    <string name="tip6">Always make sure, you have a rest day in between your workout days. Let every fourth day be a rest day. Taking rest will help your muscles to grow.</string>
+    <string name="tip7">Avoid junk food as it is high in calories. Junk food can cause obesity, heart diseases and other health conditions.</string>
+    <string name="tip8">Eat a healthy diet. Consume protein rich and low calorie food, as it gives you sufficient strength during workouts and builds muscles.</string>
+    <string name="tip9">Increase your fiber intake. Fiber intake aids digestion and also helps to lose weight and improves your heart health. Consume fiber rich food like beans, broccoli, oatmeal etc.</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_walk_step">WalkStepActivity</string>
+    <string name="triangle_pose">triangle pose</string>
+    <string name="tu">Tuesday</string>
+    <string name="two_straight_legs_up">two straight legs up</string>
+    <string name="wall_stretch">wall stretch</string>
+    <string name="wed">Wednesday</string>
     <style name="CardViewPrimaryTitle" parent="@android:style/TextAppearance.Large">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -118,6 +784,30 @@
     <style name="HintText" parent="TextAppearance.AppCompat">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">14sp</item>
+    </style>
+    <style name="NumberProgressBar_Custome">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress_current">0</item>
+        <item name="progress_max">100</item>
+        <item name="progress_reached_bar_height">4.5dip</item>
+        <item name="progress_reached_color">@color/colorAccent</item>
+        <item name="progress_text_color">@color/colorAccent</item>
+        <item name="progress_text_size">12.0sp</item>
+        <item name="progress_unreached_bar_height">2.25dip</item>
+        <item name="progress_unreached_color">#ffcccccc</item>
+    </style>
+    <style name="NumberProgressBar_Customer1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="progress_current">0</item>
+        <item name="progress_max">100</item>
+        <item name="progress_reached_bar_height">4.5dip</item>
+        <item name="progress_reached_color">@color/black</item>
+        <item name="progress_text_color">@color/black</item>
+        <item name="progress_text_size">9sp</item>
+        <item name="progress_unreached_bar_height">2.25dip</item>
+        <item name="progress_unreached_color">#ffffff</item>
     </style>
     <style name="SimpleImageButton">
         <item name="android:layout_width">wrap_content</item>

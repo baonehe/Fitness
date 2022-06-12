@@ -7,8 +7,8 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.util.Log
-import com.google.uddd_project.recievers.BootReceiver
-import com.google.uddd_project.recievers.NotifierReceiver
+import com.google.uddd_project.receivers.BootReceiver
+import com.google.uddd_project.receivers.NotifierReceiver
 import java.util.concurrent.TimeUnit
 
 class AlarmHelper {

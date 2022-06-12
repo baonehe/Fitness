@@ -29,4 +29,70 @@
         <item>Sunday</item>
     </string-array>
     <string name="pref_notification_message_value">Hey… Lets drink some water…</string>
+
+
+    <string name="dry_land_swim">dry land swim</string>
+    <string name="pilates_roll_over">pilates roll over</string>
+    <string name="pelvic_shift">pelvic shift</string>
+    <string name="triangle_pose">triangle pose</string>
+    <string name="standing_vertical_stretch">standing vertical stretch</string>
+    <string name="wall_stretch">wall stretch</string>
+    <string name="seated_toe_touch">seated toe touch</string>
+    <string name="hanging_exercise">hanging exercise</string>
+    <string name="super_cobra_stretch">super cobra stretch</string>
+    <string name="cat_cow_stretch">cat cow stretch</string>
+    <string name="forward_spine_stretch">forward spine stretch</string>
+    <string name="plank">plank</string>
+    <string name="rope_jumping">rope jumping</string>
+    <string name="hopping_with_one_leg">hopping with one leg</string>
+    <string name="downward_facing_dog_pose">downward facing dog pose</string>
+    <string name="hands_on_the_head_bow_down">hands on the head bow down</string>
+    <string name="spot_jumping">spot jumping</string>
+    <string name="two_straight_legs_up">two straight legs up</string>
+    <string name="table_top">table top</string>
+
+    <string name="desc_cat_cow_stretch">Initially, be in tabletop position. Inhale, move your belly towards the floor, lift your chin up in the cow pose. Now, exhale by moving your back and belly upwards towards the ceiling in the cat pose. Repeat it.</string>
+    <string name="desc_downward_facing_dog_pose">Lie down with your face, towards the ground and hands on your side. Now, with the support of your hands, lift the body and move to the table top position. Exhale and lift your hip towards the sky.</string>
+    <string name="desc_dry_land_swim">Lie down with your face, towards the ground and hands stretched forward. Lift your right arm and left leg above the ground. Be in this position. Repeat the same on the other side.</string>
+    <string name="desc_forward_spine_stretch">Sit down on the floor with your legs forward . Now stretch your arms forward. Then return back to the initial position.</string>
+    <string name="desc_hands_on_the_head_bow_down">Keep your hands on the back of your head. Now bend forward. Then return back to the initial position.</string>
+    <string name="desc_hanging_exercise">Initially, hang on a pole. Now raise both your legs. Then return back to the initial position.</string>
+    <string name="desc_hopping_with_one_leg">Initially rest on one leg. Then hop as high as you can, around 10 to 15 times. Repeat it on the other side.</string>
+    <string name="desc_pelvic_shift">Lie on your back with your legs tilted and arms by the side. Now raise your hips and be in this position for some time. Then lower your hips.</string>
+    <string name="desc_pilates_roll_over">Lie on your back with your arms by the side. Now raise your legs together at 90 degree angle. Then exhale, lower your body to a horizontal position and further. Caution : While lowering your body, do not try to stretch beyond your limits. If you feel any discomfort or pain, immediately consult a doctor.</string>
+    <string name="desc_plank">Be on your toes and forearms with your body straight. Stay in this position for as long as possible.</string>
+    <string name="desc_rope_jumping">Rope jumping is skipping. For this you need a skipping rope. Do it in sets of 15 as a beginner. Gradually increase the count.</string>
+    <string name="desc_seated_toe_touch">Sit with your legs stretched forward. Now raise your legs and stretch your body with your arms forward, then touch the knee and if possible the shin and toe.</string>
+    <string name="desc_spot_jumping">Initially, stand on your feet. Now raise your arms straight and upwards, then start jumping. Repeat it for 2 minutes.</string>
+    <string name="desc_standing_vertical_stretch">Stand with your feet wider than your hips. Inhale, stretch your arms over your head and lock your hands. Now inhale and lean towards the left, then exhale and return back to the initial position. Repeat the same on the other side.</string>
+    <string name="desc_super_cobra_stretch">Initially, keep your arms perpendicular to the ground and your spine arched. Bend your hips and bring the body to a V shaped position. Be in this position for sometime and then return back to the initial position.</string>
+    <string name="desc_table_top">Sit with your legs stretched forward with hands on the side and palms touching the ground. Now lift your body by pressing the arms and feet on the ground to make a table like shape. Stay in this position for about 15 seconds and then return back to the initial position. Repeat it.</string>
+    <string name="desc_triangle_pose">Stretch your legs, a little more than the shoulder width. Turn your right toe to the side. Inhale and raise your arms to the side. Exhale and stretch your right hand to touch the shin by tilting your hip, the left hand should be pointing towards the sky. Take two to three long, slow breaths through your nose. Inhale and come back to the initial position. Repeat the same on the other side.</string>
+    <string name="desc_two_straight_legs_up">Lie on your back with your hands by the side. Raise your legs above the ground at 90 degree. Now with the support of your forearms, lift your body and legs further up towards the ceiling, with the hands placed at the back for support.</string>
+    <string name="desc_wall_stretch">Lean against a wall with your hands. Now stretch with your left leg, a feet away from the wall and your right leg, a feet away from your left leg. Repeat on the other side.</string>
+
+    <string name="tip1">Avoid injuries. Carefully follow the instructions, for each of the workouts, to prevent injuries.</string>
+    <string name="tip2">For your workout, buy shoes that are comfortable. It is better to go for training shoes, as it will give you the comfort and the grip that you are looking for. Replace shoes once in six months.</string>
+    <string name="tip3">Exercise in the morning. Exercising in the morning promotes weight loss, prevents diabetes, lowers blood pressure, keeps you active throughout the day and has many more benefits.</string>
+    <string name="tip4">Have a complete breakfast. Let the breakfast be the heaviest meal in the day. After a good night sleep, you need a nutritious breakfast to kick start your day.</string>
+    <string name="tip5">Drink sufficient quantity of water. Men should consume about 3.7 liters of water per day and women should consume about 2.7 liters of water per day.</string>
+    <string name="tip6">Always make sure, you have a rest day in between your workout days. Let every fourth day be a rest day. Taking rest will help your muscles to grow.</string>
+    <string name="tip7">Avoid junk food as it is high in calories. Junk food can cause obesity, heart diseases and other health conditions.</string>
+    <string name="tip8">Eat a healthy diet. Consume protein rich and low calorie food, as it gives you sufficient strength during workouts and builds muscles.</string>
+    <string name="tip9">Increase your fiber intake. Fiber intake aids digestion and also helps to lose weight and improves your heart health. Consume fiber rich food like beans, broccoli, oatmeal etc.</string>
+    <string name="tip10">Get adequate sleep of around 7 -8 hours. Insufficient sleep can lead to heart diseases, high blood pressure, diabetes, obesity etc.</string>
+
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="mon">Monday</string>
+    <string name="tu">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thur">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+
+    <string name="seconds">seconds</string>
+    <string name="cycles">cycles</string>
+    <string name="font_light">fonts/proximanova_light.otf</string>
 </resources>
