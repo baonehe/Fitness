@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\USER\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "C:\\Users\\Administrator\\OneDrive\\Documents\\GitHub\\Healthy_fitnessApp\\UDDD_Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\5e261ab42b01ef115161f19a09e83344\\transformed\\appcompat-1.4.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-3\\f4fe0a5e48b9f323a655baaf56236d7e\\transformed\\appcompat-1.4.2\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

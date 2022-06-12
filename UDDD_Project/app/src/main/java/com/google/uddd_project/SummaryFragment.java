@@ -1,13 +1,15 @@
 package com.google.uddd_project;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
+import android.preference.PreferenceManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -16,6 +18,9 @@ import android.view.ViewGroup;
  */
 public class SummaryFragment extends Fragment {
 
+    TextView tvKM;
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -61,6 +66,15 @@ public class SummaryFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_summary, container, false);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(view.getContext());
+        editor = sharedPreferences.edit();
+        tvKM = view.findViewById(R.id.txtProgress);
+
+        if(!sharedPreferences.getString("DistancesKM", "").isEmpty()){
+            String KM = sharedPreferences.getString("DistancesKM", "");
+            tvKM.setText(KM);
+        }
+
         view.findViewById(R.id.imgRun).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,5 +83,15 @@ public class SummaryFragment extends Fragment {
             }
         });
         return  view;
+    }
+
+
+    @Override
+    public void onResume() {
+        if(!sharedPreferences.getString("DistancesKM", "").isEmpty()){
+            String KM = sharedPreferences.getString("DistancesKM", "");
+            tvKM.setText(KM);
+        }
+        super.onResume();
     }
 }

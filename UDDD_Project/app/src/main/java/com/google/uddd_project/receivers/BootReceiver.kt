@@ -1,4 +1,4 @@
-package com.google.uddd_project.recievers
+package com.google.uddd_project.receivers
 
 import android.content.BroadcastReceiver
 import android.content.Context

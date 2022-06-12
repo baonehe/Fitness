@@ -23,6 +23,7 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+anim decelerate_cubic
 anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
@@ -35,6 +36,8 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim popup_enter
+anim popup_exit
 anim ucrop_loader_circle_path
 anim ucrop_loader_circle_scale
 animator design_appbar_state_list_animator
@@ -75,8 +78,91 @@ animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
 array array_dot_active
 array array_dot_inactive
+array cat_cow_stretch
+array day1
+array day10
+array day10_cycles
+array day11
+array day11_cycles
+array day12
+array day12_cycles
+array day13
+array day13_cycles
+array day14
+array day14_cycles
+array day15
+array day15_cycles
+array day16
+array day16_cycles
+array day17
+array day17_cycles
+array day18
+array day18_cycles
+array day19
+array day19_cycles
+array day1_cycles
+array day2
+array day20
+array day20_cycles
+array day21
+array day21_cycles
+array day22
+array day22_cycles
+array day23
+array day23_cycles
+array day24
+array day24_cycles
+array day25
+array day25_cycles
+array day26
+array day26_cycles
+array day27
+array day27_cycles
+array day28
+array day28_cycles
+array day29
+array day29_cycles
+array day2_cycles
+array day3
+array day30
+array day30_cycles
+array day3_cycles
+array day4
+array day4_cycles
+array day5
+array day5_cycles
+array day6
+array day6_cycles
+array day7
+array day7_cycles
+array day8
+array day8_cycles
+array day9
+array day9_cycles
+array day_list
 array daysofweek
+array downward_facing_dog_pose
+array dry_land_swim
+array forward_spine_stretch
+array hands_on_the_head_bow_down
+array hanging_exercise
+array hopping_with_one_leg
+array notification_text
+array pelvic_shift
+array pilates_roll_over
+array plank
+array rope_jumping
+array seated_toe_touch
+array spot_jumping
+array standing_vertical_stretch
+array super_cobra_stretch
+array table_top
 array timepicker
+array tips
+array triangle_pose
+array two_straight_legs_up
+array wall_stretch
+attr NumberPickerLayout
 attr SharedValue
 attr SharedValueId
 attr action
@@ -427,6 +513,7 @@ attr customNavigationLayout
 attr customPixelDimension
 attr customReference
 attr customStringValue
+attr custom_layout
 attr cv_border
 attr cv_border_color
 attr cv_border_color_direction
@@ -576,8 +663,10 @@ attr flow_verticalBias
 attr flow_verticalGap
 attr flow_verticalStyle
 attr flow_wrapMode
+attr focusable
 attr font
 attr fontFamily
+attr fontPath
 attr fontProviderAuthority
 attr fontProviderCerts
 attr fontProviderFetchStrategy
@@ -836,6 +925,7 @@ attr materialThemeOverlay
 attr materialTimePickerStyle
 attr materialTimePickerTheme
 attr materialTimePickerTitleStyle
+attr max
 attr maxAcceleration
 attr maxActionInlineWidth
 attr maxButtonHeight
@@ -845,11 +935,41 @@ attr maxImageSize
 attr maxLines
 attr maxVelocity
 attr maxWidth
+attr md_background_color
+attr md_btn_negative_selector
+attr md_btn_neutral_selector
+attr md_btn_positive_selector
+attr md_btn_ripple_color
+attr md_btn_stacked_selector
+attr md_btnstacked_gravity
+attr md_buttons_gravity
+attr md_content_color
+attr md_content_gravity
+attr md_dark_theme
+attr md_divider
+attr md_divider_color
+attr md_icon
+attr md_icon_limit_icon_to_default_size
+attr md_icon_max_size
+attr md_item_color
+attr md_items_gravity
+attr md_link_color
+attr md_list_selector
+attr md_medium_font
+attr md_negative_color
+attr md_neutral_color
+attr md_positive_color
+attr md_reduce_padding_no_title_no_buttons
+attr md_regular_font
+attr md_title_color
+attr md_title_gravity
+attr md_widget_color
 attr measureWithLargestChild
 attr menu
 attr menuGravity
 attr methodName
 attr mimeType
+attr min
 attr minHeight
 attr minHideDelay
 attr minSeparation
@@ -890,6 +1010,19 @@ attr motionTarget
 attr motion_postLayoutCollision
 attr motion_triggerOnCollision
 attr moveWhenScrollAtTop
+attr mpb_determinateCircularProgressStyle
+attr mpb_indeterminateTint
+attr mpb_indeterminateTintMode
+attr mpb_progressBackgroundTint
+attr mpb_progressBackgroundTintMode
+attr mpb_progressStyle
+attr mpb_progressTint
+attr mpb_progressTintMode
+attr mpb_secondaryProgressTint
+attr mpb_secondaryProgressTintMode
+attr mpb_setBothDrawables
+attr mpb_showProgressBackground
+attr mpb_useIntrinsicPadding
 attr multiChoiceItemLayout
 attr navGraph
 attr navigationContentDescription
@@ -903,6 +1036,7 @@ attr nestedScrollViewStyle
 attr nestedScrollable
 attr nullable
 attr number
+attr numberProgressBarStyle
 attr numericModifiers
 attr onCross
 attr onHide
@@ -960,6 +1094,16 @@ attr pressedTranslationZ
 attr primaryActivityName
 attr progressBarPadding
 attr progressBarStyle
+attr progress_current
+attr progress_max
+attr progress_reached_bar_height
+attr progress_reached_color
+attr progress_text_color
+attr progress_text_offset
+attr progress_text_size
+attr progress_text_visibility
+attr progress_unreached_bar_height
+attr progress_unreached_color
 attr quantizeMotionInterpolator
 attr quantizeMotionPhase
 attr quantizeMotionSteps
@@ -971,6 +1115,29 @@ attr rangeFillColor
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr rcBackgroundColor
+attr rcBackgroundPadding
+attr rcIconBackgroundColor
+attr rcIconHeight
+attr rcIconPadding
+attr rcIconPaddingBottom
+attr rcIconPaddingLeft
+attr rcIconPaddingRight
+attr rcIconPaddingTop
+attr rcIconSize
+attr rcIconSrc
+attr rcIconWidth
+attr rcMax
+attr rcProgress
+attr rcProgressColor
+attr rcRadius
+attr rcReverse
+attr rcSecondaryProgress
+attr rcSecondaryProgressColor
+attr rcTextProgress
+attr rcTextProgressColor
+attr rcTextProgressMargin
+attr rcTextProgressSize
 attr reactiveGuide_animateChange
 attr reactiveGuide_applyToAllConstraintSets
 attr reactiveGuide_applyToConstraintSet
@@ -1269,11 +1436,14 @@ attr uiScrollGesturesDuringRotateOrZoom
 attr uiTiltGestures
 attr uiZoomControls
 attr uiZoomGestures
+attr unit
 attr upDuration
 attr uri
 attr useCompatPadding
 attr useMaterialThemeColors
+attr useStockLayout
 attr useViewLifecycle
+attr value
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
@@ -1365,6 +1535,7 @@ color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
 color colorAccent
 color colorBlack
+color colorLightGray
 color colorPrimary
 color colorPrimaryDark
 color colorSkyBlue
@@ -1865,6 +2036,13 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color md_btn_selected
+color md_btn_selected_dark
+color md_divider_black
+color md_divider_white
+color md_edittext_error
+color md_material_blue_600
+color md_material_blue_800
 color middlegrey
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
@@ -1934,6 +2112,9 @@ color radiobutton_themeable_attribute_color
 color red
 color ripple_material_dark
 color ripple_material_light
+color round_corner_progress_bar_background_default
+color round_corner_progress_bar_progress_default
+color round_corner_progress_bar_secondary_progress_default
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2076,6 +2257,7 @@ dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
+dimen circular_progress_border
 dimen clock_face_margin_start
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
@@ -2349,6 +2531,48 @@ dimen material_textinput_min_width
 dimen material_time_picker_minimum_screen_height
 dimen material_time_picker_minimum_screen_width
 dimen material_timepicker_dialog_buttons_margin_top
+dimen md_action_corner_radius
+dimen md_bg_corner_radius
+dimen md_button_frame_vertical_padding
+dimen md_button_height
+dimen md_button_inset_horizontal
+dimen md_button_inset_vertical
+dimen md_button_min_width
+dimen md_button_padding_frame_side
+dimen md_button_padding_horizontal
+dimen md_button_padding_horizontal_internalexternal
+dimen md_button_padding_vertical
+dimen md_button_textpadding_horizontal
+dimen md_button_textsize
+dimen md_colorchooser_circlesize
+dimen md_content_padding_bottom
+dimen md_content_padding_top
+dimen md_content_textsize
+dimen md_dialog_frame_margin
+dimen md_dialog_horizontal_margin
+dimen md_dialog_max_width
+dimen md_dialog_vertical_margin
+dimen md_divider_height
+dimen md_icon_margin
+dimen md_icon_max_size
+dimen md_listitem_control_margin
+dimen md_listitem_height
+dimen md_listitem_margin_left
+dimen md_listitem_textsize
+dimen md_listitem_vertical_margin
+dimen md_listitem_vertical_margin_choice
+dimen md_neutral_button_margin
+dimen md_notitle_vertical_padding
+dimen md_notitle_vertical_padding_more
+dimen md_preference_content_inset
+dimen md_simpleitem_height
+dimen md_simplelist_icon
+dimen md_simplelist_icon_margin
+dimen md_simplelist_textsize
+dimen md_simplelistitem_padding_top
+dimen md_title_frame_margin_bottom
+dimen md_title_frame_margin_bottom_less
+dimen md_title_textsize
 dimen mtrl_alert_dialog_background_inset_bottom
 dimen mtrl_alert_dialog_background_inset_end
 dimen mtrl_alert_dialog_background_inset_start
@@ -2697,12 +2921,14 @@ drawable background_blue
 drawable background_calculator
 drawable background_details_medication
 drawable background_food
+drawable background_white
 drawable bar_chart
 drawable bmi
 drawable bmi_icon
 drawable bmr_icon
 drawable bodyfat
 drawable border_edt_dialog
+drawable border_gray
 drawable bottom_nav_icon
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2751,6 +2977,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable corner1
 drawable correct
 drawable custom_switch_off
 drawable custom_switch_on
@@ -2783,6 +3010,7 @@ drawable forward_spine_stretch_a
 drawable forward_spine_stretch_b
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gray_circle
 drawable hands_on_the_head_bow_down_a
 drawable hands_on_the_head_bow_down_b
 drawable hanging_exercise_a
@@ -2803,6 +3031,7 @@ drawable ic_baseline_person_outline_24
 drawable ic_chevron_left_black_24dp
 drawable ic_chevron_right_black_24dp
 drawable ic_clock_black_24dp
+drawable ic_close_black_24dp
 drawable ic_code_24
 drawable ic_date_detail
 drawable ic_facebook
@@ -2827,6 +3056,7 @@ drawable ic_repeat_detail
 drawable ic_small_logo
 drawable ic_time_detail
 drawable ic_type_detail
+drawable ic_volume_up_black_24dp
 drawable icon
 drawable icon_bf
 drawable icon_cal_main
@@ -2893,9 +3123,11 @@ drawable img_waist_to_height_ratio1
 drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
 drawable kettle
+drawable launch_progressbar
 drawable left_arrow
 drawable loading
 drawable logo
+drawable logo_noti
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2914,6 +3146,19 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable md_btn_selected
+drawable md_btn_selected_dark
+drawable md_btn_selector
+drawable md_btn_selector_dark
+drawable md_btn_selector_ripple
+drawable md_btn_selector_ripple_dark
+drawable md_btn_shape
+drawable md_item_selected
+drawable md_item_selected_dark
+drawable md_nav_back
+drawable md_selector
+drawable md_selector_dark
+drawable md_transparent
 drawable medication_reminder_banner
 drawable menu
 drawable menu_banner_new
@@ -2943,17 +3188,22 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pause
+drawable pause_main_progress
 drawable pelvic_shift_a
 drawable pelvic_shift_b
 drawable pilates_rool_over_a
 drawable pilates_rool_over_b
 drawable planegif
 drawable plank_a
+drawable play
+drawable play_main_progress
 drawable register
 drawable reminder_banner
 drawable rope_jumping_a
 drawable rope_jumping_b
 drawable round_corner
+drawable round_corner_progress_bar
 drawable round_corner_white_background
 drawable round_four_corner
 drawable running
@@ -2971,11 +3221,15 @@ drawable shape_button
 drawable shape_button_calculator_bd
 drawable shape_button_calculator_bmi
 drawable shape_button_calculator_bmr
+drawable shape_roundedwhite
+drawable shape_startex
+drawable share_close
 drawable side_nav_bar
+drawable skip_exc
 drawable spot_jumping_a
 drawable spot_jumping_b
-drawable standing_vertical_stretc_b
 drawable standing_vertical_stretch_a
+drawable standing_vertical_stretch_b
 drawable super_cobra_stretch
 drawable switch_track
 drawable table_top_a
@@ -3024,15 +3278,19 @@ drawable water_reminder_icon
 drawable wave
 drawable yogagif
 font comfortaa
+font gothic
 font roboto
+font roboto_black
 font roboto_light
 font roboto_medium
+font roboto_regular
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
 id FirstFragment
+id Layoutprogress
 id META
 id NO_DEBUG
 id SHIFT
@@ -3112,8 +3370,11 @@ id allStates
 id always
 id amu_text
 id androidx_window_activity_scope
+id animImageFull
 id animateToEnd
 id animateToStart
+id animation
+id animation_exDetail
 id antiClockwise
 id anticipate
 id appbar_layout
@@ -3177,6 +3438,7 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id buttonSendcode
+id buttonTwo
 id buttonUpdate
 id button_PlusAddMedication
 id button_plus_medication
@@ -3184,6 +3446,7 @@ id button_plus_water
 id cache_measures
 id calculator
 id callMeasure
+id calligraphy_tag_id
 id calorieCount
 id calorieIcon
 id calorieTitle
@@ -3191,6 +3454,7 @@ id cancel_action
 id cancel_button
 id cardView2
 id cardViewExcercises
+id cardViewInRecycler
 id cardViewWalkStep
 id cardViewWater
 id card_view
@@ -3217,12 +3481,14 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
+id circular
 id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id collapsingLayout
 id compress
 id confirm_button
 id confirmpass_edit_text_register
@@ -3242,6 +3508,7 @@ id controls_wrapper
 id coordinator
 id cos
 id counterclockwise
+id counting
 id currentState
 id custom
 id customPanel
@@ -3249,13 +3516,16 @@ id cut
 id cv_bodystate
 id dark
 id date_picker_actions
+id day_exc
 id daysLeft
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
+id decrement
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description_exDetail
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3269,6 +3539,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id display
 id distanceCount
 id distanceIcon
 id distanceTitle
@@ -3284,6 +3555,8 @@ id drawer_layout_home
 id dropdown_editable
 id dropdown_menu
 id dropdown_noneditable
+id dynamic
+id eachSideTextView
 id easeIn
 id easeInOut
 id easeOut
@@ -3335,6 +3608,10 @@ id etTarget
 id etWakeUpTime
 id etWeight
 id etWorkTime
+id excDescInReadyToGo
+id excName
+id excNameInReadyToGo
+id exerciseName
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3345,6 +3622,7 @@ id fbfemale_bmr
 id fbmale
 id fbmale_bdf
 id fbmale_bmr
+id fff
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3359,6 +3637,8 @@ id fitXY
 id fixed
 id flip
 id floating
+id floatingPause
+id floatingPlay
 id forever
 id fragment_container_view_tag
 id frost
@@ -3373,12 +3653,19 @@ id group_divider
 id grouping
 id groups
 id guideline
+id gz_ExcNo
+id gz_calorie
+id gz_complete
+id gz_complete1
+id gz_duration
+id gz_tap
 id header_title
 id health_fitn
 id hideable
 id home
 id homeAsUp
 id honorRequest
+id horizontal
 id horizontal_only
 id hybrid
 id icon
@@ -3402,9 +3689,11 @@ id image_view_logo
 id image_view_state_aspect_ratio
 id image_view_state_rotate
 id image_view_state_scale
+id imgReset
 id imgRun
 id immediateStop
 id included
+id increment
 id info
 id invisible
 id inward
@@ -3416,6 +3705,7 @@ id item4
 id item_touch_helper_previous_elevation
 id iv_close
 id iv_imoji
+id iv_progress_icon
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3423,9 +3713,14 @@ id lastname_edit_text_register
 id lastname_text_input_register
 id layout
 id layout2
+id layoutContainer
 id layout_aspect_ratio
+id layout_background
+id layout_progress
+id layout_progress_holder
 id layout_rotate_wheel
 id layout_scale_wheel
+id layout_secondary_progress
 id left
 id leftToRight
 id left_to_right
@@ -3469,6 +3764,38 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id md_buttonDefaultNegative
+id md_buttonDefaultNeutral
+id md_buttonDefaultPositive
+id md_colorA
+id md_colorALabel
+id md_colorAValue
+id md_colorB
+id md_colorBLabel
+id md_colorBValue
+id md_colorChooserCustomFrame
+id md_colorG
+id md_colorGLabel
+id md_colorGValue
+id md_colorIndicator
+id md_colorR
+id md_colorRLabel
+id md_colorRValue
+id md_content
+id md_contentListViewFrame
+id md_contentRecyclerView
+id md_contentScrollView
+id md_control
+id md_customViewFrame
+id md_grid
+id md_hexInput
+id md_icon
+id md_label
+id md_minMax
+id md_promptCheckbox
+id md_root
+id md_title
+id md_titleFrame
 id media_actions
 id medicationName
 id menu_crop
@@ -3484,6 +3811,8 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id mtoolbar_title
+id mtoolbar_title1
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -3509,6 +3838,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id name
+id nativeAdContainer
 id nav_controller_view_tag
 id nav_feedback
 id nav_graph
@@ -3528,6 +3858,9 @@ id navigation_view
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id nextExerciseAnimation
+id nextExerciseCycles
+id nextExerciseName
 id next_btn
 id noScroll
 id noState
@@ -3538,7 +3871,8 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id numberOfStepTextView
+id number_picker
+id numberpicker_cycles
 id off
 id oldpassword_edit_text_register
 id oldpassword_text_input_register
@@ -3566,10 +3900,11 @@ id password_text_input_register
 id password_toggle
 id path
 id pathRelative
+id pauseMainExercise
+id pauseRestTime
 id peekHeight
 id percent
 id percentScore
-id percentScore1
 id period
 id periodMoreButton
 id periodSubtitle
@@ -3577,11 +3912,14 @@ id pin
 id position
 id postLayout
 id prev_btn
+id previous_exc
 id progress
 id progress1
 id progressBar
 id progress_circular
 id progress_horizontal
+id progress_one
+id progressbar
 id provieInfoToCustom
 id r2r2
 id radio
@@ -3589,7 +3927,14 @@ id radioButton_female
 id radioButton_male
 id radioGroup
 id ratio
+id ready_toolbar
+id readytogo_layout
 id rectangles
+id recycler
+id recyclerAllDaysList
+id reel
+id rel1
+id rel2
 id rel_WalkStep
 id relaa1
 id relaa2
@@ -3604,6 +3949,14 @@ id reminder_list
 id reminder_time
 id reminder_title
 id repeat_switch
+id restImageView
+id restScreen
+id rest_counting
+id rest_day_icon
+id rest_timer
+id rest_toolbar
+id resumeMainExercise
+id resumeRestTime
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3616,10 +3969,14 @@ id rltDate
 id rltRepeat
 id rltTime
 id rltType
+id rootlayout
 id rotate_scroll_wheel
+id rotation
 id rounded
+id row_day
 id row_index_key
 id rtl
+id rtrt
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -3631,6 +3988,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scroll_view
 id scrollable
 id search_badge
 id search_bar
@@ -3658,7 +4016,10 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id skip
 id skipCollapsed
+id skipRestTime
+id skip_exc
 id skipped
 id slide
 id sliding_pane_detail_container
@@ -3751,6 +4112,8 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id timer
+id timerTop
 id title
 id titleDividerNoCustom
 id title_template
@@ -3772,6 +4135,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvCustom
+id tvDis
 id tvIntook
 id tvTotalIntake
 id tv_ans_bmi
@@ -3783,6 +4147,8 @@ id tv_current_state
 id tv_gmail
 id tv_nameava
 id tv_nameavatar
+id tv_progress
+id tv_progress_max
 id tv_recomended
 id tv_result_bdf
 id tv_result_bmi
@@ -3811,6 +4177,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id volumeOption
 id walkstep
 id water
 id waterLevelView
@@ -3947,6 +4314,7 @@ layout activity_provide_infor_to_custom
 layout activity_register
 layout activity_reminder_items
 layout activity_stats
+layout all_days_row
 layout amu_info_window
 layout amu_text_bubble
 layout amu_webview
@@ -3955,9 +4323,11 @@ layout bodyfat_cal
 layout bottom_sheet_fragment
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout content_main
 layout custom_dialog
 layout custom_emailcheck
 layout custom_input_dialog
+layout day_layout
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3974,6 +4344,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_choose_app
+layout exc_completion_layout
+layout exc_details_layout
 layout fragment_bar_chart
 layout fragment_calculator
 layout fragment_feedback
@@ -3984,10 +4356,14 @@ layout fragment_summary
 layout fragment_walk_step
 layout fragment_work_outs
 layout imageitemviewpage
+layout layout_icon_round_corner_progress_bar
+layout layout_round_corner_progress_bar
+layout layout_text_round_corner_progress_bar
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
 layout m3_auto_complete_simple_item
+layout main_exercise_layout
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -4002,6 +4378,31 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout md_dialog_basic
+layout md_dialog_basic_check
+layout md_dialog_colorchooser
+layout md_dialog_custom
+layout md_dialog_input
+layout md_dialog_input_check
+layout md_dialog_list
+layout md_dialog_list_check
+layout md_dialog_progress
+layout md_dialog_progress_indeterminate
+layout md_dialog_progress_indeterminate_horizontal
+layout md_listitem
+layout md_listitem_multichoice
+layout md_listitem_singlechoice
+layout md_preference_custom
+layout md_simplelist_item
+layout md_stub_actionbuttons
+layout md_stub_colorchooser_custom
+layout md_stub_colorchooser_grid
+layout md_stub_inputpref
+layout md_stub_progress
+layout md_stub_progress_indeterminate
+layout md_stub_progress_indeterminate_horizontal
+layout md_stub_titleframe
+layout md_stub_titleframe_lesspadding
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4048,9 +4449,15 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout number_picker_custom_layout
+layout number_picker_layout
 layout popup_bmi
 layout popup_bmr
 layout popup_bodyfat
+layout ready_to_go
+layout rest_day_layout
+layout rest_layout
+layout row_days
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -4084,12 +4491,23 @@ menu bottom_nav
 menu example_menu
 menu example_menu2
 menu ucrop_menu_activity
+mipmap complete
+mipmap corner_right
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap left_arrow
+mipmap logo1
+mipmap rest
+mipmap restday_icon
+mipmap right_arrow
+mipmap round_corner_progress_icon
+mipmap workout_banner
 navigation nav_graph
 navigation nav_graph2
 plurals mtrl_badge_content_description
+raw clocktick_trim
 raw keep
+raw reminder
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4125,6 +4543,8 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string cancel
+string cat_cow_stretch
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -4149,7 +4569,29 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string cycles
 string default_web_client_id
+string desc_cat_cow_stretch
+string desc_downward_facing_dog_pose
+string desc_dry_land_swim
+string desc_forward_spine_stretch
+string desc_hands_on_the_head_bow_down
+string desc_hanging_exercise
+string desc_hopping_with_one_leg
+string desc_pelvic_shift
+string desc_pilates_roll_over
+string desc_plank
+string desc_rope_jumping
+string desc_seated_toe_touch
+string desc_spot_jumping
+string desc_standing_vertical_stretch
+string desc_super_cobra_stretch
+string desc_table_top
+string desc_triangle_pose
+string desc_two_straight_legs_up
+string desc_wall_stretch
+string downward_facing_dog_pose
+string dry_land_swim
 string error_camera_app_not_found
 string error_failed_pick_gallery_image
 string error_failed_to_compress_image
@@ -4164,13 +4606,19 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string first_fragment_label
+string font_light
+string forward_spine_stretch
+string fri
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hands_on_the_head_bow_down
+string hanging_exercise
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string hopping_with_one_leg
 string icon_content_description
 string image_picker_provider_authority_suffix
 string item_view_role_description
@@ -4210,6 +4658,15 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string md_back_label
+string md_cancel_label
+string md_choose_label
+string md_custom_label
+string md_done_label
+string md_error_label
+string md_presets_label
+string md_storage_perm_error
+string mon
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -4250,29 +4707,57 @@ string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string navigation_drawer_close
 string navigation_drawer_open
+string new_folder
 string next
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pelvic_shift
 string permission_camera_denied
+string pilates_roll_over
+string plank
 string pref_notification_message_value
 string previous
 string project_id
 string rationale_ask
 string rationale_ask_again
+string rope_jumping
+string sat
 string search_menu_title
+string seated_toe_touch
 string second_fragment_label
+string seconds
+string spot_jumping
+string standing_vertical_stretch
+string start
 string status_bar_notification_info_overflow
 string steps
 string summary_card_kilocalories
+string sun
+string super_cobra_stretch
+string table_top
+string thur
+string tip1
+string tip10
+string tip2
+string tip3
+string tip4
+string tip5
+string tip6
+string tip7
+string tip8
+string tip9
 string title_activity_maps
 string title_activity_walk_step
 string title_camera
 string title_choose_image_provider
 string title_gallery
 string title_settings_dialog
+string triangle_pose
+string tu
+string two_straight_legs_up
 string ucrop_crop
 string ucrop_error_input_data_is_absent
 string ucrop_label_edit_photo
@@ -4281,6 +4766,8 @@ string ucrop_menu_crop
 string ucrop_mutate_exception_hint
 string ucrop_rotate
 string ucrop_scale
+string wall_stretch
+string wed
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -4559,6 +5046,12 @@ style EasyPermissions
 style EmptyTheme
 style ErrorText
 style HintText
+style MD_ActionButton
+style MD_ActionButton_Text
+style MD_ActionButtonStacked
+style MD_Dark
+style MD_Light
+style MD_WindowAnimation
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text
 style MaterialAlertDialog_Material3_Body_Text_CenterStacked
@@ -4578,6 +5071,16 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style NumberProgressBar_Beauty_Red
+style NumberProgressBar_Custome
+style NumberProgressBar_Customer1
+style NumberProgressBar_Default
+style NumberProgressBar_Funny_Orange
+style NumberProgressBar_Grace_Yellow
+style NumberProgressBar_Passing_Green
+style NumberProgressBar_Relax_Blue
+style NumberProgressBar_Twinkle_Night
+style NumberProgressBar_Warning_Red
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -5350,6 +5853,14 @@ style Widget_MaterialComponents_Toolbar_Primary
 style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
+style Widget_MaterialProgressBar_ProgressBar
+style Widget_MaterialProgressBar_ProgressBar_Horizontal
+style Widget_MaterialProgressBar_ProgressBar_Horizontal_NoPadding
+style Widget_MaterialProgressBar_ProgressBar_Large
+style Widget_MaterialProgressBar_ProgressBar_Large_NoPadding
+style Widget_MaterialProgressBar_ProgressBar_NoPadding
+style Widget_MaterialProgressBar_ProgressBar_Small
+style Widget_MaterialProgressBar_ProgressBar_Small_NoPadding
 style Widget_Support_CoordinatorLayout
 style amu_Bubble_TextAppearance_Dark
 style amu_Bubble_TextAppearance_Light
@@ -5431,6 +5942,7 @@ styleable GifTextureView gifSource isOpaque
 styleable GifView freezesAnimation loopCount
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable IconRoundCornerProgress rcIconBackgroundColor rcIconHeight rcIconPadding rcIconPaddingBottom rcIconPaddingLeft rcIconPaddingRight rcIconPaddingTop rcIconSize rcIconSrc rcIconWidth
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth
 styleable Insets marginLeftSystemWindowInsets marginRightSystemWindowInsets marginTopSystemWindowInsets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets paddingTopSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transformPivotTarget transitionEasing transitionPathRotate
@@ -5447,6 +5959,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MDRootLayout md_reduce_padding_no_title_no_buttons
 styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
@@ -5458,6 +5971,7 @@ styleable MaterialCalendarItem android_insetLeft android_insetRight android_inse
 styleable MaterialCardView android_checkable cardForegroundColor checkedIcon checkedIconGravity checkedIconMargin checkedIconSize checkedIconTint rippleColor shapeAppearance shapeAppearanceOverlay state_dragged strokeColor strokeWidth
 styleable MaterialCheckBox buttonTint centerIfNoTextEnabled useMaterialThemeColors
 styleable MaterialDivider dividerColor dividerInsetEnd dividerInsetStart dividerThickness lastItemDecorated
+styleable MaterialProgressBar mpb_determinateCircularProgressStyle mpb_indeterminateTint mpb_indeterminateTintMode mpb_progressBackgroundTint mpb_progressBackgroundTintMode mpb_progressStyle mpb_progressTint mpb_progressTintMode mpb_secondaryProgressTint mpb_secondaryProgressTintMode mpb_setBothDrawables mpb_showProgressBackground mpb_useIntrinsicPadding
 styleable MaterialRadioButton buttonTint useMaterialThemeColors
 styleable MaterialShape shapeAppearance shapeAppearanceOverlay
 styleable MaterialTextAppearance android_letterSpacing android_lineHeight lineHeight
@@ -5487,15 +6001,19 @@ styleable NavigationBarView backgroundTint elevation itemActiveIndicatorStyle it
 styleable NavigationRailView headerLayout itemMinHeight menuGravity paddingBottomSystemWindowInsets paddingTopSystemWindowInsets
 styleable NavigationView android_layout_gravity android_background android_fitsSystemWindows android_maxWidth bottomInsetScrimEnabled dividerInsetEnd dividerInsetStart drawerLayoutCornerSize elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemRippleColor itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextColor itemVerticalPadding menu shapeAppearance shapeAppearanceOverlay subheaderColor subheaderInsetEnd subheaderInsetStart subheaderTextAppearance topInsetScrimEnabled
 styleable Navigator android_label android_id route
+styleable NumberPicker custom_layout focusable max min unit value
+styleable NumberProgressBar progress_current progress_max progress_reached_bar_height progress_reached_color progress_text_color progress_text_offset progress_text_size progress_text_visibility progress_unreached_bar_height progress_unreached_color
 styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
+styleable Preference useStockLayout
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RoundCornerProgress rcBackgroundColor rcBackgroundPadding rcMax rcProgress rcProgressColor rcRadius rcReverse rcSecondaryProgress rcSecondaryProgressColor
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
@@ -5521,7 +6039,9 @@ styleable TextAppearance android_textSize android_typeface android_textStyle and
 styleable TextEffects android_textSize android_typeface android_textStyle android_text android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily borderRound borderRoundPercent textFillColor textOutlineColor textOutlineThickness
 styleable TextInputEditText textInputLayoutFocusedRectEnabled
 styleable TextInputLayout android_enabled android_textColorHint android_maxWidth android_minWidth android_hint android_maxEms android_minEms boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeErrorColor boxStrokeWidth boxStrokeWidthFocused counterEnabled counterMaxLength counterOverflowTextAppearance counterOverflowTextColor counterTextAppearance counterTextColor endIconCheckable endIconContentDescription endIconDrawable endIconMode endIconTint endIconTintMode errorContentDescription errorEnabled errorIconDrawable errorIconTint errorIconTintMode errorTextAppearance errorTextColor expandedHintEnabled helperText helperTextEnabled helperTextTextAppearance helperTextTextColor hintAnimationEnabled hintEnabled hintTextAppearance hintTextColor passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode placeholderText placeholderTextAppearance placeholderTextColor prefixText prefixTextAppearance prefixTextColor shapeAppearance shapeAppearanceOverlay startIconCheckable startIconContentDescription startIconDrawable startIconTint startIconTintMode suffixText suffixTextAppearance suffixTextColor
+styleable TextRoundCornerProgress rcTextProgress rcTextProgressColor rcTextProgressMargin rcTextProgressSize
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
+styleable Themes NumberPickerLayout numberProgressBarStyle
 styleable Toolbar android_gravity android_minHeight buttonGravity collapseContentDescription collapseIcon contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation logo logoDescription maxButtonHeight menu navigationContentDescription navigationIcon popupTheme subtitle subtitleTextAppearance subtitleTextColor title titleMargin titleMarginBottom titleMarginEnd titleMarginStart titleMarginTop titleMargins titleTextAppearance titleTextColor
 styleable Tooltip android_textAppearance android_textColor android_padding android_layout_margin android_minWidth android_minHeight android_text backgroundTint
 styleable Transform android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation transformPivotTarget

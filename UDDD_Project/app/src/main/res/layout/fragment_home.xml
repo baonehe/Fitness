@@ -88,7 +88,7 @@
                             android:progressDrawable="@drawable/custome_progressbar" />
 
                         <TextView
-                            android:id="@+id/percentScore1"
+                            android:id="@+id/tvDis"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true"
