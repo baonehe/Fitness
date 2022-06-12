@@ -1,13 +1,16 @@
 package com.google.uddd_project;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 public class BodyFat_Calculator extends AppCompatActivity {
@@ -19,6 +22,12 @@ public class BodyFat_Calculator extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_body_fat_calculator);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("BDP");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         femalefb = findViewById(R.id.fbfemale_bdf);
         malefb = findViewById(R.id.fbmale_bdf);
         edtheight=findViewById(R.id.edt_numberheight_bdf);
@@ -32,16 +41,19 @@ public class BodyFat_Calculator extends AppCompatActivity {
         btncalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    if (femalefb.isChecked() || malefb.isChecked()){
-                        if (!edtage.getText().toString().isEmpty() && !edtweight.getText().toString().isEmpty() && !edtage.getText().toString().isEmpty()){
-                            int check_sex ;
-                            if (femalefb.isChecked()) check_sex=0;//female = 0
-                            else check_sex = 1;//male =1
-                            double bmi =  Calculate_bmi(Integer.valueOf(edtheight.getText().toString()),Integer.valueOf(edtweight.getText().toString()));
-                            double bmr = Calculate_bmr(bmi,Integer.valueOf(edtage.getText().toString()),check_sex);
-                            tv_result_bdf.setText(String.format("%.0f",bmr));
-                        }
+                if (femalefb.isChecked() || malefb.isChecked()){
+                    if (!edtage.getText().toString().isEmpty() && !edtweight.getText().toString().isEmpty() && !edtage.getText().toString().isEmpty()){
+                        int check_sex ;
+                        if (femalefb.isChecked()) check_sex=0;//female = 0
+                        else check_sex = 1;//male =1
+                        double bmi =  Calculate_bmi(Integer.valueOf(edtheight.getText().toString()),Integer.valueOf(edtweight.getText().toString()));
+                        double bmr = Calculate_bmr(bmi,Integer.valueOf(edtage.getText().toString()),check_sex);
+                        tv_result_bdf.setText(String.format("%.0f",bmr));
                     }
+                    else
+                        Toast.makeText(BodyFat_Calculator.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+                }else
+                    Toast.makeText(BodyFat_Calculator.this, "Please choose your sex", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -79,4 +91,13 @@ public class BodyFat_Calculator extends AppCompatActivity {
             }
         }
     };
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

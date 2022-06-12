@@ -1,13 +1,16 @@
 package com.google.uddd_project;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.mikhaellopez.circleview.CircleView;
@@ -21,6 +24,11 @@ public class Bmr_calculator extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmr_calculator);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("BMR");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         edtheight=findViewById(R.id.edt_numberheight_bmr);
         edtweight=findViewById(R.id.edt_numberweight_bmr);
@@ -45,8 +53,9 @@ public class Bmr_calculator extends AppCompatActivity {
 
                         double number = Calculate_bmr(Integer.valueOf(edtheight.getText().toString()),Integer.valueOf(edtweight.getText().toString()),Integer.valueOf(edtage.getText().toString()),check_sex);
                         tv_result_bmr.setText(String.format("%.1f",number));
-                    }
-                }
+                    }else
+                        Toast.makeText(Bmr_calculator.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
+                }else Toast.makeText(Bmr_calculator.this, "Please choose your sex", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -71,4 +80,13 @@ public class Bmr_calculator extends AppCompatActivity {
             }
         }
     };
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

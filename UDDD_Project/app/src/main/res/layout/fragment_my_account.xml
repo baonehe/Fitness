@@ -7,7 +7,6 @@
     tools:context=".MyAccountFragment">
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -191,6 +190,7 @@
                 android:id="@+id/edtage"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/roboto"
@@ -201,6 +201,7 @@
             <EditText
                 android:id="@+id/edtheight"
                 android:layout_width="100dp"
+                android:textAlignment="center"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:fontFamily="@font/roboto"
@@ -212,6 +213,7 @@
                 android:id="@+id/edtweight"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:layout_marginLeft="25dp"
                 android:fontFamily="@font/roboto"
                 android:inputType="numberDecimal"
@@ -250,51 +252,31 @@
             android:maxLines="1"
             android:textSize="14dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto"
-            android:paddingLeft="20dp"
-            android:textSize="14dp"
-            android:text="New password" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:fontFamily="@font/roboto"
-            android:maxLines="1"
-            android:textSize="14dp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto"
-            android:paddingLeft="20dp"
-            android:textSize="14dp"
-            android:text="Confirm password" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:fontFamily="@font/roboto"
-            android:maxLines="1"
-            android:textSize="14dp" />
-
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnsavechange"
             android:layout_width="250dp"
             android:layout_height="35dp"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_blue"
             android:elevation="6dp"
             android:fontFamily="@font/roboto_medium"
             android:text="SAVE CHANGE"
             android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnchangepassword"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_edt_dialog"
+            android:elevation="6dp"
+            android:fontFamily="@font/roboto_light"
+            android:text="CHANGE PASSWORD"
+            android:textColor="@color/black"
             android:textSize="18dp" />
 
     </LinearLayout>
