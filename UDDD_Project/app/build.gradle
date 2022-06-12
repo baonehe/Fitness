@@ -3,7 +3,11 @@ plugins {
     id 'com.google.gms.google-services'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
+    id 'kotlin-android-extensions'
 }
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdk 32
@@ -67,5 +71,7 @@ dependencies {
 
     implementation 'com.mikhaellopez:circleview:1.4.0'
     implementation 'com.github.1902shubh:SendMail:1.0.0'
+
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
 
 }

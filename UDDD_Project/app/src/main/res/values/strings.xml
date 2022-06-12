@@ -28,4 +28,5 @@
         <item>Saturday</item>
         <item>Sunday</item>
     </string-array>
+    <string name="pref_notification_message_value">Hey… Lets drink some water…</string>
 </resources>

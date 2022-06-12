@@ -72,7 +72,7 @@ public class ReminderFragment extends Fragment {
         view.findViewById(R.id.button_plus_water).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), ProvideInforToCustom.class);
+                Intent intent = new Intent(view.getContext(), DailyDrinkTargetActivity.class);
                 startActivity(intent);
             }
         });

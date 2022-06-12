@@ -86,7 +86,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 AccountInfo accountInfo = snapshot.getValue(AccountInfo.class);
-                Picasso.get().load(accountInfo.getProfileImage()).into(nav_image);
+                if (!accountInfo.getProfileImage().equals("")) Picasso.get().load(accountInfo.getProfileImage()).into(nav_image);
                 nav_name.setText(accountInfo.getFirstname());
             }
 
@@ -252,9 +252,21 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             super.onBackPressed();
         }
     }
+
+    public  void LoadExcersizeFragemnt(Fragment fragment){
+        replaceFragment(fragment);
+        toolbar.setTitle("workout");
+        bottomNavigationView.setSelectedItemId(R.id.workouts);
+    }
+    public  void LoadWalkStepFragemnt(Fragment fragment){
+        replaceFragment(fragment);
+        toolbar.setTitle("WalkStep");
+        bottomNavigationView.setSelectedItemId(R.id.walkstep);
+    }
     private  void replaceFragment(Fragment fragment){
         FragmentTransaction fragmentTransaction= getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.content_frame,fragment);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 

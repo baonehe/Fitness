@@ -7,9 +7,32 @@
     xmlns:sweet="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#F1F8FA"
-    tools:context=".DailyDrinkTargetActivity">
+    tools:context=".DailyDrinkTargetActivity"
+    android:id="@+id/mainActivityDailyDrink">
 
-    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content">
+
+        </include>
+
+        <ImageView
+            android:id="@+id/btn_settingInfo"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/settings">
+        </ImageView>
+
+    </LinearLayout>
+
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,24 +46,25 @@
             android:translationZ="100dp"
             app:cfl_border="true"
             app:cfl_border_width="3dp"
-            app:cfl_progress="50"
+            app:cfl_progress="0"
             app:cfl_wave_amplitude="0.06"
             app:cfl_wave_color="#40bdf4">
 
         </com.mikhaellopez.circularfillableloaders.CircularFillableLoaders>
 
         <TextView
+            android:id="@+id/tvIntook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/gach"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="-18dp"
-            android:text="1000ml"
-            android:textAlignment="center"
+            android:layout_marginBottom="-20dp"
             android:fontFamily="@font/roboto"
-            android:textStyle="bold"
+            android:text="0ml"
+            android:textAlignment="center"
             android:textColor="#165EBD"
             android:textSize="24dp"
+            android:textStyle="bold"
             android:translationZ="100dp" />
 
         <TextView
@@ -48,26 +72,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto"
             android:text="_________"
             android:textAlignment="center"
-            android:fontFamily="@font/roboto"
-            android:textStyle="bold"
             android:textColor="#165EBD"
             android:textSize="20dp"
+            android:textStyle="bold"
             android:translationZ="100dp" />
 
         <TextView
+            android:id="@+id/tvTotalIntake"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
             android:layout_below="@id/gach"
+            android:layout_centerInParent="true"
             android:layout_marginTop="-5dp"
-            android:text="2000ml"
             android:fontFamily="@font/roboto"
-            android:textStyle="bold"
+            android:text="2000ml"
+            android:textAlignment="center"
             android:textColor="#165EBD"
             android:textSize="24dp"
-            android:textAlignment="center"
+            android:textStyle="bold"
             android:translationZ="100dp" />
 
 
@@ -84,6 +109,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/op50ml"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginTop="2dp"
@@ -115,6 +141,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/op100ml"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginRight="10dp"
@@ -145,6 +172,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/op150ml"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginRight="15dp"
@@ -180,6 +208,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/op200ml"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginLeft="15dp"
@@ -210,6 +239,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/op250ml"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginRight="10dp"
@@ -230,7 +260,7 @@
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
-                    android:text="200ml"
+                    android:text="250ml"
                     android:textSize="20dp"
                     android:fontFamily="@font/roboto"
                     android:textStyle="bold"
@@ -239,6 +269,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/opCustom"
                 android:layout_width="115dp"
                 android:layout_height="115dp"
                 android:layout_marginRight="15dp"
@@ -254,12 +285,13 @@
                     android:src="@drawable/kettle"/>
 
                 <TextView
+                    android:id="@+id/tvCustom"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="10dp"
                     android:gravity="center"
-                    android:text="200ml"
+                    android:text="Custom"
                     android:textSize="20dp"
                     android:fontFamily="@font/roboto"
                     android:textStyle="bold"
@@ -275,18 +307,21 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/btnNotific"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="50dp"
             android:layout_gravity="center"
             android:src="@drawable/alarm"/>
         <ImageView
+            android:id="@+id/btnAddWater"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="60dp"
             android:layout_gravity="center"
             android:src="@drawable/add_button"/>
         <ImageView
+            android:id="@+id/btnStats"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginLeft="60dp"

@@ -76,10 +76,7 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.cardViewWalkStep).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (currentFragment != FRAGEMENT_WALKSTEP){
-                    replaceFragment(new SummaryFragment());
-                    currentFragment = FRAGEMENT_WALKSTEP;
-                }
+                ((HomeActivity)getActivity()).LoadWalkStepFragemnt(new WalkStepFragment());
             }
         });
 
@@ -94,10 +91,7 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.cardViewExcercises).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (currentFragment != FRAGEMENT_WORKOUTS){
-                    replaceFragment(new WorkoutsFragment());
-                    currentFragment = FRAGEMENT_WORKOUTS;
-                }
+                ((HomeActivity)getActivity()).LoadExcersizeFragemnt(new WorkoutsFragment());
             }
         });
         return  view;

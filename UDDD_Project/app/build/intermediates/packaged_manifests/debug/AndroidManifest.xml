@@ -46,6 +46,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.UDDD_Project" >
         <activity
+            android:name="com.google.uddd_project.BottomSheetFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.StatsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.ProvideInforToCustom"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.DailyDrinkTargetActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.uddd_project.BodyFat_Calculator"
             android:exported="false" />
         <activity
@@ -69,12 +81,6 @@
             android:name="com.google.uddd_project.MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
-        <activity
-            android:name="com.google.uddd_project.DailyDrinkTargetActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.google.uddd_project.ProvideInforToCustom"
-            android:exported="false" />
         <activity
             android:name="com.google.uddd_project.LoadingPageActivity"
             android:exported="false" />
@@ -108,6 +114,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name="com.google.uddd_project.recievers.BootReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
         <activity android:name="com.vmadalin.easypermissions.components.TestActivity" />
         <activity android:name="com.vmadalin.easypermissions.components.TestAppCompatActivity" />
         <activity android:name="com.vmadalin.easypermissions.components.TestSupportFragmentActivity" />
