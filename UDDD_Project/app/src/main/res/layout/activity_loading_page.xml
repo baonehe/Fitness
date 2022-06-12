@@ -7,26 +7,17 @@
     tools:context=".LoadingPageActivity">
 
     <pl.droidsonroids.gif.GifImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
         android:layout_centerInParent="true"
-        android:background="@drawable/eatergif" />
+        android:background="@drawable/yogagif" />
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
-        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/loadingtextgif"
-        android:layout_marginBottom="35dp"
-        />
-    <!--        android:layout_above="@id/progress_bar"-->
-<!--    <ProgressBar-->
-<!--        android:id="@+id/progress_bar"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
-<!--        android:layout_marginBottom="20dp"/>-->
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/loading" />
 
 </RelativeLayout>

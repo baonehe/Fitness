@@ -2702,6 +2702,7 @@ drawable bmi
 drawable bmi_icon
 drawable bmr_icon
 drawable bodyfat
+drawable border_edt_dialog
 drawable bottom_nav_icon
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -2773,7 +2774,6 @@ drawable dotted
 drawable drt_land_swim_a
 drawable drt_land_swim_b
 drawable dumbbell
-drawable eatergif
 drawable edittextbackground
 drawable equivalent
 drawable excercises
@@ -2894,7 +2894,7 @@ drawable img_waist_to_hip_ratio
 drawable img_waist_to_hip_ratio1
 drawable kettle
 drawable left_arrow
-drawable loadingtextgif
+drawable loading
 drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -3022,6 +3022,7 @@ drawable water
 drawable water_bottle
 drawable water_reminder_icon
 drawable wave
+drawable yogagif
 font comfortaa
 font roboto
 font roboto_light
@@ -3162,6 +3163,7 @@ id btn_calculate_bmi
 id btn_calculate_bmr
 id btn_continue
 id btn_settingInfo
+id btnchangepassword
 id btnchoose
 id btnfirebase
 id btnopencamera
@@ -3175,6 +3177,7 @@ id buttonLogin
 id buttonPanel
 id buttonRegister
 id buttonSendcode
+id buttonUpdate
 id button_PlusAddMedication
 id button_plus_medication
 id button_plus_water
@@ -3536,6 +3539,8 @@ id notification_main_column
 id notification_main_column_container
 id numberOfStepTextView
 id off
+id oldpassword_edit_text_register
+id oldpassword_text_input_register
 id on
 id onInterceptTouchReturnSwipe
 id op100ml
@@ -3924,6 +3929,8 @@ layout activity_add_medication
 layout activity_bmi_calculator
 layout activity_bmr_calculator
 layout activity_body_fat_calculator
+layout activity_change_pass
+layout activity_change_password
 layout activity_daily_drink_target
 layout activity_edit_picture_profile
 layout activity_forgot_pass

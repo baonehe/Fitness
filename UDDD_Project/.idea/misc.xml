@@ -110,6 +110,7 @@
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/toolbar.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/FShop/Desktop/Healthy_fitnessApp/UDDD_Project/app/src/main/res/menu/bottom_nav.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/border_edt_dialog.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/bottom_nav_icon.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/card_blue.xml" value="0.1935" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable-nodpi/ic_baseline_arrow_back_24.xml" value="0.1" />
@@ -141,11 +142,13 @@
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/toggle_on_male.xml" value="0.154" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/toggle_selector_female.xml" value="0.154" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/drawable/togglebutton_text.xml" value="0.154" />
+        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout-v31/activity_change_password.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_account_information.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_add_medication.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_bmr_calculator.xml" value="0.2" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_body_fat_calculator.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_change_pass.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_daily_drink_target.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_edit_picture_profile.xml" value="0.264" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/activity_forgot_pass.xml" value="0.23489583333333333" />
@@ -168,9 +171,9 @@
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/feedback.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_bar_chart.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_calculator.xml" value="0.264" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_feedback.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_feedback.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_home.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.264" />
+        <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_my_account.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_reminder.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_summary.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/USER/Documents/GitHub/Healthy_fitnessApp/UDDD_Project/app/src/main/res/layout/fragment_walk_step.xml" value="0.23489583333333333" />

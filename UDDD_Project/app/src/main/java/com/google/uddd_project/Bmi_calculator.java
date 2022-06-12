@@ -1,9 +1,11 @@
 package com.google.uddd_project;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.CompoundButtonCompat;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -28,6 +30,12 @@ public class Bmi_calculator extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi_calculator);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle("BMI");
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         tv_tiile_bmi=findViewById(R.id.tv_bmi_tiitle);
         femalefb = findViewById(R.id.fbfemale);
         malefb = findViewById(R.id.fbmale);
@@ -45,36 +53,36 @@ public class Bmi_calculator extends AppCompatActivity {
             public void onClick(View v) {
                 if (femalefb.isChecked() || malefb.isChecked()){
                     if (!edtheight.getText().toString().isEmpty() && !edtweight.getText().toString().isEmpty() ){
-                      double number=  Calculate_bmi(Integer.valueOf(edtheight.getText().toString()),Integer.valueOf(edtweight.getText().toString()));
-                      tv_result_bmi.setText(String.format("%.1f",number));
-                      tv_tiile_bmi.setTextColor(getResources().getColor(R.color.white));
-                      if (number <18.5){
+                        double number=  Calculate_bmi(Integer.valueOf(edtheight.getText().toString()),Integer.valueOf(edtweight.getText().toString()));
+                        tv_result_bmi.setText(String.format("%.1f",number));
+                        tv_tiile_bmi.setTextColor(getResources().getColor(R.color.white));
+                        if (number <18.5){
                             tv_status_bmi.setText("Underweight");
                             circleView_status.setCircleColor(getResources().getColor(R.color.colorSkyBlue));
                             circleView_status.setShadowColor(getResources().getColor(R.color.colorSkyBlue));
-                      }
-                      else if(number <=24.9){
-                              tv_status_bmi.setText("Normal");
-                              circleView_status.setCircleColor(getResources().getColor(R.color.green));
-                          circleView_status.setShadowColor(getResources().getColor(R.color.green));
-                          }
-                      else if (number <= 29.9){
-                          tv_status_bmi.setText("Overweight");
-                          circleView_status.setCircleColor(getResources().getColor(R.color.weightcolor));
-                          circleView_status.setShadowColor(getResources().getColor(R.color.weightcolor));
-                      }
-                      else if (number <=34.9){
-                          tv_status_bmi.setText("Obese");
-                          circleView_status.setCircleColor(getResources().getColor(R.color.smoking_risk1));
-                          circleView_status.setShadowColor(getResources().getColor(R.color.smoking_risk1));
-                      }
-                      else {
-                          tv_status_bmi.setText("Extremly Obese");
-                          circleView_status.setCircleColor(getResources().getColor(R.color.purple));
-                          circleView_status.setShadowColor(getResources().getColor(R.color.purple));
-                      }
+                        }
+                        else if(number <=24.9){
+                            tv_status_bmi.setText("Normal");
+                            circleView_status.setCircleColor(getResources().getColor(R.color.green));
+                            circleView_status.setShadowColor(getResources().getColor(R.color.green));
+                        }
+                        else if (number <= 29.9){
+                            tv_status_bmi.setText("Overweight");
+                            circleView_status.setCircleColor(getResources().getColor(R.color.weightcolor));
+                            circleView_status.setShadowColor(getResources().getColor(R.color.weightcolor));
+                        }
+                        else if (number <=34.9){
+                            tv_status_bmi.setText("Obese");
+                            circleView_status.setCircleColor(getResources().getColor(R.color.smoking_risk1));
+                            circleView_status.setShadowColor(getResources().getColor(R.color.smoking_risk1));
+                        }
+                        else {
+                            tv_status_bmi.setText("Extremly Obese");
+                            circleView_status.setCircleColor(getResources().getColor(R.color.purple));
+                            circleView_status.setShadowColor(getResources().getColor(R.color.purple));
+                        }
 
-                    } else Toast.makeText(Bmi_calculator.this, "Please fill your height or weight", Toast.LENGTH_SHORT).show();
+                    } else Toast.makeText(Bmi_calculator.this, "Please fill all fields", Toast.LENGTH_SHORT).show();
                 } else Toast.makeText(Bmi_calculator.this, "Please choose your sex", Toast.LENGTH_SHORT).show();
             }
         });
@@ -94,5 +102,13 @@ public class Bmi_calculator extends AppCompatActivity {
             }
         }
     };
-    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

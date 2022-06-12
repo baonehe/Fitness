@@ -1,9 +1,14 @@
 package com.google.uddd_project;
 
+import android.app.Dialog;
+import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -69,6 +74,7 @@ public class MyAccountFragment extends Fragment {
     EditText firstname,lastname,city,country,address,age,height,weight,email;
     FirebaseDatabase database;
     DatabaseReference myRef;
+    Dialog dialog;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -92,14 +98,20 @@ public class MyAccountFragment extends Fragment {
         myRef = database.getReference(iduser);
         ReadData();
         email.setText(username);
-
+        view.findViewById(R.id.btnchangepassword).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(view.getContext(),ChangePass.class);
+                startActivity(intent);
+            }
+        });
         view.findViewById(R.id.btnsavechange).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
                 if((firstname.getText().length() == 0) ||  (lastname.getText().length() == 0) || (address.getText().length() == 0) || (city.getText().length() == 0) || (country.getText().length() == 0)
-                || (age.getText().length() == 0) || (height.getText().length() == 0) || (weight.getText().length() == 0))
+                        || (age.getText().length() == 0) || (height.getText().length() == 0) || (weight.getText().length() == 0))
                     Toast.makeText(view.getContext(), "Please fill full your inFormation", Toast.LENGTH_SHORT).show();
                 else{
                     String Fname= firstname.getText().toString();
@@ -142,6 +154,7 @@ public class MyAccountFragment extends Fragment {
                     if(!Weight.isEmpty()){
                         myRef.child("weight").setValue(Weight);
                     }
+                    Toast.makeText(getContext(), "Save successfully", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -155,6 +168,12 @@ public class MyAccountFragment extends Fragment {
                 AccountInfo post = snapshot.getValue(AccountInfo.class);
                 firstname.setText(post.getFirstname());
                 lastname.setText(post.getLastname());
+                city.setText(post.getCity());
+                country.setText(post.getCountry());
+                address.setText(post.getAddress());
+                age.setText(post.getAge());
+                height.setText(post.getHeight());
+                weight.setText(post.getWeight());
             }
 
             @Override
