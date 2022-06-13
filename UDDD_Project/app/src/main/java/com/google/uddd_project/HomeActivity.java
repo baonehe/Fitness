@@ -253,12 +253,12 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    public  void LoadExcersizeFragemnt(Fragment fragment){
+    public  void LoadExerciseFragment(Fragment fragment){
         replaceFragment(fragment);
         toolbar.setTitle("workout");
         bottomNavigationView.setSelectedItemId(R.id.workouts);
     }
-    public  void LoadWalkStepFragemnt(Fragment fragment){
+    public  void LoadWalkStepFragment(Fragment fragment){
         replaceFragment(fragment);
         toolbar.setTitle("WalkStep");
         bottomNavigationView.setSelectedItemId(R.id.walkstep);
