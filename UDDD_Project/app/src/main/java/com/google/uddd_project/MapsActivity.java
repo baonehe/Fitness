@@ -53,6 +53,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private static double distance = 0;
     private static double totalDistance = 0;
+    private static double totalCalories = 0;
     private static double speed = 0;
     private static int step = 0;
     private static boolean isRun = false, isStart = false;
@@ -95,8 +96,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         editor = sharedPreferences.edit();
 
-        if (!sharedPreferences.getString("DistancesKM", "").isEmpty()) {
+        if (!sharedPreferences.getString("DistancesKM", "").isEmpty() || !sharedPreferences.getString("Calories", "").isEmpty()) {
             totalDistance = Double.parseDouble(sharedPreferences.getString("DistancesKM", ""));
+            totalCalories = Double.parseDouble(sharedPreferences.getString("Calories", ""));
         }
         builder = new AlertDialog.Builder(MapsActivity.this);
         startBtn = findViewById(R.id.startButton);
@@ -185,7 +187,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             tempMarker = mMap.addMarker(new MarkerOptions().position(tempLatLng).title("Destination"));
                             endMarker = tempMarker;
                             totalDistance += distance;
+                            totalCalories += (distance * 0.0625);
                             editor.putString("DistancesKM", String.format("%.2f", totalDistance));
+                            editor.putString("Calories", String.format("%.3f", totalCalories));
                             editor.commit();
                             startBtn.setEnabled(true);
                             endBtn.setEnabled(false);
@@ -305,7 +309,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                     distance = distance + (Math.round((curLocation.distanceTo(location)) * 100.0) / 100.0);
                     tvDistance.setText(String.format("%.2f m", distance));
-
                     curLocation = location;
 
                     speed = (Math.round(location.getSpeed() * 100.0) / 100.0) * 3.6;

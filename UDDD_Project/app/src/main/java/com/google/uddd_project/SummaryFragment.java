@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment;
  */
 public class SummaryFragment extends Fragment {
 
-    TextView tvKM;
+    TextView tvKM, tvCL;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
     // TODO: Rename parameter arguments, choose names that match
@@ -69,10 +69,13 @@ public class SummaryFragment extends Fragment {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(view.getContext());
         editor = sharedPreferences.edit();
         tvKM = view.findViewById(R.id.txtProgress);
+        tvCL = view.findViewById(R.id.calorieCount);
 
-        if(!sharedPreferences.getString("DistancesKM", "").isEmpty()){
+        if(!sharedPreferences.getString("DistancesKM", "").isEmpty() || !sharedPreferences.getString("Calories", "").isEmpty()){
             String KM = sharedPreferences.getString("DistancesKM", "");
+            String CL = sharedPreferences.getString("Calories", "");
             tvKM.setText(KM);
+            tvCL.setText(CL);
         }
 
         view.findViewById(R.id.imgRun).setOnClickListener(new View.OnClickListener() {
@@ -88,9 +91,11 @@ public class SummaryFragment extends Fragment {
 
     @Override
     public void onResume() {
-        if(!sharedPreferences.getString("DistancesKM", "").isEmpty()){
+        if(!sharedPreferences.getString("DistancesKM", "").isEmpty() || !sharedPreferences.getString("Calories", "").isEmpty()){
             String KM = sharedPreferences.getString("DistancesKM", "");
+            String CL = sharedPreferences.getString("Calories", "");
             tvKM.setText(KM);
+            tvCL.setText(CL);
         }
         super.onResume();
     }

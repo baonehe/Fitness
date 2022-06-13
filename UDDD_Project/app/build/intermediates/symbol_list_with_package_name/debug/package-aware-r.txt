@@ -2947,6 +2947,7 @@ drawable cal_bmi
 drawable cal_bmr
 drawable cal_body_fat
 drawable calculator
+drawable calculator_banner
 drawable calculator_healthy
 drawable calendarcardmenufood
 drawable calories
@@ -3005,6 +3006,7 @@ drawable edittextbackground
 drawable equivalent
 drawable excercises
 drawable fire_blue
+drawable fitness_banner
 drawable footsteps
 drawable forward_spine_stretch_a
 drawable forward_spine_stretch_b
@@ -3270,6 +3272,7 @@ drawable ucrop_vector_loader_animated
 drawable ucrop_wrapper_controls_shape
 drawable user
 drawable verify
+drawable walk_banner
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water
@@ -3431,9 +3434,7 @@ id btnopencamera
 id btnsavechange
 id btnsendemail
 id btnveryfi
-id buttonFacebook
 id buttonForgot
-id buttonGmail
 id buttonLogin
 id buttonPanel
 id buttonRegister
@@ -3540,9 +3541,6 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id display
-id distanceCount
-id distanceIcon
-id distanceTitle
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -4734,7 +4732,7 @@ string standing_vertical_stretch
 string start
 string status_bar_notification_info_overflow
 string steps
-string summary_card_kilocalories
+string summary_card_calories
 string sun
 string super_cobra_stretch
 string table_top

@@ -736,7 +736,7 @@
     <string name="standing_vertical_stretch">standing vertical stretch</string>
     <string name="start">Start</string>
     <string name="steps">Steps</string>
-    <string name="summary_card_kilocalories">kcal</string>
+    <string name="summary_card_calories">cal</string>
     <string name="sun">Sunday</string>
     <string name="super_cobra_stretch">super cobra stretch</string>
     <string name="table_top">table top</string>
@@ -817,23 +817,23 @@
         <item name="android:clickable">true</item>
     </style>
     <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
-        <!-- reference our hint & error styles -->
+        
         <item name="hintTextAppearance">@style/HintText</item>
         <item name="errorTextAppearance">@style/ErrorText</item>
         <item name="android:background">#ffffff</item>
     </style>
     <style name="Theme.UDDD_Project" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/colorAccent</item>
         <item name="colorSecondaryVariant">@color/colorgrey</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
     </style>
     <style name="Theme.UDDD_Project.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="Theme.UDDD_Project.NoActionBar">
