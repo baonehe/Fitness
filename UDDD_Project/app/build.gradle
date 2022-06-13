@@ -86,4 +86,9 @@ dependencies {
 
     implementation 'com.daimajia.androidanimations:library:2.4@aar'
 
+    //    pill_reminder
+
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.wdullaer:materialdatetimepicker:1.2.1'
+    implementation 'com.bignerdranch.android:recyclerview-multiselect:0.2'
 }

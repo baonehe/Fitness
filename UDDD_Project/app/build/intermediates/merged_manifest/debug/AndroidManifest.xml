@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <queries>
 
@@ -114,12 +115,6 @@
             android:name="com.google.uddd_project.ReminderItems"
             android:exported="false" />
         <activity
-            android:name="com.google.uddd_project.AddMedicationActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.google.uddd_project.MedicationReminderActivity"
-            android:exported="false" />
-        <activity
             android:name="com.google.uddd_project.HomeActivity"
             android:exported="false" />
         <activity
@@ -127,6 +122,15 @@
             android:exported="false" />
         <activity
             android:name="com.google.uddd_project.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.pill_reminder.Pill_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.pill_reminder.ReminderAddActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.google.uddd_project.pill_reminder.ReminderEditActivity"
             android:exported="false" />
         <activity
             android:name="com.google.uddd_project.MainActivity"
@@ -140,6 +144,13 @@
 
         <receiver
             android:name="com.google.uddd_project.receivers.BootReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.uddd_project.pill_reminder.BootReceiver"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

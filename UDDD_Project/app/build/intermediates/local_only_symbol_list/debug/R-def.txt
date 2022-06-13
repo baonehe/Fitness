@@ -107,6 +107,7 @@ color gray_color
 color green
 color grey
 color grey_calendar
+color ic_launcher_background
 color lightestgrey
 color line_color
 color mainactivity_text
@@ -163,6 +164,7 @@ drawable card_pink
 drawable card_yello
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
+drawable check_true
 drawable circle
 drawable cloud
 drawable corner1
@@ -178,6 +180,7 @@ drawable day4
 drawable day5
 drawable day6
 drawable day7
+drawable delete
 drawable doge_pose
 drawable done
 drawable dotted
@@ -200,6 +203,7 @@ drawable home
 drawable hopping_with_one_leg_a
 drawable hopping_with_one_leg_b
 drawable humanbody
+drawable ic_alarm_on_white_24dp
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_brightness_1_24
 drawable ic_baseline_feedback_24
@@ -217,7 +221,6 @@ drawable ic_date_detail
 drawable ic_facebook
 drawable ic_female
 drawable ic_home_24
-drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logout_24
 drawable ic_male
@@ -304,6 +307,7 @@ drawable menu_banner_new
 drawable milk
 drawable milktea
 drawable notification
+drawable number
 drawable pause
 drawable pause_main_progress
 drawable pelvic_shift_a
@@ -399,9 +403,9 @@ id bt_cal_Body_fat
 id bt_cal_bmr
 id btnAddWater
 id btnBack
-id btnDeleteMedication
+id btnDeleteReminder
 id btnNotific
-id btnSaveMedication
+id btnSaveReminder
 id btnStats
 id btnUpdate
 id btn_calculate_bdf
@@ -454,6 +458,7 @@ id day_exc
 id daysLeft
 id decrement
 id description_exDetail
+id discard_reminder
 id display
 id drawer_layout_home
 id eachSideTextView
@@ -545,7 +550,6 @@ id linearLayoutCompat2
 id linearLayoutCompat3
 id mainActivityDailyDrink
 id map
-id medicationName
 id menufood7day
 id mtoolbar_title
 id mtoolbar_title1
@@ -581,6 +585,7 @@ id password_text_input_register
 id pauseMainExercise
 id pauseRestTime
 id percentScore
+id percentWater
 id period
 id periodMoreButton
 id periodSubtitle
@@ -598,6 +603,9 @@ id radioButton_male
 id radioGroup
 id ready_toolbar
 id readytogo_layout
+id recycle_date
+id recycle_repeat_info
+id recycle_title
 id recycler
 id recyclerAllDaysList
 id reel
@@ -612,9 +620,7 @@ id relative2
 id rell1
 id remainingIntake
 id reminder
-id reminder_date
 id reminder_list
-id reminder_time
 id reminder_title
 id repeat_switch
 id restImageView
@@ -629,23 +635,25 @@ id rl_main
 id rlrl
 id rltDate
 id rltRepeat
+id rltRepetion
 id rltTime
 id rltType
 id rootlayout
 id rotation
 id row_day
 id rtrt
+id save_reminder
 id scroll_view
 id set_date
 id set_medicion
 id set_repeat
+id set_repeat_no
+id set_repeat_type
 id set_time
-id set_typeOfRepetions
 id set_water
 id skip
 id skipRestTime
 id skip_exc
-id spinertimerepeat
 id startButton
 id stepCount
 id stepTitle
@@ -752,12 +760,15 @@ layout row_days
 layout toolbar
 menu activity_main_drawer
 menu bottom_nav
+menu menu_add_reminder
 mipmap complete
 mipmap corner_right
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap left_arrow
 mipmap logo1
+mipmap pill_reminder_icon
 mipmap rest
 mipmap restday_icon
 mipmap right_arrow

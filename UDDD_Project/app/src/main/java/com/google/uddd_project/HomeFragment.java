@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -15,12 +16,18 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
+import com.github.mikephil.charting.data.Entry;
 import com.google.uddd_project.adapters.WorkoutData;
 import com.google.uddd_project.database.DatabaseOperations;
+import com.google.uddd_project.helpers.SqliteHelper;
+import com.google.uddd_project.utils.AppUtils;
 import com.google.uddd_project.utils.AppUtilss;
 import com.google.uddd_project.utils.Constants;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import kotlin.jvm.internal.Intrinsics;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -59,6 +66,11 @@ public class HomeFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private SharedPreferences sharedPref;
+    private SqliteHelper sqliteHelper;
+    com.mikhaellopez.circularfillableloaders.CircularFillableLoaders waterLevelView;
+    TextView percentWater;
 
     public HomeFragment() {
         // Required empty public constructor
@@ -228,9 +240,49 @@ public class HomeFragment extends Fragment {
                 }
             }
         });
+
+        waterLevelView = view.findViewById(R.id.waterLevelView);
+        percentWater = view.findViewById(R.id.percentWater);
+
+        SharedPreferences var10001 = this.getSharedPreferences(AppUtils.Companion.getUSERS_SHARED_PREF(), AppUtils.Companion.getPRIVATE_MODE());
+        Intrinsics.checkExpressionValueIsNotNull(var10001, "getSharedPreferences(App…F, AppUtils.PRIVATE_MODE)");
+        this.sharedPref = var10001;
+        this.sqliteHelper = new SqliteHelper(getActivity());
+        ArrayList entries = new ArrayList();
+        ArrayList dateArray = new ArrayList();
+        SqliteHelper var10000 = this.sqliteHelper;
+        if (var10000 == null) {
+            Intrinsics.throwUninitializedPropertyAccessException("sqliteHelper");
+        }
+        Cursor cursor = var10000.getAllStats();
+        if (cursor.moveToFirst()) {
+
+            int i = 0;
+
+            for (int var6 = cursor.getCount(); i < var6; ++i) {
+                dateArray.add(cursor.getString(1));
+                float percent = (float) cursor.getInt(2) / (float) cursor.getInt(3) * (float) 100;
+                double number1 = percent;
+                double number2 = (int) (Math.round(number1 * 100)) / 100.0;
+
+
+                percentWater.setText((number2) + " %");
+                waterLevelView.setProgress(100-(int)number2);
+
+                entries.add(new Entry((float) i, percent));
+                cursor.moveToNext();
+            }
+        } else {
+//            Toast.makeText(getActivity(), (CharSequence) "Empty", 1).show();
+        }
+
         return  view;
     }
     private  void replaceFragment(Fragment fragment){
         getActivity().getSupportFragmentManager().beginTransaction().replace(((ViewGroup)getView().getParent()).getId(), fragment, "find").addToBackStack(null).commit();
+    }
+
+    private SharedPreferences getSharedPreferences(String users_shared_pref, int private_mode) {
+        return getContext().getSharedPreferences(users_shared_pref, private_mode);
     }
 }

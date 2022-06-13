@@ -187,6 +187,7 @@
                             app:layout_collapseMode="parallax">
 
                             <TextView
+                                android:id="@+id/percentWater"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
