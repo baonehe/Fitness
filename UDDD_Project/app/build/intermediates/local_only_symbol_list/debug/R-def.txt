@@ -153,6 +153,7 @@ drawable cal_bmi
 drawable cal_bmr
 drawable cal_body_fat
 drawable calculator
+drawable calculator_banner
 drawable calculator_healthy
 drawable calendarcardmenufood
 drawable calories
@@ -187,6 +188,7 @@ drawable edittextbackground
 drawable equivalent
 drawable excercises
 drawable fire_blue
+drawable fitness_banner
 drawable footsteps
 drawable forward_spine_stretch_a
 drawable forward_spine_stretch_b
@@ -361,6 +363,7 @@ drawable triangle_pose
 drawable two_straight_legs_up
 drawable user
 drawable verify
+drawable walk_banner
 drawable wall_stretch_a
 drawable wall_stretch_b
 drawable water
@@ -413,9 +416,7 @@ id btnopencamera
 id btnsavechange
 id btnsendemail
 id btnveryfi
-id buttonFacebook
 id buttonForgot
-id buttonGmail
 id buttonLogin
 id buttonRegister
 id buttonSendcode
@@ -454,9 +455,6 @@ id daysLeft
 id decrement
 id description_exDetail
 id display
-id distanceCount
-id distanceIcon
-id distanceTitle
 id drawer_layout_home
 id eachSideTextView
 id editTextNumber_age
@@ -827,7 +825,7 @@ string spot_jumping
 string standing_vertical_stretch
 string start
 string steps
-string summary_card_kilocalories
+string summary_card_calories
 string sun
 string super_cobra_stretch
 string table_top
