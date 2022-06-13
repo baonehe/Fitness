@@ -83,12 +83,6 @@
             android:name=".ReminderItems"
             android:exported="false" />
         <activity
-            android:name=".AddMedicationActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MedicationReminderActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
@@ -96,6 +90,15 @@
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pill_reminder.Pill_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pill_reminder.ReminderAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pill_reminder.ReminderEditActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -109,6 +112,14 @@
 
         <receiver
             android:name=".receivers.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".pill_reminder.BootReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

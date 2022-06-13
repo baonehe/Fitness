@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import com.google.uddd_project.pill_reminder.Pill_MainActivity;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link ReminderFragment#newInstance} factory method to
@@ -64,7 +66,7 @@ public class ReminderFragment extends Fragment {
         view.findViewById(R.id.button_plus_medication).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), MedicationReminderActivity.class);
+                Intent intent = new Intent(view.getContext(), Pill_MainActivity.class);
                 startActivity(intent);
             }
         });

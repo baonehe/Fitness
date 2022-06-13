@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F1F8FA"
-    android:orientation="vertical"
-    tools:context=".ForgotPassActivity">
+    android:orientation="vertical">
 
     <include layout="@layout/toolbar" />
 
@@ -27,7 +26,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/medicationName"
+            android:id="@+id/reminder_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -72,9 +71,11 @@
                 <RelativeLayout
                     android:id="@+id/rltDate"
                     android:layout_width="match_parent"
+                    android:clickable="true"
+                    android:onClick="setDate"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -111,9 +112,11 @@
                 <RelativeLayout
                     android:id="@+id/rltTime"
                     android:layout_width="match_parent"
+                    android:clickable="true"
+                    android:onClick="setTime"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -152,7 +155,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
@@ -172,61 +175,96 @@
                         android:text="Repeat"
                         android:textColor="@color/black"
                         android:textSize="16dp" />
-                    <LinearLayout
+
+                    <TextView
+                        android:id="@+id/set_repeat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="70dp"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="28dp">
-                        <Spinner
-                            android:id="@+id/spinertimerepeat"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-                        </Spinner>
-                        <TextView
-                            android:id="@+id/set_repeat"
-                            android:fontFamily="@font/roboto_light"
-                            android:text="minutes"
-                            android:textColor="@color/black"
-                            android:textSize="16dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
-                    </LinearLayout>
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="minutes"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
 
 
                     <Switch
                         android:id="@+id/repeat_switch"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:padding="5dp"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="16dp"
                         android:checked="true"
-                        android:track="@drawable/switch_track"
-                        android:thumb="@drawable/ic_baseline_brightness_1_24"
+                        android:padding="5dp"
                         android:textOff="Off"
+                        android:onClick="onSwitchRepeat"
                         android:textOn="On"
+                        android:thumb="@drawable/ic_baseline_brightness_1_24"
+                        android:track="@drawable/switch_track"
                         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/rltType"
+                    android:id="@+id/rltRepetion"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:clickable="true"
+                    android:onClick="setRepeatNo"
+                    android:layout_height="60dp"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/background_details_medication">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="Repetion Interval"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:id="@+id/set_repeat_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:layout_marginTop="28dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rltType"
+                    android:clickable="true"
+                    android:onClick="selectRepeatType"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
                     android:layout_marginRight="15dp"
                     android:background="@drawable/background_details_medication">
 
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/ic_type_detail"/>
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_type_detail" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -239,13 +277,13 @@
                         android:textSize="16dp" />
 
                     <TextView
-                        android:id="@+id/set_typeOfRepetions"
+                        android:id="@+id/set_repeat_type"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="70dp"
                         android:layout_marginTop="28dp"
                         android:fontFamily="@font/roboto_light"
-                        android:text="Every monday, wednesday, friday"
+                        android:text="Day"
                         android:textColor="@color/black"
                         android:textSize="16dp" />
 
@@ -265,19 +303,20 @@
         android:gravity="center_horizontal">
 
         <ImageView
-            android:id="@+id/btnDeleteMedication"
+            android:id="@+id/btnDeleteReminder"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:src="@drawable/button_delete_medication"/>
+
         <ImageView
-            android:id="@+id/btnSaveMedication"
+            android:id="@+id/btnSaveReminder"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginLeft="110dp"
             android:layout_gravity="center"
-            android:src="@drawable/button_save_medication"/>
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/button_save_medication" />
 
     </LinearLayout>
 

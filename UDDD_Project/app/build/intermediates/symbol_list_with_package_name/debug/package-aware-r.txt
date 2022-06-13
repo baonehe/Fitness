@@ -38,6 +38,7 @@ anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
 anim popup_enter
 anim popup_exit
+anim raise
 anim ucrop_loader_circle_path
 anim ucrop_loader_circle_scale
 animator design_appbar_state_list_animator
@@ -626,6 +627,22 @@ attr fabCradleRoundedCornerRadius
 attr fabCradleVerticalOffset
 attr fabCustomSize
 attr fabSize
+attr fab_addButtonColorNormal
+attr fab_addButtonColorPressed
+attr fab_addButtonPlusIconColor
+attr fab_addButtonSize
+attr fab_addButtonStrokeVisible
+attr fab_colorDisabled
+attr fab_colorNormal
+attr fab_colorPressed
+attr fab_expandDirection
+attr fab_icon
+attr fab_labelStyle
+attr fab_labelsPosition
+attr fab_plusIconColor
+attr fab_size
+attr fab_stroke_visible
+attr fab_title
 attr fastScrollEnabled
 attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
@@ -1611,6 +1628,7 @@ color grey
 color grey_calendar
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color lightestgrey
 color line_color
 color m3_appbar_overlay_color
@@ -2043,6 +2061,40 @@ color md_divider_white
 color md_edittext_error
 color md_material_blue_600
 color md_material_blue_800
+color mdtp_accent_color
+color mdtp_accent_color_dark
+color mdtp_accent_color_focused
+color mdtp_ampm_text_color
+color mdtp_background_color
+color mdtp_button_color
+color mdtp_button_selected
+color mdtp_calendar_header
+color mdtp_calendar_selected_date_text
+color mdtp_circle_background
+color mdtp_circle_color
+color mdtp_dark_gray
+color mdtp_date_picker_month_day
+color mdtp_date_picker_selector
+color mdtp_date_picker_text_disabled
+color mdtp_date_picker_text_normal
+color mdtp_date_picker_view_animator
+color mdtp_date_picker_year_selector
+color mdtp_done_disabled_dark
+color mdtp_done_text_color
+color mdtp_done_text_color_dark
+color mdtp_done_text_color_dark_disabled
+color mdtp_done_text_color_dark_normal
+color mdtp_done_text_color_disabled
+color mdtp_done_text_color_normal
+color mdtp_light_gray
+color mdtp_line_background
+color mdtp_line_dark
+color mdtp_neutral_pressed
+color mdtp_numbers_text_color
+color mdtp_red
+color mdtp_red_focused
+color mdtp_transparent_black
+color mdtp_white
 color middlegrey
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
@@ -2318,7 +2370,17 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_actions_spacing
+dimen fab_icon_size
+dimen fab_labels_margin
 dimen fab_margin
+dimen fab_plus_icon_size
+dimen fab_plus_icon_stroke
+dimen fab_shadow_offset
+dimen fab_shadow_radius
+dimen fab_size_mini
+dimen fab_size_normal
+dimen fab_stroke_width
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -2573,6 +2635,44 @@ dimen md_simplelistitem_padding_top
 dimen md_title_frame_margin_bottom
 dimen md_title_frame_margin_bottom_less
 dimen md_title_textsize
+dimen mdtp_ampm_label_size
+dimen mdtp_ampm_left_padding
+dimen mdtp_date_picker_component_width
+dimen mdtp_date_picker_header_height
+dimen mdtp_date_picker_header_text_size
+dimen mdtp_date_picker_view_animator_height
+dimen mdtp_day_number_select_circle_radius
+dimen mdtp_day_number_size
+dimen mdtp_dialog_height
+dimen mdtp_done_button_height
+dimen mdtp_done_label_size
+dimen mdtp_extra_time_label_margin
+dimen mdtp_footer_height
+dimen mdtp_header_height
+dimen mdtp_left_side_width
+dimen mdtp_material_button_height
+dimen mdtp_material_button_minwidth
+dimen mdtp_material_button_textpadding_horizontal
+dimen mdtp_material_button_textsize
+dimen mdtp_minimum_margin_sides
+dimen mdtp_minimum_margin_top_bottom
+dimen mdtp_month_day_label_text_size
+dimen mdtp_month_label_size
+dimen mdtp_month_list_item_header_height
+dimen mdtp_month_list_item_padding
+dimen mdtp_month_list_item_size
+dimen mdtp_month_select_circle_radius
+dimen mdtp_picker_dimen
+dimen mdtp_selected_calendar_layout_height
+dimen mdtp_selected_date_day_size
+dimen mdtp_selected_date_month_size
+dimen mdtp_selected_date_year_size
+dimen mdtp_separator_padding
+dimen mdtp_time_label_right_padding
+dimen mdtp_time_label_size
+dimen mdtp_time_picker_height
+dimen mdtp_year_label_height
+dimen mdtp_year_label_text_size
 dimen mtrl_alert_dialog_background_inset_bottom
 dimen mtrl_alert_dialog_background_inset_end
 dimen mtrl_alert_dialog_background_inset_start
@@ -2808,6 +2908,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+dimen touch_raise
 dimen ucrop_default_crop_frame_stoke_width
 dimen ucrop_default_crop_grid_stoke_width
 dimen ucrop_default_crop_logo_size
@@ -2957,6 +3058,7 @@ drawable card_pink
 drawable card_yello
 drawable cat_cow_stretch_a
 drawable cat_cow_stretch_b
+drawable check_true
 drawable circle
 drawable cloud
 drawable common_full_open_on_phone
@@ -2991,6 +3093,7 @@ drawable day4
 drawable day5
 drawable day6
 drawable day7
+drawable delete
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3005,6 +3108,8 @@ drawable dumbbell
 drawable edittextbackground
 drawable equivalent
 drawable excercises
+drawable fab_bg_mini
+drawable fab_bg_normal
 drawable fire_blue
 drawable fitness_banner
 drawable footsteps
@@ -3021,6 +3126,7 @@ drawable home
 drawable hopping_with_one_leg_a
 drawable hopping_with_one_leg_b
 drawable humanbody
+drawable ic_alarm_on_white_24dp
 drawable ic_baseline_arrow_back_24
 drawable ic_baseline_brightness_1_24
 drawable ic_baseline_feedback_24
@@ -3040,7 +3146,6 @@ drawable ic_facebook
 drawable ic_female
 drawable ic_home_24
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logout_24
 drawable ic_m3_chip_check
@@ -3161,6 +3266,10 @@ drawable md_nav_back
 drawable md_selector
 drawable md_selector_dark
 drawable md_transparent
+drawable mdtp_done_background_color
+drawable mdtp_done_background_color_dark
+drawable mdtp_material_button_background
+drawable mdtp_material_button_selected
 drawable medication_reminder_banner
 drawable menu
 drawable menu_banner_new
@@ -3190,6 +3299,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable number
 drawable pause
 drawable pause_main_progress
 drawable pelvic_shift_a
@@ -3371,6 +3481,8 @@ id aligned
 id all
 id allStates
 id always
+id ampm_hitspace
+id ampm_label
 id amu_text
 id androidx_window_activity_scope
 id animImageFull
@@ -3378,6 +3490,7 @@ id animateToEnd
 id animateToStart
 id animation
 id animation_exDetail
+id animator
 id antiClockwise
 id anticipate
 id appbar_layout
@@ -3417,9 +3530,9 @@ id bt_cal_Body_fat
 id bt_cal_bmr
 id btnAddWater
 id btnBack
-id btnDeleteMedication
+id btnDeleteReminder
 id btnNotific
-id btnSaveMedication
+id btnSaveReminder
 id btnStats
 id btnUpdate
 id btn_calculate_bdf
@@ -3451,6 +3564,7 @@ id calligraphy_tag_id
 id calorieCount
 id calorieIcon
 id calorieTitle
+id cancel
 id cancel_action
 id cancel_button
 id cardView2
@@ -3469,6 +3583,7 @@ id centerCrop
 id centerInside
 id center_horizontal
 id center_vertical
+id center_view
 id chain
 id chain2
 id chains
@@ -3517,7 +3632,13 @@ id cut
 id cv_bodystate
 id dark
 id date_picker_actions
+id date_picker_day
+id date_picker_header
+id date_picker_month
+id date_picker_month_and_day
+id date_picker_year
 id day_exc
+id day_picker_selected_date_layout
 id daysLeft
 id decelerate
 id decelerateAndComplete
@@ -3539,8 +3660,10 @@ id disableHome
 id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
+id discard_reminder
 id disjoint
 id display
+id down
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3613,6 +3736,8 @@ id exerciseName
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab_expand_menu_button
+id fab_label
 id fade
 id fbfemale
 id fbfemale_bdf
@@ -3665,6 +3790,8 @@ id homeAsUp
 id honorRequest
 id horizontal
 id horizontal_only
+id hour_space
+id hours
 id hybrid
 id icon
 id icon_group
@@ -3795,18 +3922,20 @@ id md_root
 id md_title
 id md_titleFrame
 id media_actions
-id medicationName
 id menu_crop
 id menu_loader
 id menufood7day
 id message
 id middle
 id mini
+id minutes
+id minutes_space
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
+id month_text_view
 id month_title
 id motion_base
 id mtoolbar_title
@@ -3873,6 +4002,7 @@ id notification_main_column_container
 id number_picker
 id numberpicker_cycles
 id off
+id ok
 id oldpassword_edit_text_register
 id oldpassword_text_input_register
 id on
@@ -3904,6 +4034,7 @@ id pauseRestTime
 id peekHeight
 id percent
 id percentScore
+id percentWater
 id period
 id periodMoreButton
 id periodSubtitle
@@ -3929,6 +4060,9 @@ id ratio
 id ready_toolbar
 id readytogo_layout
 id rectangles
+id recycle_date
+id recycle_repeat_info
+id recycle_title
 id recycler
 id recyclerAllDaysList
 id reel
@@ -3943,9 +4077,7 @@ id relative2
 id rell1
 id remainingIntake
 id reminder
-id reminder_date
 id reminder_list
-id reminder_time
 id reminder_title
 id repeat_switch
 id restImageView
@@ -3966,6 +4098,7 @@ id rl_main
 id rlrl
 id rltDate
 id rltRepeat
+id rltRepetion
 id rltTime
 id rltType
 id rootlayout
@@ -3979,6 +4112,7 @@ id rtrt
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
+id save_reminder
 id sawtooth
 id scale
 id scale_scroll_wheel
@@ -4002,11 +4136,13 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id separator
 id set_date
 id set_medicion
 id set_repeat
+id set_repeat_no
+id set_repeat_type
 id set_time
-id set_typeOfRepetions
 id set_water
 id sharedValueSet
 id sharedValueUnset
@@ -4030,7 +4166,6 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
-id spinertimerepeat
 id spline
 id split_action_bar
 id spread
@@ -4111,6 +4246,10 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id time_display
+id time_display_background
+id time_picker
+id time_picker_dialog
 id timer
 id timerTop
 id title
@@ -4401,6 +4540,14 @@ layout md_stub_progress_indeterminate
 layout md_stub_progress_indeterminate_horizontal
 layout md_stub_titleframe
 layout md_stub_titleframe_lesspadding
+layout mdtp_date_picker_dialog
+layout mdtp_date_picker_header_view
+layout mdtp_date_picker_selected_date
+layout mdtp_date_picker_view_animator
+layout mdtp_done_button
+layout mdtp_time_header_label
+layout mdtp_time_picker_dialog
+layout mdtp_year_label_text_view
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -4488,13 +4635,16 @@ menu activity_main_drawer
 menu bottom_nav
 menu example_menu
 menu example_menu2
+menu menu_add_reminder
 menu ucrop_menu_activity
 mipmap complete
 mipmap corner_right
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap left_arrow
 mipmap logo1
+mipmap pill_reminder_icon
 mipmap rest
 mipmap restday_icon
 mipmap right_arrow
@@ -4664,6 +4814,32 @@ string md_done_label
 string md_error_label
 string md_presets_label
 string md_storage_perm_error
+string mdtp_ampm_circle_radius_multiplier
+string mdtp_circle_radius_multiplier
+string mdtp_circle_radius_multiplier_24HourMode
+string mdtp_day_of_week_label_typeface
+string mdtp_day_picker_description
+string mdtp_deleted_key
+string mdtp_done_label
+string mdtp_hour_picker_description
+string mdtp_item_is_selected
+string mdtp_minute_picker_description
+string mdtp_numbers_radius_multiplier_inner
+string mdtp_numbers_radius_multiplier_normal
+string mdtp_numbers_radius_multiplier_outer
+string mdtp_radial_numbers_typeface
+string mdtp_sans_serif
+string mdtp_select_day
+string mdtp_select_hours
+string mdtp_select_minutes
+string mdtp_select_year
+string mdtp_selection_radius_multiplier
+string mdtp_text_size_multiplier_inner
+string mdtp_text_size_multiplier_normal
+string mdtp_text_size_multiplier_outer
+string mdtp_time_placeholder
+string mdtp_time_separator
+string mdtp_year_picker_description
 string mon
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
@@ -4774,6 +4950,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppBaseTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -5863,6 +6040,11 @@ style Widget_Support_CoordinatorLayout
 style amu_Bubble_TextAppearance_Dark
 style amu_Bubble_TextAppearance_Light
 style amu_ClusterIcon_TextAppearance
+style mdtp_ampm_label
+style mdtp_day_of_week_label_condensed
+style mdtp_done_button_light
+style mdtp_time_label
+style mdtp_time_label_thin
 style ucrop_ImageViewWidgetIcon
 style ucrop_TextViewCropAspectRatio
 style ucrop_TextViewWidget
@@ -5878,6 +6060,7 @@ styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivi
 styleable ActivityFilter activityAction activityName
 styleable ActivityNavigator android_name action data dataPattern targetPackage
 styleable ActivityRule alwaysExpand
+styleable AddFloatingActionButton fab_plusIconColor
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -5927,8 +6110,9 @@ styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color dra
 styleable DrawerLayout elevation
 styleable ExtendedFloatingActionButton collapsedSize elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
-styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
+styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize fab_colorDisabled fab_colorNormal fab_colorPressed fab_icon fab_size fab_stroke_visible fab_title hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
+styleable FloatingActionsMenu fab_addButtonColorNormal fab_addButtonColorPressed fab_addButtonPlusIconColor fab_addButtonSize fab_addButtonStrokeVisible fab_expandDirection fab_labelStyle fab_labelsPosition
 styleable FlowLayout itemSpacing lineSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
