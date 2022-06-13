@@ -183,9 +183,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             isStart = false;
                             if (tempMarker != null) {
                                 tempMarker.remove();
+                                tempMarker = mMap.addMarker(new MarkerOptions().position(tempLatLng).title("Destination"));
+                                endMarker = tempMarker;
                             }
-                            tempMarker = mMap.addMarker(new MarkerOptions().position(tempLatLng).title("Destination"));
-                            endMarker = tempMarker;
                             totalDistance += distance;
                             totalCalories += (distance * 0.0625);
                             editor.putString("DistancesKM", String.format("%.2f", totalDistance));
