@@ -2,7 +2,7 @@
 [![N|Solid](https://www.uit.edu.vn/sites/vi/files/banner_uit_0.png)](https://www.uit.edu.vn/)
 
 ---
-# Tên đề tài: Ứng dụng chăm sóc sức khỏe HEALTHY-FITNESS APP
+# Tên đề tài: Ứng dụng chăm sóc sức khỏe HEALTHY-FITNESS
 
 ### Giới thiệu nhóm
 
@@ -42,6 +42,7 @@ _**Chức năng**_
 [**Trần Dư Gia Bảo**](https://github.com/baonehe)
 [**Bùi Đức Hoàng Nhật**](https://github.com/HoangNhat212)
 
+>**Sinh viên năm 2 khoa Công Nghệ Phần Mềm - Trường đại học Công Nghệ Thông Tin**
 _**Liên hệ**_
 >Để hiểu thêm về ứng dụng này các bạn có thể liên hệ với chúng tôi qua đây!
 
