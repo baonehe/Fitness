@@ -43,6 +43,7 @@ _**Chức năng**_
 [**Bùi Đức Hoàng Nhật**](https://github.com/HoangNhat212)
 
 >**Sinh viên năm 2 khoa Công Nghệ Phần Mềm - Trường đại học Công Nghệ Thông Tin**
+
 _**Liên hệ**_
 >Để hiểu thêm về ứng dụng này các bạn có thể liên hệ với chúng tôi qua đây!
 
