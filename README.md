@@ -1,5 +1,5 @@
 
-[![N|Solid](https://www.uit.edu.vn/sites/vi/files/banner_uit_0.png)](https://www.uit.edu.vn/)
+[![N|Solid](https://www.uit.edu.vn/sites/vi/files/banner_uit.png)](https://www.uit.edu.vn/)
 
 ---
 # Tên đề tài: Ứng dụng chăm sóc sức khỏe HEALTHY-FITNESS
